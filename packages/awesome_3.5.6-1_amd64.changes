@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Fri, 05 Jun 2015 13:44:11 +0900
+Source: awesome
+Binary: awesome
+Architecture: source amd64
+Version: 3.5.6-1
+Distribution: unstable
+Urgency: medium
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: Arnaud Fontaine <arnau@debian.org>
+Description:
+ awesome    - highly configurable X window manager
+Closes: 589226 600995 680390 701514 736314 781736
+Changes:
+ awesome (3.5.6-1) unstable; urgency=medium
+ .
+   * New upstream release and upload to unstable.
+     Closes: #781736, #680390, #701514, #589226.
+   * Add debian/patches/Prevent_clients_from_being_lost_on_RANRD_changes.patch.
+     Closes: #736314.
+   * debian/55awesome-javaworkaround: Fix typo (x-session-manager ->
+     x-window-manager). Thanks to Igor Bensemann and Julian Wollrath.
+     Closes: #600995.
+   * d/control:
+     + Bump Standards-Version to 3.9.6. No change needed.
+     + Drop Build-Depends on libxcb-image0-dev since #732711 has been fixed.
+Checksums-Sha1:
+ a6cb9c8355bbb2da9cf96cc008899a42aa6d27b3 1417 awesome_3.5.6-1.dsc
+ 0956438f90f25003692c360cfbc867181bd0a3ef 755726 awesome_3.5.6.orig.tar.bz2
+ 05ceeb086a54be525cb2ffe53fcc47e229c0d9b1 9592 awesome_3.5.6-1.debian.tar.xz
+ 66a1cf5801f233975ed2653e82b82b15f71e89e0 784966 awesome_3.5.6-1_amd64.deb
+Checksums-Sha256:
+ 0cdd5e78e43fa65ece5c3a0d77c9ce61375d259a711f5a5a9e12d0d96ab4a6f4 1417 awesome_3.5.6-1.dsc
+ ccdf587feac390eaceaa4ac1409fd88ac0a70865e46ea691d218a31ec408cf2d 755726 awesome_3.5.6.orig.tar.bz2
+ 2e221172d1c08bca31d59319b1a7f49f52b5d6c69303bedf88785f166b963b2a 9592 awesome_3.5.6-1.debian.tar.xz
+ 038b76fbb0b3bd8a660c2983d5f6942e76ccb5209b7b2fc750e244c1ad5deb14 784966 awesome_3.5.6-1_amd64.deb
+Files:
+ 4ab92be46d884f26cc4ef1255e1c9fc5 1417 x11 optional awesome_3.5.6-1.dsc
+ 81c7353932dd067cc7a222d9ede1cdd7 755726 x11 optional awesome_3.5.6.orig.tar.bz2
+ 01622268481378a1587d1e608e46ea6a 9592 x11 optional awesome_3.5.6-1.debian.tar.xz
+ 7f556e2034142d385f15e0d94ede3098 784966 x11 optional awesome_3.5.6-1_amd64.deb
