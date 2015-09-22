@@ -178,7 +178,7 @@ generaterkey(){
 includepackages(){
 	cd $SRCDIR
 	rm -rf ../debian/
-	mkdir ../debian/
+	mkdir -p ../debian/conf/
 	find . -wholename "*.deb" -print0 | xargs -r0 reprepro --basedir $BASEDIR includedeb unstable
 	find . -wholename "*.dsc" -print0 | xargs -r0 reprepro --basedir $BASEDIR includedsc unstable
 	find . -wholename "*.changes" -print0 | xargs -r0 reprepro --basedir $BASEDIR include 
