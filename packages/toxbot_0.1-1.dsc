@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  toxbot deb unknown optional arch=all
 Checksums-Sha1:
- 54cb43e80554c04df22358ec4db05bca3add2edf 72178000 toxbot_0.1.orig.tar.xz
- c311c022af30f2390643079223618ff6bbab6b92 2444 toxbot_0.1-1.debian.tar.xz
+ 31b2d39ece3ab6d89dd2c895cd4490a58998b140 72178840 toxbot_0.1.orig.tar.xz
+ cec915d352deb5280c3ff6c87508912844c8fd85 2448 toxbot_0.1-1.debian.tar.xz
 Checksums-Sha256:
- 3ad922bde4306c3bc6263e6ba5f349b76531ff87db0b81419bd59a7b07a28b36 72178000 toxbot_0.1.orig.tar.xz
- 582cd6d403adb0d67e0e6fa6ea9ca2da830033845b297ce1133e4ec62f826991 2444 toxbot_0.1-1.debian.tar.xz
+ 8a92eb3a1663777de347bf11e2851c694dd71d85ec9d392f10c4b57dfd782c59 72178840 toxbot_0.1.orig.tar.xz
+ cade40b4c61fbd589415a07725f13bb5d7b1b8522d0cce38d26faa7b96870073 2448 toxbot_0.1-1.debian.tar.xz
 Files:
- 2193241463ba2989c54b593f502559a3 72178000 toxbot_0.1.orig.tar.xz
- 0c7d6abc4e9ac055f7ffe73868f3aa53 2444 toxbot_0.1-1.debian.tar.xz
+ 7b03761087a66cfa9b341b51ccd58b18 72178840 toxbot_0.1.orig.tar.xz
+ 1e33ee47887ba919fef69e6b2c0534bd 2448 toxbot_0.1-1.debian.tar.xz

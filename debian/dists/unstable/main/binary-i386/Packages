@@ -7,10 +7,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/a/apt-git/apt-git_20150922-1_all.deb
-Size: 4076
-SHA256: 94ddcf2dc296acd9c27174d63acf3b14c509f3937acd4ce2243e7c8cbd35cbc7
-SHA1: aea1de608eda6c4590b21e516ecc6ec415641bfc
-MD5sum: e0a26027393b95877108f1af2502a27f
+Size: 4050
+SHA256: bdc959cfd3d5f409f701faa2a60923aa0bfd4ddf94a8ea38d8064bee33256ae6
+SHA1: ec75f0a8368bd1cf1d512ef9beeaa846ce34726b
+MD5sum: f6060eba98cd307b2e81144a2e870046
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -24,10 +24,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/a/awesome-lightdm-session/awesome-lightdm-session_20150922-1_all.deb
-Size: 2788
-SHA256: 90f5d91c13c044c10a625399c7f6e4642a3eb25d71bbd0a576dd758f42d06581
-SHA1: 07ab9aa6e4778bff8fc51a3bb06af9899d71c859
-MD5sum: 94f0482d504cd302870dadac84f552dc
+Size: 2792
+SHA256: 97872765c2771fdbdc1ea0501a4731671684f14bff017969dab965aa859ecdb9
+SHA1: cf9e2733ee8b343846c1c27ab1b355b134bc35f0
+MD5sum: bdd2c8b7223fa26df75d84cb6ec55825
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -40,10 +40,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/c/conky-switcher/conky-switcher_20150922-1_all.deb
-Size: 3292
-SHA256: efe80a336ccc0f8df90bce466d6f211f3e736d9a0b03d58cf3acf50d0408ddca
-SHA1: 9474350c010fffbec851fbf0e7af4cfca3199516
-MD5sum: dea2c2a94ac3fe8c6666db909da66f0c
+Size: 3294
+SHA256: b12168333a3937fb049e94712b56e9ae8c88e341fd4819aad268c10e803958b2
+SHA1: df1c6ea46a26dadb1f7b72e91a361f14bc033e33
+MD5sum: 8f714db830a1abfcd2ec42b84a331e5b
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -57,10 +57,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/g/gnome-awesome-session/gnome-awesome-session_20150922-1_all.deb
-Size: 3134
-SHA256: 41365d7d2df9597e9f80757722505d1e6283a976c37d4292f0e6b8e47c8ea509
-SHA1: 7b19a73b3819bb58acbfc2a7dc2d1a1889e03368
-MD5sum: 107ba2c63224dc2ebb5c99e35add121e
+Size: 3122
+SHA256: 53f0c7147d3e0a2a51237f914ab9792bbb15769f4075dd90d3be30b7b9d952e0
+SHA1: 8e15dc94a7ac4eef7d9956a6091afb38995fdfdd
+MD5sum: 4b28899495b47aee0b7a1672c10a01cb
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -73,10 +73,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/h/hidblock/hidblock_20150922-1_all.deb
-Size: 3504
-SHA256: 3943206bdc754a8e10bac9147c0f81b0ae36267fabcdb9f846d611ac6a0b2cc9
-SHA1: aa3e5860aab72101f1421a551fb5bea946ab805e
-MD5sum: 316046b49c30227c0e04740fd139a82f
+Size: 3508
+SHA256: 59ccd4a62da1dff26bde1efab843eae4cc052f3b880bf519a4067c34e96afebb
+SHA1: e11e0616fdc1d0bb5d9768ee2223004e020e8bd9
+MD5sum: b95511910d8f50cbc5490cb02647edf5
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -89,10 +89,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/m/mousepad-tab/mousepad-tab_20150922-1_all.deb
-Size: 2616
-SHA256: 541e8718c4ce9a84deb54fea7e19a3e083c7a5b19018a23469863ce1f9b42cc1
-SHA1: 17c1831801df50d168ad5f2fb156864c8bd06cbe
-MD5sum: e63f3f66ee820d0638830a0f871ddfad
+Size: 2606
+SHA256: c768bc8841a741b66e210447b8fe06dae5d0a50df69f5424323ce5d724d46517
+SHA1: e0ea177b9d215fd71a0ae3db171bde086db7131f
+MD5sum: 49d20d82bde25aa524fed2ea7e1e473d
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -106,10 +106,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150922-1_all.deb
-Size: 6760
-SHA256: d854284b5f23f967c5dd1a28890b9ba345b9fa275d65b162900336f46fb3bf80
-SHA1: a0030d634734579bf6f3be6476818c33c0aa0d20
-MD5sum: 3cd0a55b901f2f9a5086b0f129b6db8c
+Size: 6752
+SHA256: 7d2ca349d4c5c4f60ef30404f9eaa254f15ec0e94e3eac411cbd5c5d9cb01434
+SHA1: 015098998dd8314ea0263f9acc929c4f4c612f64
+MD5sum: 88929b2b6275688e0b43a10869ba9e98
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 

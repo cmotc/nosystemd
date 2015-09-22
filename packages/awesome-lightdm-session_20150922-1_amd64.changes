@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Tue, 22 Sep 2015 00:09:11 -0400
+Date: Tue, 22 Sep 2015 17:25:08 -0400
 Source: awesome-lightdm-session
 Binary: awesome-lightdm-session
 Architecture: source all
@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 0325b01cf841758d907ff05eb25652f4190ba6dc 982 awesome-lightdm-session_20150922-1.dsc
- b13300f655f42b4f312a31c9548943ef60dfc9f6 15328 awesome-lightdm-session_20150922.orig.tar.xz
- 4c8e6a1ceb737548aedc512efb9a6d72f9434001 2360 awesome-lightdm-session_20150922-1.debian.tar.xz
- 07ab9aa6e4778bff8fc51a3bb06af9899d71c859 2788 awesome-lightdm-session_20150922-1_all.deb
+ 22aa9ac0931f826024b4d0ae3fe550cda85335d9 982 awesome-lightdm-session_20150922-1.dsc
+ 2148bd2e937932b174f1f8270fb9e16273cf5dc4 15328 awesome-lightdm-session_20150922.orig.tar.xz
+ d6dce5fbf28f16997a0549652fef4dc1a7444f29 2352 awesome-lightdm-session_20150922-1.debian.tar.xz
+ cf9e2733ee8b343846c1c27ab1b355b134bc35f0 2792 awesome-lightdm-session_20150922-1_all.deb
 Checksums-Sha256:
- 3e6309e678314010d5610ceb5a03bb8bd9f9529a61057116858c7dab39348106 982 awesome-lightdm-session_20150922-1.dsc
- 3fb5da826e367a47e6f4c3a3c749c74d8179a693d09930d9e95f7ee14251809e 15328 awesome-lightdm-session_20150922.orig.tar.xz
- cbbc63914b1cc16421b46c2f46e7cabb7a3d0827fd4063fa48634e5576d28bbe 2360 awesome-lightdm-session_20150922-1.debian.tar.xz
- 90f5d91c13c044c10a625399c7f6e4642a3eb25d71bbd0a576dd758f42d06581 2788 awesome-lightdm-session_20150922-1_all.deb
+ 7d5aa6243f327633d28b9264198ae39ed0f6f7aa0f9dcbd418d18487117900f5 982 awesome-lightdm-session_20150922-1.dsc
+ b48478123efeb512fb4167607840b11517ee81d2ee7f9c60e85b837b6b9e9820 15328 awesome-lightdm-session_20150922.orig.tar.xz
+ 7351cc451f445bbf9234ff7df50a0083628a83430d4070a08264de79df9fe6b5 2352 awesome-lightdm-session_20150922-1.debian.tar.xz
+ 97872765c2771fdbdc1ea0501a4731671684f14bff017969dab965aa859ecdb9 2792 awesome-lightdm-session_20150922-1_all.deb
 Files:
- 35c88a32ebe86f777cf9be628b408f54 982 unknown optional awesome-lightdm-session_20150922-1.dsc
- b73e56f433e166b628bbc28f8c1c752b 15328 unknown optional awesome-lightdm-session_20150922.orig.tar.xz
- ec887bc72e577d719d16f08f8cd5c870 2360 unknown optional awesome-lightdm-session_20150922-1.debian.tar.xz
- 94f0482d504cd302870dadac84f552dc 2788 unknown optional awesome-lightdm-session_20150922-1_all.deb
+ b018f2dd0b9e2fbb9edbec153cd901a7 982 unknown optional awesome-lightdm-session_20150922-1.dsc
+ 6dc26ac8d8de833ad260c5310a9be677 15328 unknown optional awesome-lightdm-session_20150922.orig.tar.xz
+ c1e8c0b6b2232ca87e857d716d70ea53 2352 unknown optional awesome-lightdm-session_20150922-1.debian.tar.xz
+ bdd2c8b7223fa26df75d84cb6ec55825 2792 unknown optional awesome-lightdm-session_20150922-1_all.deb
