@@ -112,6 +112,304 @@ MD5sum: b95511910d8f50cbc5490cb02647edf5
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
+Package: libtox-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 18033
+Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxav-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxencryptsave-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxdns-dev (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtox-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 8901268
+SHA256: d53e3d4c3e5f9c825f91997601a65bddc2a168017f03cd6d544c2b74a469edc3
+SHA1: f16df67540daa2364b55c8bcffa4191fab64faab
+MD5sum: 3fcabbbb6e5c1c7e6bae5c2ab06e0059
+Description: distributed, secure messenger with a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+
+Package: libtoxav-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 116
+Depends: libtoxav0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxav-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 72054
+SHA256: c79620b8cf73ce0a32c478af0bbfcc1f66ccc7bb6461e05e2fb193be2a880b94
+SHA1: ca7761044eb4b38574a3a3a0d0b232f32734a1c3
+MD5sum: 2bc5cb8f5bd154eaa7ed3793ffeb6421
+Description: distributed, secure messenger w/ a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxav-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 52
+Depends: libtoxav0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libvpx-dev, libopus-dev
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxav-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 5064
+SHA256: f043340b57b91f115f6a047e1e523c5af9dc61e6cf0afcb05bafd4aa0839c105
+SHA1: b7cddbe898f2c693bdf4b85cff6b60e13d09970f
+MD5sum: e2d768d9fbe509bf9ccccf6b8b02caef
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxav0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 75
+Depends: libc6 (>= 2.14), libopus0 (>= 1.1), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libvpx1 (>= 1.0.0)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxav0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 18588
+SHA256: 728b0f20f3c4f11b549f21409f7401992ae1cee3ccb2502ff0c436dc168b658b
+SHA1: 76579bb2df699c093c6d3424a4abfa09e6421934
+MD5sum: e76781c12835e999c0fdddcbb8837ba7
+Description: distributed, secure messenger w/ a/v support - runtime files
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
+
+Package: libtoxcore-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 345
+Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libsodium-dbg
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxcore-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 289160
+SHA256: 2202d71f10f331b177f4839979e3685891891939e2ca95f6c92c192a59b56fff
+SHA1: 7d18d83f5a89768eac35ea38f77178b5f000fb76
+MD5sum: af4bf28c0ad70dd68c99cded4b5478e6
+Description: distributed, secure messenger with a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxcore-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 1847
+Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libsodium-dev
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxcore-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 392672
+SHA256: 8cc720dc4a2ee8bdb25ad26a16919e982497e479de66d48a5969a1e619b14624
+SHA1: 14e56815b03c385b9eea2c35273fe4a2a5ab5475
+MD5sum: b69969d651ec81b2b7549b56616bd9f5
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxcore0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 290
+Depends: libc6 (>= 2.14), libsodium13 (>= 0.6.0)
+Breaks: pidgin-tox (<< 0.4.2+git20150324), qtox (<< 0.0.0+git20150324), qttox (<< 0.0.0+20150324), ratox (<= 0.2.1-1), tox-weechat (<< 0.1+20150324), toxic (<< 0.5.2+20150324), utox (<< 0.2.o+20150324.r1395), venom (<< 0.2.0+20150324)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 110756
+SHA256: ecd5ddace11543e31fc99a8e15831cd74e7f81c5021f8a205cac5942807025da
+SHA1: 2cbd67c5127f6f024dff950f5f6ee2cb1c725d87
+MD5sum: 2159732519e66f8a1bb79f4591510cd6
+Description: distributed, secure messenger with a/v support - runtime library
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
+
+Package: libtoxdns-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 46
+Depends: libtoxdns0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxdns-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 6784
+SHA256: c3ff252afa38eaad2a890a82bbf65edd41e5e16571c5e1d8c9579811594f5809
+SHA1: d128562c3da0cbd9df0812fa547702eb6ebabe33
+MD5sum: 8fcaaa036b5af9cc7409d4c93d7957f2
+Description: distributed, secure messenger w/ a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxdns-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 61
+Depends: libtoxdns0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxdns-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 9070
+SHA256: 0ca7c4c606b05a03cbf684e72da0806acf85300eb7ac4dbf01835cff1f8d9161
+SHA1: f9e0de6b5c5fb84e7025c4a8ed26ddb24c50ea22
+MD5sum: 7184715ca46dd19ee75dd4792da7d6ed
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxdns0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 39
+Depends: libc6 (>= 2.4), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxdns0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 4262
+SHA256: 423d956b005666b9dc829831db7b04df70cc0510eb42211247babced2c3897eb
+SHA1: a10032299c40f84b532c6465413c7ecceb3b4a5d
+MD5sum: e0c6320eb0027b6c86a27171bd3754d6
+Description: distributed, secure messenger w/ a/v support - runtime files
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
+
+Package: libtoxencryptsave-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 47
+Depends: libtoxencryptsave0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxencryptsave-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 7452
+SHA256: 278fa5036d6b03527d5b1aeb2cd031b4047c4315f24da6a84f55d4ac933ac42e
+SHA1: 7267c9c9f135406a30c6643ad4f7663527eafa00
+MD5sum: a24e77984640c0958f1a6b6887a6df08
+Description: distributed, secure messenger w/ a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxencryptsave-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 46
+Depends: libtoxencryptsave0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxencryptsave-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 4536
+SHA256: 5b9d73f7a06c22c1a7c27462b599e0fe5cad464d1412feea56b88c6adb5546d4
+SHA1: 9cf5f38c062e96e8d452ba5e0cc8cf567531f56d
+MD5sum: d64408386288123ea4c5b8c061527f77
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxencryptsave0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 39
+Depends: libc6 (>= 2.4), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxencryptsave0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 4560
+SHA256: 8a8a613c093790b79b1aad083a4459b095205326c4dedfd6255ac50394cd7f2c
+SHA1: d06271e519c2e68242855b3c35988e948a670bdd
+MD5sum: 86ab3e40b38f353392a111dbd9888bb5
+Description: distributed, secure messenger w/ a/v support - runtime files
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
+
 Package: mousepad-tab
 Version: 20150922-1
 Architecture: all
@@ -144,4 +442,30 @@ SHA1: 015098998dd8314ea0263f9acc929c4f4c612f64
 MD5sum: 88929b2b6275688e0b43a10869ba9e98
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
+
+Package: tox-bootstrapd
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 112
+Pre-Depends: adduser, libcap2-bin
+Depends: libc6 (>= 2.7), libconfig9, libsodium13 (>= 0.6.0), libtoxcore0 (>= 0.0.0+20140922.1), init-system-helpers (>= 1.18~)
+Conflicts: tox-daemon
+Replaces: tox-daemon
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/tox-bootstrapd_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 28292
+SHA256: 1e1f19264b67f7f251a05c2b2809ee645a4273328eb4d77fe61714f7e9f37a52
+SHA1: 581905794db7c3742c9f0d2b11951939c24fc1da
+MD5sum: d247ceabb4fd189f0558091cbdfeb8be
+Description: distributed, secure messenger with a/v support - daemon
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the bootstrap daemon.
 

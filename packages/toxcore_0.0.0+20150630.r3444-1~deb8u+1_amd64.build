@@ -9,121 +9,481 @@ dpkg-buildpackage: host architecture amd64
 dh clean --with autoreconf,systemd --parallel
    dh_testdir -O--parallel
    dh_auto_clean -O--parallel
-make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
-Making distclean in build
-make[2]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
- rm -f DHT_bootstrap tox-bootstrapd
-test -z "libtoxcore.la libtoxdns.la libtoxencryptsave.la libtoxav.la" || rm -f libtoxcore.la libtoxdns.la libtoxencryptsave.la libtoxav.la
-rm -f ./so_locations
-rm -rf .libs _libs
-rm -rf ../toxav/.libs ../toxav/_libs
-rm -rf ../toxcore/.libs ../toxcore/_libs
-rm -rf ../toxdns/.libs ../toxdns/_libs
-rm -rf ../toxencryptsave/.libs ../toxencryptsave/_libs
-rm -rf ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/.libs ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/_libs
-rm -rf ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/.libs ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/_libs
-rm -rf ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/.libs ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/_libs
- rm -f DHT_test Messenger_test dns3_test tox_sync tox_shell irc_syncbot
-rm -f *.o
-rm -f ../auto_tests/*.o
-rm -f ../other/*.o
-rm -f ../other/bootstrap_daemon/*.o
-rm -f ../testing/*.o
-rm -f ../toxav/*.o
-rm -f ../toxav/*.lo
-rm -f ../toxcore/*.o
-rm -f ../toxcore/*.lo
-rm -f ../toxdns/*.o
-rm -f ../toxdns/*.lo
-rm -f ../toxencryptsave/*.o
-rm -f ../toxencryptsave/*.lo
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/*.o
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/*.lo
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/*.o
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/*.lo
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/*.o
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/*.lo
-test -z "" || rm -f 
-test -z "" || rm -f 
-test -z "test-suite.log" || rm -f test-suite.log
-rm -f *.lo
-rm -f *.tab.c
-test -z "" || rm -f 
-test . = "." || test -z "" || rm -f 
-rm -f ../auto_tests/.deps/.dirstamp
-rm -f ../auto_tests/.dirstamp
-rm -f ../other/.deps/.dirstamp
-rm -f ../other/.dirstamp
-rm -f ../other/bootstrap_daemon/.deps/.dirstamp
-rm -f ../other/bootstrap_daemon/.dirstamp
-rm -f ../testing/.deps/.dirstamp
-rm -f ../testing/.dirstamp
-rm -f ../toxav/.deps/.dirstamp
-rm -f ../toxav/.dirstamp
-rm -f ../toxcore/.deps/.dirstamp
-rm -f ../toxcore/.dirstamp
-rm -f ../toxdns/.deps/.dirstamp
-rm -f ../toxdns/.dirstamp
-rm -f ../toxencryptsave/.deps/.dirstamp
-rm -f ../toxencryptsave/.dirstamp
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/.deps/.dirstamp
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/.dirstamp
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/.deps/.dirstamp
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/.dirstamp
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/.deps/.dirstamp
-rm -f ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/.dirstamp
-rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
-rm -rf ../auto_tests/.deps ../other/.deps ../other/bootstrap_daemon/.deps ../testing/.deps ../toxav/.deps ../toxcore/.deps ../toxdns/.deps ../toxencryptsave/.deps ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/.deps ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/.deps ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/.deps
-rm -f Makefile
-make[2]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
-make[2]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
-test -z "./libtoxcore.pc ./libtoxav.pc" || rm -f ./libtoxcore.pc ./libtoxav.pc
-rm -rf .libs _libs
-rm -f *.lo
-test -z "libtoxcore.pc tox.spec libtoxav.pc" || rm -f libtoxcore.pc tox.spec libtoxav.pc
-test . = "." || test -z "" || rm -f 
-rm -f config.h stamp-h1
-rm -f libtool config.lt
-rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
-rm -f cscope.out cscope.in.out cscope.po.out cscope.files
-make[2]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
-rm -f config.status config.cache config.log configure.lineno config.status.lineno
-rm -f Makefile
-make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
    dh_autoreconf_clean -O--parallel
    dh_clean -O--parallel
  dpkg-source -b toxcore_0.0.0+20150630.r3444
 dpkg-source: info: using source format `3.0 (quilt)'
 dpkg-source: info: building toxcore using existing ./toxcore_0.0.0+20150630.r3444.orig.tar.xz
-dpkg-source: warning: executable mode 0755 of 'configure' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/ar-lib' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/compile' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/config.guess' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/config.sub' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/depcomp' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/install-sh' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/missing' will not be represented in diff
-dpkg-source: warning: executable mode 0755 of 'configure_aux/test-driver' will not be represented in diff
-dpkg-source: info: local changes detected, the modified files are:
- toxcore_0.0.0+20150630.r3444/Makefile.in
- toxcore_0.0.0+20150630.r3444/aclocal.m4
- toxcore_0.0.0+20150630.r3444/build/Makefile.in
- toxcore_0.0.0+20150630.r3444/config.h.in
- toxcore_0.0.0+20150630.r3444/configure
- toxcore_0.0.0+20150630.r3444/configure_aux/ar-lib
- toxcore_0.0.0+20150630.r3444/configure_aux/compile
- toxcore_0.0.0+20150630.r3444/configure_aux/config.guess
- toxcore_0.0.0+20150630.r3444/configure_aux/config.sub
- toxcore_0.0.0+20150630.r3444/configure_aux/depcomp
- toxcore_0.0.0+20150630.r3444/configure_aux/install-sh
- toxcore_0.0.0+20150630.r3444/configure_aux/ltmain.sh
- toxcore_0.0.0+20150630.r3444/configure_aux/missing
- toxcore_0.0.0+20150630.r3444/configure_aux/test-driver
- toxcore_0.0.0+20150630.r3444/m4/libtool.m4
- toxcore_0.0.0+20150630.r3444/m4/ltoptions.m4
- toxcore_0.0.0+20150630.r3444/m4/ltsugar.m4
- toxcore_0.0.0+20150630.r3444/m4/ltversion.m4
- toxcore_0.0.0+20150630.r3444/m4/lt~obsolete.m4
-dpkg-source: error: aborting due to unexpected upstream changes, see /tmp/toxcore_0.0.0+20150630.r3444-1~deb8u+1.diff.tTSfG_
-dpkg-source: info: you can integrate the local changes with dpkg-source --commit
-dpkg-buildpackage: error: dpkg-source -b toxcore_0.0.0+20150630.r3444 gave error exit status 2
+dpkg-source: info: building toxcore in toxcore_0.0.0+20150630.r3444-1~deb8u+1.debian.tar.xz
+dpkg-source: info: building toxcore in toxcore_0.0.0+20150630.r3444-1~deb8u+1.dsc
+ debian/rules build
+make: 'build' is up to date.
+ fakeroot debian/rules binary
+dh binary --with autoreconf,systemd --parallel
+   dh_testdir -O--parallel
+   dh_autoreconf -O--parallel
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `configure_aux'.
+libtoolize: copying file `configure_aux/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+configure.ac:291: installing 'configure_aux/ar-lib'
+configure.ac:212: installing 'configure_aux/compile'
+configure.ac:292: installing 'configure_aux/config.guess'
+configure.ac:292: installing 'configure_aux/config.sub'
+configure.ac:9: installing 'configure_aux/install-sh'
+configure.ac:9: installing 'configure_aux/missing'
+build/Makefile.am: installing 'configure_aux/depcomp'
+parallel-tests: installing 'configure_aux/test-driver'
+   debian/rules override_dh_auto_configure
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+dh_auto_configure -- --enable-av --disable-tests --enable-daemon
+configure: WARNING: unrecognized options: --disable-maintainer-mode
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking linux/version.h usability... yes
+checking linux/version.h presence... yes
+checking for linux/version.h... yes
+checking for Linux epoll(7) interface... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) none
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for crypto_pwhash_scryptsalsa208sha256 in -lsodium... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking sodium.h usability... yes
+checking sodium.h presence... yes
+checking for sodium.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for uint8_t... yes
+checking whether byte ordering is bigendian... no
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for gettimeofday... yes
+checking for memset... yes
+checking for socket... yes
+checking for strchr... yes
+checking for malloc... yes
+checking for clock_gettime in -lrt... yes
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for pthread_self in -lpthread... yes
+checking for OPUS... yes
+checking for VPX... yes
+checking for LIBCONFIG... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating build/Makefile
+config.status: creating libtoxcore.pc
+config.status: creating tox.spec
+config.status: creating libtoxav.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-maintainer-mode
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+   dh_auto_build -O--parallel
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make  all-recursive
+make[2]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+Making all in build
+make[3]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+  CC       ../toxcore/libtoxcore_la-DHT.lo
+  CC       ../toxcore/libtoxcore_la-network.lo
+  CC       ../toxcore/libtoxcore_la-crypto_core.lo
+  CC       ../toxcore/libtoxcore_la-ping_array.lo
+  CC       ../toxcore/libtoxcore_la-net_crypto.lo
+  CC       ../toxcore/libtoxcore_la-friend_requests.lo
+  CC       ../toxcore/libtoxcore_la-LAN_discovery.lo
+  CC       ../toxcore/libtoxcore_la-friend_connection.lo
+  CC       ../toxcore/libtoxcore_la-Messenger.lo
+  CC       ../toxcore/libtoxcore_la-ping.lo
+  CC       ../toxcore/libtoxcore_la-tox.lo
+  CC       ../toxcore/libtoxcore_la-util.lo
+  CC       ../toxcore/libtoxcore_la-group.lo
+  CC       ../toxcore/libtoxcore_la-assoc.lo
+  CC       ../toxcore/libtoxcore_la-onion.lo
+  CC       ../toxcore/libtoxcore_la-logger.lo
+  CC       ../toxcore/libtoxcore_la-onion_announce.lo
+  CC       ../toxcore/libtoxcore_la-onion_client.lo
+  CC       ../toxcore/libtoxcore_la-TCP_client.lo
+  CC       ../toxcore/libtoxcore_la-TCP_server.lo
+  CC       ../toxcore/libtoxcore_la-TCP_connection.lo
+  CC       ../toxcore/libtoxcore_la-list.lo
+  CCLD     libtoxcore.la
+  CC       ../toxdns/libtoxdns_la-toxdns.lo
+  CCLD     libtoxdns.la
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-pbkdf2-sha256.lo
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-pwhash_scryptsalsa208sha256.lo
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-utils.lo
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-crypto_scrypt-common.lo
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-runtime.lo
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-scrypt_platform.lo
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/libtoxencryptsave_la-pwhash_scryptsalsa208sha256_nosse.lo
+  CC       ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/libtoxencryptsave_la-pwhash_scryptsalsa208sha256_sse.lo
+  CC       ../toxencryptsave/libtoxencryptsave_la-toxencryptsave.lo
+  CCLD     libtoxencryptsave.la
+  CC       ../toxav/libtoxav_la-rtp.lo
+  CC       ../toxav/libtoxav_la-msi.lo
+  CC       ../toxav/libtoxav_la-group.lo
+  CC       ../toxav/libtoxav_la-codec.lo
+  CC       ../toxav/libtoxav_la-toxav.lo
+  CCLD     libtoxav.la
+  CC       ../other/DHT_bootstrap-DHT_bootstrap.o
+  CCLD     DHT_bootstrap
+  CC       ../other/bootstrap_daemon/tox_bootstrapd-tox-bootstrapd.o
+  CCLD     tox-bootstrapd
+  CC       ../testing/DHT_test-DHT_test.o
+  CCLD     DHT_test
+  CC       ../testing/Messenger_test-Messenger_test.o
+  CCLD     Messenger_test
+  CC       ../testing/dns3_test-dns3_test.o
+  CCLD     dns3_test
+  CC       ../testing/tox_sync-tox_sync.o
+  CCLD     tox_sync
+  CC       ../testing/tox_shell-tox_shell.o
+../testing/tox_shell.c: In function ‘print_message’:
+../testing/tox_shell.c:60:5: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+     write(master, string, length);
+     ^
+../testing/tox_shell.c:61:5: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+     write(master, "\n", 1);
+     ^
+  CCLD     tox_shell
+  CC       ../testing/irc_syncbot-irc_syncbot.o
+  CCLD     irc_syncbot
+make[3]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[3]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[3]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[2]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+   dh_auto_test -O--parallel
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make  check-recursive
+make[2]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+Making check in build
+make[3]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make  
+make[4]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make  check-TESTS
+make[4]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[5]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[6]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+============================================================================
+Testsuite summary for tox 0.0.0
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[4]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[3]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[3]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[3]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[2]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+   dh_testroot -O--parallel
+   dh_prep -O--parallel
+   dh_auto_install -O--parallel
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make  install-recursive
+make[2]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+Making install in build
+make[3]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[4]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+ /bin/mkdir -p '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libtoxcore.la libtoxdns.la libtoxencryptsave.la libtoxav.la '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu'
+libtool: install: /usr/bin/install -c .libs/libtoxcore.so.0.0.0 /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxcore.so.0.0.0
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxcore.so.0.0.0 libtoxcore.so.0 || { rm -f libtoxcore.so.0 && ln -s libtoxcore.so.0.0.0 libtoxcore.so.0; }; })
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxcore.so.0.0.0 libtoxcore.so || { rm -f libtoxcore.so && ln -s libtoxcore.so.0.0.0 libtoxcore.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtoxcore.lai /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxcore.la
+libtool: install: warning: relinking `libtoxdns.la'
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build; /bin/bash /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/libtool  --silent --tag CC --mode=relink gcc -I.. -I../toxcore -pthread -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -g -version-info 0:0:0 -lm -lrt -Wl,-z,relro -o libtoxdns.la -rpath /usr/lib/x86_64-linux-gnu ../toxdns/libtoxdns_la-toxdns.lo libtoxcore.la -lsodium -inst-prefix-dir /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp)
+libtool: install: /usr/bin/install -c .libs/libtoxdns.so.0.0.0T /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxdns.so.0.0.0
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxdns.so.0.0.0 libtoxdns.so.0 || { rm -f libtoxdns.so.0 && ln -s libtoxdns.so.0.0.0 libtoxdns.so.0; }; })
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxdns.so.0.0.0 libtoxdns.so || { rm -f libtoxdns.so && ln -s libtoxdns.so.0.0.0 libtoxdns.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtoxdns.lai /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxdns.la
+libtool: install: warning: relinking `libtoxencryptsave.la'
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build; /bin/bash /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/libtool  --silent --tag CC --mode=relink gcc -I.. -I../toxcore -pthread -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -g -version-info 0:0:0 -lm -lrt -Wl,-z,relro -o libtoxencryptsave.la -rpath /usr/lib/x86_64-linux-gnu ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-pbkdf2-sha256.lo ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-pwhash_scryptsalsa208sha256.lo ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-utils.lo ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-crypto_scrypt-common.lo ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-runtime.lo ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/libtoxencryptsave_la-scrypt_platform.lo ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/nosse/libtoxencryptsave_la-pwhash_scryptsalsa208sha256_nosse.lo ../toxencryptsave/crypto_pwhash_scryptsalsa208sha256/sse/libtoxencryptsave_la-pwhash_scryptsalsa208sha256_sse.lo ../toxencryptsave/libtoxencryptsave_la-toxencryptsave.lo libtoxcore.la -lsodium -inst-prefix-dir /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp)
+libtool: install: /usr/bin/install -c .libs/libtoxencryptsave.so.0.0.0T /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxencryptsave.so.0.0.0
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxencryptsave.so.0.0.0 libtoxencryptsave.so.0 || { rm -f libtoxencryptsave.so.0 && ln -s libtoxencryptsave.so.0.0.0 libtoxencryptsave.so.0; }; })
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxencryptsave.so.0.0.0 libtoxencryptsave.so || { rm -f libtoxencryptsave.so && ln -s libtoxencryptsave.so.0.0.0 libtoxencryptsave.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtoxencryptsave.lai /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxencryptsave.la
+libtool: install: warning: relinking `libtoxav.la'
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build; /bin/bash /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/libtool  --silent --tag CC --mode=relink gcc -I../toxcore -I../toxav -I/usr/include/opus -pthread -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -g -version-info 0:0:0 -Wl,-z,relro -o libtoxav.la -rpath /usr/lib/x86_64-linux-gnu ../toxav/libtoxav_la-rtp.lo ../toxav/libtoxav_la-msi.lo ../toxav/libtoxav_la-group.lo ../toxav/libtoxav_la-codec.lo ../toxav/libtoxav_la-toxav.lo libtoxcore.la -lopus -lvpx -lm -lsodium -inst-prefix-dir /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp)
+libtool: install: /usr/bin/install -c .libs/libtoxav.so.0.0.0T /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxav.so.0.0.0
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxav.so.0.0.0 libtoxav.so.0 || { rm -f libtoxav.so.0 && ln -s libtoxav.so.0.0.0 libtoxav.so.0; }; })
+libtool: install: (cd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu && { ln -s -f libtoxav.so.0.0.0 libtoxav.so || { rm -f libtoxav.so && ln -s libtoxav.so.0.0.0 libtoxav.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtoxav.lai /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxav.la
+libtool: install: /usr/bin/install -c .libs/libtoxcore.a /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxcore.a
+libtool: install: chmod 644 /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxcore.a
+libtool: install: ranlib /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxcore.a
+libtool: install: /usr/bin/install -c .libs/libtoxdns.a /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxdns.a
+libtool: install: chmod 644 /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxdns.a
+libtool: install: ranlib /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxdns.a
+libtool: install: /usr/bin/install -c .libs/libtoxencryptsave.a /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxencryptsave.a
+libtool: install: chmod 644 /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxencryptsave.a
+libtool: install: ranlib /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxencryptsave.a
+libtool: install: /usr/bin/install -c .libs/libtoxav.a /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxav.a
+libtool: install: chmod 644 /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxav.a
+libtool: install: ranlib /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/libtoxav.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib/x86_64-linux-gnu'
+ /bin/mkdir -p '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c DHT_bootstrap tox-bootstrapd '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/bin'
+libtool: install: warning: `libtoxcore.la' has not been installed in `/usr/lib/x86_64-linux-gnu'
+libtool: install: /usr/bin/install -c .libs/DHT_bootstrap /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/bin/DHT_bootstrap
+libtool: install: warning: `libtoxcore.la' has not been installed in `/usr/lib/x86_64-linux-gnu'
+libtool: install: /usr/bin/install -c .libs/tox-bootstrapd /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/bin/tox-bootstrapd
+ /bin/mkdir -p '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+ /usr/bin/install -c -m 644 ../toxav/toxav.h '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+ /bin/mkdir -p '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+ /usr/bin/install -c -m 644 ../toxcore/tox.h ../toxcore/tox_old.h '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+ /bin/mkdir -p '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+ /usr/bin/install -c -m 644 ../toxdns/toxdns.h '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+ /bin/mkdir -p '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+ /usr/bin/install -c -m 644 ../toxencryptsave/toxencryptsave.h '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/include/tox'
+make[4]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[3]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/build'
+make[3]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[4]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig'
+ /usr/bin/install -c -m 644 ./libtoxcore.pc ./libtoxav.pc '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig'
+make[4]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[3]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[2]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+   dh_install -O--parallel
+   debian/rules override_dh_installdocs
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+dh_installdocs -plibtoxav-dev -plibtoxav-dbg --link-doc=libtoxav0
+dh_installdocs -plibtoxencryptsave-dev -plibtoxencryptsave-dbg --link-doc=libtoxencryptsave0
+dh_installdocs -plibtoxcore-dev -plibtoxcore-dbg --link-doc=libtoxcore0
+dh_installdocs -plibtoxdns-dev -plibtoxdns-dbg --link-doc=libtoxdns0
+dh_installdocs -plibtoxdns0 -plibtoxencryptsave0 -plibtoxav0 -plibtox-dev --link-doc=libtoxcore0
+dh_installdocs --remaining-packages
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+   dh_installchangelogs -O--parallel
+   dh_installman -O--parallel
+   dh_systemd_enable -O--parallel
+   dh_installinit -O--parallel
+   dh_systemd_start -O--parallel
+   dh_perl -O--parallel
+   dh_link -O--parallel
+   dh_compress -O--parallel
+   dh_fixperms -O--parallel
+   debian/rules override_dh_strip
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+dh_strip -plibtoxcore0 --dbg-package=libtoxcore-dbg
+dh_strip -plibtoxav0 --dbg-package=libtoxav-dbg
+dh_strip -plibtoxdns0 --dbg-package=libtoxdns-dbg
+dh_strip -plibtoxencryptsave0 --dbg-package=libtoxencryptsave-dbg
+dh_strip -ptox-bootstrapd
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+   dh_makeshlibs -O--parallel
+dpkg-gensymbols: warning: some new symbols appeared in the symbols file: see diff output below
+dpkg-gensymbols: warning: debian/libtoxcore0/DEBIAN/symbols doesn't match completely debian/libtoxcore0.symbols
+--- debian/libtoxcore0.symbols (libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64)
++++ dpkg-gensymbols2BFbk0	2015-09-22 18:05:56.753062345 -0400
+@@ -325,6 +325,7 @@
+  oniondata_registerhandler@Base 0.0.0+20140922.1
+  oob_data_handler@Base 0.0.0+20140922.1
+  pack_nodes@Base 0.0.0+20140922.1
++ packed_node_size@Base 0.0.0+20150630.r3444-1~deb8u+1
+  ping_array_add@Base 0.0.0+20140922.1
+  ping_array_check@Base 0.0.0+20140922.1
+  ping_array_free_all@Base 0.0.0+20140922.1
+   dh_shlibdeps -O--parallel
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/tox-bootstrapd/usr/sbin/tox-bootstrapd was not linked against libsodium.so.13 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxcore0/usr/lib/x86_64-linux-gnu/libtoxcore.so.0.0.0 was not linked against libm.so.6 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxav0/usr/lib/x86_64-linux-gnu/libtoxav.so.0.0.0 was not linked against libsodium.so.13 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxav0/usr/lib/x86_64-linux-gnu/libtoxav.so.0.0.0 was not linked against libm.so.6 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxdns0/usr/lib/x86_64-linux-gnu/libtoxdns.so.0.0.0 was not linked against libm.so.6 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxdns0/usr/lib/x86_64-linux-gnu/libtoxdns.so.0.0.0 was not linked against librt.so.1 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxdns0/usr/lib/x86_64-linux-gnu/libtoxdns.so.0.0.0 was not linked against libpthread.so.0 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxencryptsave0/usr/lib/x86_64-linux-gnu/libtoxencryptsave.so.0.0.0 was not linked against libm.so.6 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxencryptsave0/usr/lib/x86_64-linux-gnu/libtoxencryptsave.so.0.0.0 was not linked against librt.so.1 (it uses none of the library's symbols)
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/libtoxencryptsave0/usr/lib/x86_64-linux-gnu/libtoxencryptsave.so.0.0.0 was not linked against libpthread.so.0 (it uses none of the library's symbols)
+   dh_installdeb -O--parallel
+   debian/rules override_dh_gencontrol
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+sed -i "/dependency_libs/ s/'.*'/''/" `find /home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444/debian -name '*.la'`
+dh_gencontrol
+dpkg-gencontrol: warning: Depends field of package libtox-dev: unknown substitution variable ${shlibs:Depends}
+dpkg-gencontrol: warning: package libtoxcore0: unused substitution variable ${misc:Pre-Depends}
+dpkg-gencontrol: warning: Depends field of package libtoxcore-dev: unknown substitution variable ${shlibs:Depends}
+dpkg-gencontrol: warning: package libtoxav0: unused substitution variable ${misc:Pre-Depends}
+dpkg-gencontrol: warning: Depends field of package libtoxav-dev: unknown substitution variable ${shlibs:Depends}
+dpkg-gencontrol: warning: package libtoxdns0: unused substitution variable ${misc:Pre-Depends}
+dpkg-gencontrol: warning: Depends field of package libtoxdns-dev: unknown substitution variable ${shlibs:Depends}
+dpkg-gencontrol: warning: package libtoxencryptsave0: unused substitution variable ${misc:Pre-Depends}
+dpkg-gencontrol: warning: Depends field of package libtoxencryptsave-dev: unknown substitution variable ${shlibs:Depends}
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxcore_0.0.0+20150630.r3444'
+   dh_md5sums -O--parallel
+   dh_builddeb -O--parallel
+dpkg-deb: building package `libtox-dev' in `../libtox-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `tox-bootstrapd' in `../tox-bootstrapd_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxcore0' in `../libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxcore-dbg' in `../libtoxcore-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxcore-dev' in `../libtoxcore-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxav0' in `../libtoxav0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxav-dbg' in `../libtoxav-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxav-dev' in `../libtoxav-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxdns0' in `../libtoxdns0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxdns-dbg' in `../libtoxdns-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxdns-dev' in `../libtoxdns-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxencryptsave0' in `../libtoxencryptsave0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxencryptsave-dbg' in `../libtoxencryptsave-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+dpkg-deb: building package `libtoxencryptsave-dev' in `../libtoxencryptsave-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb'.
+ dpkg-genchanges  >../toxcore_0.0.0+20150630.r3444-1~deb8u+1_amd64.changes
+dpkg-genchanges: warning: the current version (0.0.0+20150630.r3444-1~deb8u+1) is earlier than the previous one (0.0.0+20150630.r3444-1)
+dpkg-genchanges: not including original source code in upload
+ dpkg-source --after-build toxcore_0.0.0+20150630.r3444
+dpkg-buildpackage: binary and diff upload (original source NOT included)
+Now running lintian...
+E: toxcore source: source-is-missing docs/generated_docs/html/jquery.js
+E: libtoxcore0: symbols-file-contains-current-version-with-debian-revision on symbol packed_node_size@Base
+W: libtox-dev: embedded-javascript-library usr/share/doc/libtoxcore0/docs/generated_docs/html/jquery.js please use libjs-jquery
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile toxcore_0.0.0+20150630.r3444-1~deb8u+1.dsc Kill Your TV <killyourtv@i2pmail.org>
+gpg: skipped "Kill Your TV <killyourtv@i2pmail.org>": secret key not available
+gpg: /tmp/debsign.qN5k7vXl/toxcore_0.0.0+20150630.r3444-1~deb8u+1.dsc: clearsign failed: secret key not available
+debsign: gpg error occurred!  Aborting....
