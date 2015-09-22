@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 22 Sep 2015 00:08:31 -0400
+Source: apt-git
+Binary: apt-git
+Architecture: source all
+Version: 20150922-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ apt-git    - <insert up to 60 chars description>
+Changes:
+ apt-git (20150922-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 902a400fef5cdc9b91580f42e62556f879d93bb9 831 apt-git_20150922-1.dsc
+ 0f024ff9d684e962c3d642432007cf92b862baf8 2060 apt-git_20150922.orig.tar.xz
+ 6ef700479dc2f52ce99322d993fab6d26933f404 2440 apt-git_20150922-1.debian.tar.xz
+ aea1de608eda6c4590b21e516ecc6ec415641bfc 4076 apt-git_20150922-1_all.deb
+Checksums-Sha256:
+ 4624663f32abc1609552ada47c1ed42b1742a157eb2cd5e547a978eae388c301 831 apt-git_20150922-1.dsc
+ 87dfb1922ebb8f1955c237db2cc873b1d8982e7b1c33a319efb1271f1d3cca51 2060 apt-git_20150922.orig.tar.xz
+ e2a676993628cf2ffca994ad9c1338dc49761d2c28e6415e142496a68455bdd4 2440 apt-git_20150922-1.debian.tar.xz
+ 94ddcf2dc296acd9c27174d63acf3b14c509f3937acd4ce2243e7c8cbd35cbc7 4076 apt-git_20150922-1_all.deb
+Files:
+ 1e26e96640fca8f735d4a95157b59151 831 unknown optional apt-git_20150922-1.dsc
+ 95c6890907690e5a1adaa82758faba31 2060 unknown optional apt-git_20150922.orig.tar.xz
+ 84b6537ca5d79f79bd8c8b0efa593f9b 2440 unknown optional apt-git_20150922-1.debian.tar.xz
+ e0a26027393b95877108f1af2502a27f 4076 unknown optional apt-git_20150922-1_all.deb

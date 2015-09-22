@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 22 Sep 2015 00:35:15 -0400
+Source: mousepad-tab
+Binary: mousepad-tab
+Architecture: source all
+Version: 20150922-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ mousepad-tab - <insert up to 60 chars description>
+Changes:
+ mousepad-tab (20150922-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 093f18719dc02d07900eee2671dcf7370b85aa9f 876 mousepad-tab_20150922-1.dsc
+ 846c517a8176e955e893a46973fab9942a0cfdae 8656 mousepad-tab_20150922.orig.tar.xz
+ ad1b9dc88ab46e1e0025b95561b3bf67af88d33f 2272 mousepad-tab_20150922-1.debian.tar.xz
+ 17c1831801df50d168ad5f2fb156864c8bd06cbe 2616 mousepad-tab_20150922-1_all.deb
+Checksums-Sha256:
+ 2b48a1023d50002d003065623652781761dde55d9ef1b56ef5728c413933f86d 876 mousepad-tab_20150922-1.dsc
+ 8f2e1c108c423ffa8794266d0e11ed65d2b343376c416bf57bcf2e27787c5b5a 8656 mousepad-tab_20150922.orig.tar.xz
+ e438cfd903e373a019186b3eca26c053214597ee5d55d3984cad74c76bb82db1 2272 mousepad-tab_20150922-1.debian.tar.xz
+ 541e8718c4ce9a84deb54fea7e19a3e083c7a5b19018a23469863ce1f9b42cc1 2616 mousepad-tab_20150922-1_all.deb
+Files:
+ 1391c773936ced8812f6669f0c54d6dc 876 unknown optional mousepad-tab_20150922-1.dsc
+ 01c1548d47591719894888a0e1a55212 8656 unknown optional mousepad-tab_20150922.orig.tar.xz
+ 2a6786ef861a8a65ed604290c36c1c27 2272 unknown optional mousepad-tab_20150922-1.debian.tar.xz
+ e63f3f66ee820d0638830a0f871ddfad 2616 unknown optional mousepad-tab_20150922-1_all.deb

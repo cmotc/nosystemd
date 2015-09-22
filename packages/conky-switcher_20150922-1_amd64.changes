@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 22 Sep 2015 00:09:47 -0400
+Source: conky-switcher
+Binary: conky-switcher
+Architecture: source all
+Version: 20150922-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ conky-switcher - <insert up to 60 chars description>
+Changes:
+ conky-switcher (20150922-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 028825d8ec6d5db202cb7844b0a6563f07879f11 897 conky-switcher_20150922-1.dsc
+ a2c0f0e852d78aaa6138e2bb623b24f4da7ad3cd 13304 conky-switcher_20150922.orig.tar.xz
+ b7fc333488eec59091427093398ecf2faabb3902 2524 conky-switcher_20150922-1.debian.tar.xz
+ 9474350c010fffbec851fbf0e7af4cfca3199516 3292 conky-switcher_20150922-1_all.deb
+Checksums-Sha256:
+ e5f0a96c34107291e0ea171293dd2f0aea80ef35458241dd3aa49516607fb8d1 897 conky-switcher_20150922-1.dsc
+ d545427b72a51a00b426c6d57774629f244713e706af6de69f9910e3ee16b832 13304 conky-switcher_20150922.orig.tar.xz
+ b92843470e41114273e3830d9a34db1c18326ac878ba31304f94e64d0d181529 2524 conky-switcher_20150922-1.debian.tar.xz
+ efe80a336ccc0f8df90bce466d6f211f3e736d9a0b03d58cf3acf50d0408ddca 3292 conky-switcher_20150922-1_all.deb
+Files:
+ e7be46d5062281eac3cbe674764a5a34 897 unknown optional conky-switcher_20150922-1.dsc
+ 94fc72a78109b7a428aff2e6c6a00837 13304 unknown optional conky-switcher_20150922.orig.tar.xz
+ 239c4b454e67e7ac62173b32e57608b4 2524 unknown optional conky-switcher_20150922-1.debian.tar.xz
+ dea2c2a94ac3fe8c6666db909da66f0c 3292 unknown optional conky-switcher_20150922-1_all.deb

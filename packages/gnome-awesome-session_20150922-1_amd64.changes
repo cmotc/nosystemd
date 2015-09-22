@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 22 Sep 2015 00:30:28 -0400
+Source: gnome-awesome-session
+Binary: gnome-awesome-session
+Architecture: source all
+Version: 20150922-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar-m <dyngar-m@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ gnome-awesome-session - <insert up to 60 chars description>
+Changes:
+ gnome-awesome-session (20150922-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 4ada47772dc845f42cc78913d1f35f7e25e1530a 964 gnome-awesome-session_20150922-1.dsc
+ 24bc010ea0b0b3ac800f1eacdaa0b492066cc013 17660 gnome-awesome-session_20150922.orig.tar.xz
+ df7ee1818d6a690541467a27de096c031fe30578 2668 gnome-awesome-session_20150922-1.debian.tar.xz
+ 7b19a73b3819bb58acbfc2a7dc2d1a1889e03368 3134 gnome-awesome-session_20150922-1_all.deb
+Checksums-Sha256:
+ 0c4d2d4c9bc81b01845dc52b29f6b8220e30e77da8a99219ea2696c6b6f8bdad 964 gnome-awesome-session_20150922-1.dsc
+ 1f9293cdf641ea171e49f8938dbe31b7295e5cedaa894aee7d695928fbb029b8 17660 gnome-awesome-session_20150922.orig.tar.xz
+ c59b3fe1e8b3e1bb7c42d1d39631ab6594f23ff09b1133fa0fa24949a44cf5ed 2668 gnome-awesome-session_20150922-1.debian.tar.xz
+ 41365d7d2df9597e9f80757722505d1e6283a976c37d4292f0e6b8e47c8ea509 3134 gnome-awesome-session_20150922-1_all.deb
+Files:
+ 0048d88ca126ca8238a12561b3ad8dc1 964 unknown optional gnome-awesome-session_20150922-1.dsc
+ 493c865208e0bd6c924bbdac585eb5a8 17660 unknown optional gnome-awesome-session_20150922.orig.tar.xz
+ 0aa6058d0bed4bbc8eee81b675921349 2668 unknown optional gnome-awesome-session_20150922-1.debian.tar.xz
+ 107ba2c63224dc2ebb5c99e35add121e 3134 unknown optional gnome-awesome-session_20150922-1_all.deb

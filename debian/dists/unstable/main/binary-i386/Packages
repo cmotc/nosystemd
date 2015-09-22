@@ -1,16 +1,49 @@
 Package: apt-git
-Version: 20150919-1
+Version: 20150922-1
 Architecture: all
-Maintainer: dyngar-m <dyngar-m@dyngar.local>
+Maintainer: dyngar <dyngar@dyngar.local>
 Installed-Size: 35
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/a/apt-git/apt-git_20150919-1_all.deb
-Size: 6810
-SHA256: 27ea50cb4276327a217c161d144896a4a5bbf32b0b577d5901d7feaec3172dc9
-SHA1: ff4efc0e3fd24f44ed269f043a1e345ce1bed225
-MD5sum: 472675b74f6a7abc135b46432c671bc7
+Filename: pool/main/a/apt-git/apt-git_20150922-1_all.deb
+Size: 4076
+SHA256: 94ddcf2dc296acd9c27174d63acf3b14c509f3937acd4ce2243e7c8cbd35cbc7
+SHA1: aea1de608eda6c4590b21e516ecc6ec415641bfc
+MD5sum: e0a26027393b95877108f1af2502a27f
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: awesome-lightdm-session
+Version: 20150922-1
+Architecture: all
+Maintainer: dyngar-m <dyngar-m@dyngar.local>
+Installed-Size: 43
+Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/a/awesome-lightdm-session/awesome-lightdm-session_20150922-1_all.deb
+Size: 2788
+SHA256: 90f5d91c13c044c10a625399c7f6e4642a3eb25d71bbd0a576dd758f42d06581
+SHA1: 07ab9aa6e4778bff8fc51a3bb06af9899d71c859
+MD5sum: 94f0482d504cd302870dadac84f552dc
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: conky-switcher
+Version: 20150922-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 34
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/c/conky-switcher/conky-switcher_20150922-1_all.deb
+Size: 3292
+SHA256: efe80a336ccc0f8df90bce466d6f211f3e736d9a0b03d58cf3acf50d0408ddca
+SHA1: 9474350c010fffbec851fbf0e7af4cfca3199516
+MD5sum: dea2c2a94ac3fe8c6666db909da66f0c
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -47,6 +80,39 @@ MD5sum: 06329e667ead6888683cf6d4dd8213f0
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
+Package: gnome-awesome-session
+Version: 20150922-1
+Architecture: all
+Maintainer: dyngar-m <dyngar-m@dyngar.local>
+Installed-Size: 47
+Depends: gnome-session (>= 3.0), awesome (>= 3.4)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gnome-awesome-session/gnome-awesome-session_20150922-1_all.deb
+Size: 3134
+SHA256: 41365d7d2df9597e9f80757722505d1e6283a976c37d4292f0e6b8e47c8ea509
+SHA1: 7b19a73b3819bb58acbfc2a7dc2d1a1889e03368
+MD5sum: 107ba2c63224dc2ebb5c99e35add121e
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: hidblock
+Version: 20150922-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 34
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/h/hidblock/hidblock_20150922-1_all.deb
+Size: 3504
+SHA256: 3943206bdc754a8e10bac9147c0f81b0ae36267fabcdb9f846d611ac6a0b2cc9
+SHA1: aa3e5860aab72101f1421a551fb5bea946ab805e
+MD5sum: 316046b49c30227c0e04740fd139a82f
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
 Package: intelmetool
 Version: 20150919-1
 Architecture: all
@@ -63,8 +129,24 @@ MD5sum: 8c6c5082d38353c80e07429e20d33f94
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
+Package: mousepad-tab
+Version: 20150922-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 31
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mousepad-tab/mousepad-tab_20150922-1_all.deb
+Size: 2616
+SHA256: 541e8718c4ce9a84deb54fea7e19a3e083c7a5b19018a23469863ce1f9b42cc1
+SHA1: 17c1831801df50d168ad5f2fb156864c8bd06cbe
+MD5sum: e63f3f66ee820d0638830a0f871ddfad
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
 Package: svirfneblin-panel
-Version: 20150921-1
+Version: 20150922-1
 Architecture: all
 Maintainer: dyngar-m <dyngar-m@dyngar.local>
 Installed-Size: 83
@@ -72,11 +154,11 @@ Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4)
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150921-1_all.deb
-Size: 6718
-SHA256: d70e586a231d22e33f3a11b95c0cd9f6ba4473d92ff505b1285944641e081277
-SHA1: f5dbea04a1597c4fb23eac9a0e8c7f6c309c9c81
-MD5sum: d41e021c3cf688ba4028dcb4f71762d3
+Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150922-1_all.deb
+Size: 6760
+SHA256: d854284b5f23f967c5dd1a28890b9ba345b9fa275d65b162900336f46fb3bf80
+SHA1: a0030d634734579bf6f3be6476818c33c0aa0d20
+MD5sum: 3cd0a55b901f2f9a5086b0f129b6db8c
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
