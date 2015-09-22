@@ -79,39 +79,6 @@ MD5sum: dea2c2a94ac3fe8c6666db909da66f0c
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
-Package: conkyswitcher
-Version: 20150919-1
-Architecture: all
-Maintainer: dyngar-m <dyngar-m@dyngar.local>
-Installed-Size: 34
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/c/conkyswitcher/conkyswitcher_20150919-1_all.deb
-Size: 4614
-SHA256: ca6c44221898a8dcb75fa4b285a34a4d8782817091846b71e031345801836c45
-SHA1: 62e4bfa1033f44a4f9629a8733f2732ddbb276be
-MD5sum: bf5dc81cfd46003bebd3cf23e20c353f
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: debian-awesome-gnome
-Version: 20150920-1
-Architecture: all
-Maintainer: dyngar-m <dyngar-m@dyngar.local>
-Installed-Size: 47
-Depends: gnome-session (>= 3.0), awesome (>= 3.4)
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/d/debian-awesome-gnome/debian-awesome-gnome_20150920-1_all.deb
-Size: 4466
-SHA256: 78b4731272f25b22118964859e802c4d893f13e99cf624ce65c23b9d4de3e169
-SHA1: 45be437f21e66cfbf6104d26e7935daa08846a59
-MD5sum: 06329e667ead6888683cf6d4dd8213f0
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
 Package: gnome-awesome-session
 Version: 20150922-1
 Architecture: all
@@ -145,22 +112,6 @@ MD5sum: 316046b49c30227c0e04740fd139a82f
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
-Package: intelmetool
-Version: 20150919-1
-Architecture: all
-Maintainer: dyngar-m <dyngar-m@dyngar.local>
-Installed-Size: 74
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/i/intelmetool/intelmetool_20150919-1_all.deb
-Size: 18802
-SHA256: eeae0605d725b7d53b01412ce383ef23b85675279b84d3cd8dfb3b4f3e9daa9b
-SHA1: 15278215ff5c6f32e642172e484570a9711da64a
-MD5sum: 8c6c5082d38353c80e07429e20d33f94
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
 Package: mousepad-tab
 Version: 20150922-1
 Architecture: all
@@ -191,22 +142,6 @@ Size: 6760
 SHA256: d854284b5f23f967c5dd1a28890b9ba345b9fa275d65b162900336f46fb3bf80
 SHA1: a0030d634734579bf6f3be6476818c33c0aa0d20
 MD5sum: 3cd0a55b901f2f9a5086b0f129b6db8c
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: toxbot
-Version: 20150919-1
-Architecture: all
-Maintainer: dyngar-m <dyngar-m@dyngar.local>
-Installed-Size: 123
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/t/toxbot/toxbot_20150919-1_all.deb
-Size: 27332
-SHA256: 02bada79ad3686b45d6e643a9baeba63d221e3d804e20cc535dc47321e51fcc5
-SHA1: 80e1bd36e2313196af34630ebc767d5725cb0337
-MD5sum: 09f33791526f4aadcdccb19f7b13b107
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
