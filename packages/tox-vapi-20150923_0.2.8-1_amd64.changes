@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 23 Sep 2015 14:34:53 -0400
+Source: tox-vapi-20150923
+Binary: tox-vapi-20150923
+Architecture: source all
+Version: 0.2.8-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ tox-vapi-20150923 - <insert up to 60 chars description>
+Changes:
+ tox-vapi-20150923 (0.2.8-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 8516d4d2ac1f4561caf7dc3caf4dbcab5ed206a1 903 tox-vapi-20150923_0.2.8-1.dsc
+ 77ea9118553842befdc73a4b528f14153ac95b28 96072 tox-vapi-20150923_0.2.8.orig.tar.xz
+ b9f1a02da78b2ed09098c62468938ff5821529d4 2472 tox-vapi-20150923_0.2.8-1.debian.tar.xz
+ c649c1470753d7765c9d9d81c2ca4f93850bc8a6 17852 tox-vapi-20150923_0.2.8-1_all.deb
+Checksums-Sha256:
+ 85d6a1cf9dc7d266b3b816e86014583951e0b4336ae822c8d2397b5d79938311 903 tox-vapi-20150923_0.2.8-1.dsc
+ 216acf7def458f345e8390b22cfd136d7a8122ea7c8911df9a20697293c7de10 96072 tox-vapi-20150923_0.2.8.orig.tar.xz
+ 2384b3e077c0bcf859c21cbf5ee0418264ef3ae524dc8c0a6983e05a94037efb 2472 tox-vapi-20150923_0.2.8-1.debian.tar.xz
+ b506e50320b17f81aa41328b2ec552a5e9cf11aee2f77a513c156b745b95a072 17852 tox-vapi-20150923_0.2.8-1_all.deb
+Files:
+ bea5fa45a388bf1179d2abdfe2080bb8 903 unknown optional tox-vapi-20150923_0.2.8-1.dsc
+ 2bc063e72eadaa5a41265fa66123a246 96072 unknown optional tox-vapi-20150923_0.2.8.orig.tar.xz
+ 51e7a9a83d0df0d5203970338292bff4 2472 unknown optional tox-vapi-20150923_0.2.8-1.debian.tar.xz
+ 185f462ce09b6db117ea01f3e3b55ba0 17852 unknown optional tox-vapi-20150923_0.2.8-1_all.deb

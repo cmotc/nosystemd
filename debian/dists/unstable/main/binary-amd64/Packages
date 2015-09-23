@@ -469,3 +469,19 @@ Description: distributed, secure messenger with a/v support - daemon
  .
  This package contains the bootstrap daemon.
 
+Package: tox-vapi-20150923
+Version: 0.2.8-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 115
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tox-vapi-20150923/tox-vapi-20150923_0.2.8-1_all.deb
+Size: 17852
+SHA256: b506e50320b17f81aa41328b2ec552a5e9cf11aee2f77a513c156b745b95a072
+SHA1: c649c1470753d7765c9d9d81c2ca4f93850bc8a6
+MD5sum: 185f462ce09b6db117ea01f3e3b55ba0
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
