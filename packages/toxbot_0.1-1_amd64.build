@@ -11,19 +11,20 @@ dh clean
    dh_auto_clean
 make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxbot-0.1'
 rm -f *.d *.o toxbot
-Package libtoxcore was not found in the pkg-config search path.
-Perhaps you should add the directory containing `libtoxcore.pc'
-to the PKG_CONFIG_PATH environment variable
-No package 'libtoxcore' found
-Package libtoxav was not found in the pkg-config search path.
-Perhaps you should add the directory containing `libtoxav.pc'
-to the PKG_CONFIG_PATH environment variable
-No package 'libtoxav' found
 make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxbot-0.1'
    dh_clean
  dpkg-source -b toxbot-0.1
 dpkg-source: info: using source format `3.0 (quilt)'
 dpkg-source: info: building toxbot using existing ./toxbot_0.1.orig.tar.xz
+dpkg-source: warning: ignoring deletion of file toxbot.o, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file groupchats.o, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file commands.d, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file groupchats.d, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file commands.o, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file toxbot, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file misc.o, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file misc.d, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file toxbot.d, use --include-removal to override
 dpkg-source: info: building toxbot in toxbot_0.1-1.debian.tar.xz
 dpkg-source: info: building toxbot in toxbot_0.1-1.dsc
  debian/rules build
@@ -32,23 +33,58 @@ dh build
    dh_auto_configure
    dh_auto_build
 make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxbot-0.1'
-Package libtoxcore was not found in the pkg-config search path.
-Perhaps you should add the directory containing `libtoxcore.pc'
-to the PKG_CONFIG_PATH environment variable
-No package 'libtoxcore' found
-Package libtoxav was not found in the pkg-config search path.
-Perhaps you should add the directory containing `libtoxav.pc'
-to the PKG_CONFIG_PATH environment variable
-No package 'libtoxav' found
   CC    toxbot.o
-./src/toxbot.c:36:21: fatal error: tox/tox.h: No such file or directory
- #include <tox/tox.h>
-                     ^
-compilation terminated.
-Makefile:12: recipe for target 'toxbot.o' failed
-make[1]: *** [toxbot.o] Error 1
+  CC    misc.o
+  CC    commands.o
+  CC    groupchats.o
+  LD    all
 make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_projects/packages/toxbot-0.1'
-dh_auto_build: make -j1 returned exit code 2
-debian/rules:22: recipe for target 'build' failed
-make: *** [build] Error 2
-dpkg-buildpackage: error: debian/rules build gave error exit status 2
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `toxbot' in `../toxbot_0.1-1_all.deb'.
+ dpkg-genchanges  >../toxbot_0.1-1_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build toxbot-0.1
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+E: toxbot source: source-is-missing toxbot.o
+E: toxbot source: source-is-missing toxbot
+E: toxbot source: source-is-missing misc.o
+E: toxbot source: source-is-missing groupchats.o
+E: toxbot source: source-is-missing commands.o
+W: toxbot source: dh-make-template-in-source debian/toxbot.doc-base.EX
+W: toxbot source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: toxbot source: bad-homepage <insert the upstream URL, if relevant>
+W: toxbot source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 5)
+W: toxbot source: out-of-date-standards-version 3.9.5 (current is 3.9.6)
+E: toxbot: arch-independent-package-contains-binary-or-object usr/bin/toxbot
+E: toxbot: unstripped-binary-or-object usr/bin/toxbot
+W: toxbot: missing-depends-line
+W: toxbot: wrong-bug-number-in-closes l3:#nnnn
+W: toxbot: new-package-should-close-itp-bug
+E: toxbot: changelog-is-dh_make-template
+E: toxbot: helper-templates-in-copyright
+W: toxbot: copyright-has-url-from-dh_make-boilerplate
+E: toxbot: copyright-contains-dh_make-todo-boilerplate
+W: toxbot: readme-debian-contains-debmake-template
+E: toxbot: description-is-dh_make-template
+E: toxbot: section-is-dh_make-template
+W: toxbot: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: toxbot: bad-homepage <insert the upstream URL, if relevant>
+W: toxbot: binary-without-manpage usr/bin/toxbot
+Finished running lintian.
