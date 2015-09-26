@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: cmotc.github.io
+Label: cmotc.github.io
+Codename: testing
+Date: Sat, 26 Sep 2015 19:51:24 UTC
+Architectures: amd64 i386
+Components: main
+Description: cmotc.github.io
+MD5Sum:
+ abd3d14f9153e36a112a6ab4b0ecb252 6399 main/binary-amd64/Packages
+ 86ac1120728fbd3040ccda6cabddff57 2101 main/binary-amd64/Packages.gz
+ c05e63f06c96c715e0eb97afb63b6028 112 main/binary-amd64/Release
+ abd3d14f9153e36a112a6ab4b0ecb252 6399 main/binary-i386/Packages
+ 86ac1120728fbd3040ccda6cabddff57 2101 main/binary-i386/Packages.gz
+ a6f99d9dd9cebcf5a4b5a9fa3b1ce651 111 main/binary-i386/Release
+SHA1:
+ e2a4134712fa45efb475d97be888b96afca576c4 6399 main/binary-amd64/Packages
+ 5a424cef238543dcf972f032784493b2140e9354 2101 main/binary-amd64/Packages.gz
+ 59820c00e1bb50bad22f80a5cf5d4e50413191a1 112 main/binary-amd64/Release
+ e2a4134712fa45efb475d97be888b96afca576c4 6399 main/binary-i386/Packages
+ 5a424cef238543dcf972f032784493b2140e9354 2101 main/binary-i386/Packages.gz
+ a6b611c1331f03dfde0434daf8db7257735f83a4 111 main/binary-i386/Release
+SHA256:
+ 3f5f67f4f895c4591f1098930cda1afd92a0dd466e5697b2701a8bb0305bf8f3 6399 main/binary-amd64/Packages
+ fa683298792ee60f0a08286d25e810cc43152a04805f6b6193fec0cfd00b99c0 2101 main/binary-amd64/Packages.gz
+ 78eb7ceeb6e957b3e4b6da4e22cea381716ea5188853c0fd86ba03a6fff87cf8 112 main/binary-amd64/Release
+ 3f5f67f4f895c4591f1098930cda1afd92a0dd466e5697b2701a8bb0305bf8f3 6399 main/binary-i386/Packages
+ fa683298792ee60f0a08286d25e810cc43152a04805f6b6193fec0cfd00b99c0 2101 main/binary-i386/Packages.gz
+ 89b19dfa49061af7b60de20f63ae4c6ff1c2a0d8dd081acaa58f22f9c4361a3c 111 main/binary-i386/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJWBvdGAAoJEAg7dXeWLSl+gXAP/2S9fpesGw198vIQHh29TVYg
+0Yrx9XTKTzPOXq0yg/t5hjOqwgHVvfQ1++i0Bv3IjzJbIu75C3EqDfdWlmD5pRcp
+a5pTU+OpyjI8xiYjUWvhNNAajoKyaKwOnFkRJz5wKeYXxLiJWcCbMzUwCIbiJZjR
+RA7c7sb1d7ahqWxpiuulPe2gYs0IXkWy+I2kwadkG3q54n90UDtyiw8TzS5as6A4
+qUfeOEFYDeSp4KijDCWofP7um6ilOGNz2ySRETB+1jVl5rCfhI6OTttr/OQPvYob
+BqVW2aEL8L73eZGWEx4rm7tqZ9+KbyPs2jQx56Vr+jDse6hG+ZMmxtmsJO0BJJD2
+TJrz6F7fiKeErBV6qCzNQ/2c8r5fioiT9q7DkpfQo3r3RZz5qmEC2QLhoiyOpyS4
+1GuxiDR7foOBnbUFgMa0BkvEWcfwDYr09yX72bpLshJa0WV3iPi2ia8+8t7vxcpB
+R8CyWNNaV3wEAYtT/MprDsL0XflU0CUcdUMjjeo52dYB6bl6JqgeBznVgaukv+b7
+bizLVz4tgXm9/1td0MLclDI7eEKEadgpNHVOWQwNWQoLLRvQfZDqeKoe7TXrbxpP
+7GZ/TW13KGCZDhvnmGhIUSkRYvhf7t+ybvj2prrFM6bPKMsHwtPRvD+C83/QPDKF
+TLf2BmEOMZ6d+KOD0Cxq
+=mGMr
+-----END PGP SIGNATURE-----
