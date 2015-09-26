@@ -31,6 +31,22 @@ MD5sum: 0314d814e5f52caa54e2e3b561109860
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
+Package: awesome-revelation
+Version: 20150926-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 56
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/a/awesome-revelation/awesome-revelation_20150926-1_all.deb
+Size: 7772
+SHA256: bdb17eed93a17540fcbb7ca0501ad7801f1774d9dedba3047d9cc967940036b6
+SHA1: 66f0bd180eff1a2d65659f44e405c88a09ce6d76
+MD5sum: 65a3d68c17313732beaef6e0f7ae27a3
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
 Package: conky-switcher
 Version: 20150923-1
 Architecture: all

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 26 Sep 2015 01:07:31 -0400
+Source: awesome-revelation
+Binary: awesome-revelation
+Architecture: source all
+Version: 20150926-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ awesome-revelation - <insert up to 60 chars description>
+Changes:
+ awesome-revelation (20150926-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 7953d3b93922215dd874a4f4763e2dc6bd9bd785 939 awesome-revelation_20150926-1.dsc
+ caecc6b138dd780f530d4ae9ad58d40bfcc02d8f 3596252 awesome-revelation_20150926.orig.tar.xz
+ aa688730ac63ca6fccbdf335f02ff77f34377a47 2288 awesome-revelation_20150926-1.debian.tar.xz
+ 66f0bd180eff1a2d65659f44e405c88a09ce6d76 7772 awesome-revelation_20150926-1_all.deb
+Checksums-Sha256:
+ 08f7a28daea0c16c5a028b65fc36a7d1466554f519c40edc6e4ae6d37ee89522 939 awesome-revelation_20150926-1.dsc
+ 609310ffc7bc16436517166d41c3803f1fe9e3a5983d04c90a4c8d5fcf1fde0a 3596252 awesome-revelation_20150926.orig.tar.xz
+ 2bf86d2f82ab222a64899ef4eec168e0b9c71e82451a9a44930c5e0eff3978ad 2288 awesome-revelation_20150926-1.debian.tar.xz
+ bdb17eed93a17540fcbb7ca0501ad7801f1774d9dedba3047d9cc967940036b6 7772 awesome-revelation_20150926-1_all.deb
+Files:
+ bcfec8de85499b81e86d1105bf68beaa 939 unknown optional awesome-revelation_20150926-1.dsc
+ 8f202b3312598a36703d1a18d0e8d879 3596252 unknown optional awesome-revelation_20150926.orig.tar.xz
+ 433052d3dcf7436c2be13b61fe902158 2288 unknown optional awesome-revelation_20150926-1.debian.tar.xz
+ 65a3d68c17313732beaef6e0f7ae27a3 7772 unknown optional awesome-revelation_20150926-1_all.deb
