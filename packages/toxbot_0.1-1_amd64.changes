@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- e8b3f92348013dca2801c21a9f4cfce0e0736494 799 toxbot_0.1-1.dsc
- b7866619864b3bef2dbb02e49033ce9c5186d090 72220444 toxbot_0.1.orig.tar.xz
- e55b93b3f940bc3f04691c235d900bc5c0262b9d 2448 toxbot_0.1-1.debian.tar.xz
- 016000a0cd53ce301e74113eb8183dc8402b6b38 24572 toxbot_0.1-1_all.deb
+ 67ef7d1e78d5d21515aa204aae795f4addc840e4 799 toxbot_0.1-1.dsc
+ 7f069440c67ce3613c522cd4558e8dcb4bc72462 72232368 toxbot_0.1.orig.tar.xz
+ b80599caa3d237522b9815ed367751c74bde55e7 2448 toxbot_0.1-1.debian.tar.xz
+ b31273014dbcca998e8bee003284787ef65e8601 24560 toxbot_0.1-1_all.deb
 Checksums-Sha256:
- 3cd3abf86a40cf64f04e0429a6b53af411e7216b725f074b4179e7c7e136217c 799 toxbot_0.1-1.dsc
- 4977099a8ab23635d52a6728c0f8b9e6f1f82ecb68b164fffea5a4cb493cb97c 72220444 toxbot_0.1.orig.tar.xz
- 9e77bc542a8b5dec3c325c6dd8651ffe4f0c2eb7f9e45857c42c7c5fb6299028 2448 toxbot_0.1-1.debian.tar.xz
- a25ca23e52da951f5453dcaf536323e12ddb188fceda37c2c9be2f27510e52bc 24572 toxbot_0.1-1_all.deb
+ 0d7847df36f5fe8b17d3b2368509b05c22e9ba7e3b8299e4897c6b5564ef74f9 799 toxbot_0.1-1.dsc
+ 5cd116c5fa8675ffef38779d5fad556a22e043f203183ad02689c9836fc13da8 72232368 toxbot_0.1.orig.tar.xz
+ 2617cb151c2d7a555dd963a67ef9cb8ca41826b83b63e2ac443168eb527f8393 2448 toxbot_0.1-1.debian.tar.xz
+ 68ef8596dae1b002b3eda8ad2c53a4da233afd82b5134fea5ac19c12b9915eda 24560 toxbot_0.1-1_all.deb
 Files:
- 775941c344e4d322eb56056ec0e8be2b 799 unknown optional toxbot_0.1-1.dsc
- 1c179fcbbd65f9b8f3306693991e6a83 72220444 unknown optional toxbot_0.1.orig.tar.xz
- 5e003fd4fb0810553367cd8c17f4bbf2 2448 unknown optional toxbot_0.1-1.debian.tar.xz
- f327fb9c3272d0db465edc8cdd9bfa49 24572 unknown optional toxbot_0.1-1_all.deb
+ b5f2e12385c8642f3f894d2f00463bc5 799 unknown optional toxbot_0.1-1.dsc
+ 42a8ce35b8269ea852f2b77b288d63d6 72232368 unknown optional toxbot_0.1.orig.tar.xz
+ aded2235a02661f0386b4c09bc630b40 2448 unknown optional toxbot_0.1-1.debian.tar.xz
+ 65bac5dc62c84c8c752ccba05740807a 24560 unknown optional toxbot_0.1-1_all.deb

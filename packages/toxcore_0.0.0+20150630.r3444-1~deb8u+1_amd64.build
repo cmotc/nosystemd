@@ -124,6 +124,6 @@ dpkg-source: info: local changes detected, the modified files are:
  toxcore_0.0.0+20150630.r3444/m4/ltsugar.m4
  toxcore_0.0.0+20150630.r3444/m4/ltversion.m4
  toxcore_0.0.0+20150630.r3444/m4/lt~obsolete.m4
-dpkg-source: error: aborting due to unexpected upstream changes, see /tmp/toxcore_0.0.0+20150630.r3444-1~deb8u+1.diff.M7_cVg
+dpkg-source: error: aborting due to unexpected upstream changes, see /tmp/toxcore_0.0.0+20150630.r3444-1~deb8u+1.diff.zzdNdz
 dpkg-source: info: you can integrate the local changes with dpkg-source --commit
 dpkg-buildpackage: error: dpkg-source -b toxcore_0.0.0+20150630.r3444 gave error exit status 2

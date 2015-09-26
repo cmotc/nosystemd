@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 26 Sep 2015 14:47:46 -0400
+Source: awesome-calladuran
+Binary: awesome-calladuran
+Architecture: source all
+Version: 20150926-1
+Distribution: unstable
+Urgency: low
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ awesome-calladuran - Show all clients all screens in Awesome window manager
+Changes:
+ awesome-calladuran (20150926-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 44bd98ccc2b06d77569d2f59d60e13811fdfe344 940 awesome-calladuran_20150926-1.dsc
+ 092cc2cede574bdfb4fa19e9206c8c8bf2f93b08 1060080 awesome-calladuran_20150926.orig.tar.xz
+ cb9080057545240c42f2091eb996ff23b95ca8db 2328 awesome-calladuran_20150926-1.debian.tar.xz
+ f5da04e4c11e5d4d4c97be30f9c6a2c7313aeee9 7834 awesome-calladuran_20150926-1_all.deb
+Checksums-Sha256:
+ ecf2e2baa90ad999f7418179bbec4588855bcc38236c463bcf93d3988620430d 940 awesome-calladuran_20150926-1.dsc
+ 981dc4db23826b48e379771ca576152c235ca37745c1fb1b86dc32d991614efd 1060080 awesome-calladuran_20150926.orig.tar.xz
+ f76bddc7e0add11007297fd83256aec7660166578a0ce9dcfd9b9de60d36d50b 2328 awesome-calladuran_20150926-1.debian.tar.xz
+ bde11501e3cc940886686e9ef09899db97fa058496a7d3f62f6dba451c82d9ea 7834 awesome-calladuran_20150926-1_all.deb
+Files:
+ f461126a07da2af70575e7334eb0975c 940 unknown optional awesome-calladuran_20150926-1.dsc
+ fdfa4ac76a8d719527bfd98a6207b1b2 1060080 unknown optional awesome-calladuran_20150926.orig.tar.xz
+ 914bbea5ad193d26592dab651cb8ced3 2328 unknown optional awesome-calladuran_20150926-1.debian.tar.xz
+ 96d60c86669c0f222fdc049d42a17e3f 7834 unknown optional awesome-calladuran_20150926-1_all.deb
