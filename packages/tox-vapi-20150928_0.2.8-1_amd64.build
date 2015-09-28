@@ -1,0 +1,62 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package tox-vapi-20150928
+dpkg-buildpackage: source version 0.2.8-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by dyngar <dyngar@dyngar.local>
+ dpkg-source --before-build tox-vapi-20150928-0.2.8
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b tox-vapi-20150928-0.2.8
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building tox-vapi-20150928 using existing ./tox-vapi-20150928_0.2.8.orig.tar.xz
+dpkg-source: info: building tox-vapi-20150928 in tox-vapi-20150928_0.2.8-1.debian.tar.xz
+dpkg-source: info: building tox-vapi-20150928 in tox-vapi-20150928_0.2.8-1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `tox-vapi-20150928' in `../tox-vapi-20150928_0.2.8-1_all.deb'.
+ dpkg-genchanges  >../tox-vapi-20150928_0.2.8-1_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build tox-vapi-20150928-0.2.8
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+W: tox-vapi-20150928 source: dh-make-template-in-source debian/tox-vapi-20150928.doc-base.EX
+W: tox-vapi-20150928 source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: tox-vapi-20150928 source: bad-homepage <insert the upstream URL, if relevant>
+W: tox-vapi-20150928 source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 5)
+W: tox-vapi-20150928 source: out-of-date-standards-version 3.9.5 (current is 3.9.6)
+W: tox-vapi-20150928: wrong-bug-number-in-closes l3:#nnnn
+W: tox-vapi-20150928: new-package-should-close-itp-bug
+E: tox-vapi-20150928: changelog-is-dh_make-template
+E: tox-vapi-20150928: helper-templates-in-copyright
+W: tox-vapi-20150928: copyright-has-url-from-dh_make-boilerplate
+E: tox-vapi-20150928: copyright-contains-dh_make-todo-boilerplate
+W: tox-vapi-20150928: readme-debian-contains-debmake-template
+E: tox-vapi-20150928: description-is-dh_make-template
+E: tox-vapi-20150928: section-is-dh_make-template
+W: tox-vapi-20150928: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: tox-vapi-20150928: bad-homepage <insert the upstream URL, if relevant>
+Finished running lintian.

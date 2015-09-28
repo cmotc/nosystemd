@@ -1,0 +1,80 @@
+Format: 1.8
+Date: Thu, 02 Jul 2015 22:18:08 +0000
+Source: toxcore
+Binary: libtox-dev tox-bootstrapd libtoxcore0 libtoxcore-dbg libtoxcore-dev libtoxav0 libtoxav-dbg libtoxav-dev libtoxdns0 libtoxdns-dbg libtoxdns-dev libtoxencryptsave0 libtoxencryptsave-dbg libtoxencryptsave-dev
+Architecture: source amd64
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Distribution: stable
+Urgency: medium
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Changed-By: Kill Your TV <killyourtv@i2pmail.org>
+Description:
+ libtox-dev - distributed, secure messenger with a/v support - development head
+ libtoxav-dbg - distributed, secure messenger w/ a/v support - debugging symbols
+ libtoxav-dev - distributed, secure messenger w/ a/v support - development header
+ libtoxav0  - distributed, secure messenger w/ a/v support - runtime files
+ libtoxcore-dbg - distributed, secure messenger with a/v support - debugging symbol
+ libtoxcore-dev - distributed, secure messenger w/ a/v support - development header
+ libtoxcore0 - distributed, secure messenger with a/v support - runtime library
+ libtoxdns-dbg - distributed, secure messenger w/ a/v support - debugging symbols
+ libtoxdns-dev - distributed, secure messenger w/ a/v support - development header
+ libtoxdns0 - distributed, secure messenger w/ a/v support - runtime files
+ libtoxencryptsave-dbg - distributed, secure messenger w/ a/v support - debugging symbols
+ libtoxencryptsave-dev - distributed, secure messenger w/ a/v support - development header
+ libtoxencryptsave0 - distributed, secure messenger w/ a/v support - runtime files
+ tox-bootstrapd - distributed, secure messenger with a/v support - daemon
+Changes:
+ toxcore (0.0.0+20150630.r3444-1~deb8u+1) stable; urgency=medium
+ .
+   * Backport to Jessie
+Checksums-Sha1:
+ 4fadd935e8bb277bdc76b048a7bd28b05a064bef 1841 toxcore_0.0.0+20150630.r3444-1~deb8u+1.dsc
+ c340524034f6e3cdd8b7a986686ba75ceafddf5f 257584 toxcore_0.0.0+20150630.r3444-1~deb8u+1.debian.tar.xz
+ e7ea657d1e7f55641260e75fb46182cefeedd3f9 8901388 libtox-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ f4595e19129302c4ccd4b379fc802f0a80dd13d8 28302 tox-bootstrapd_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 9e093838aea3d62a1a38433c6c77ee3870c112a3 111128 libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ f1c6a293ab8e554793031a0c3c59f635e415c038 289164 libtoxcore-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 060920ffe0a325d4b8364cd9608ba44dfad9324d 392416 libtoxcore-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 68ddc88bc6692b5a766023dce59643d540a55f1b 18552 libtoxav0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ cca899980372145ab41f711b6f3a2ecf91885dab 72066 libtoxav-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 80f4b904e171fb9d6ad01b4bf18619178262673e 5074 libtoxav-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 0b09673ea2369746db1df0ea00700fd70fe1e893 4260 libtoxdns0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 58b59f23e6fa4b9d911ba3018b0ac7736ab8d880 6790 libtoxdns-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 882cc598823af6a4985608333c915cacbb93aad6 9058 libtoxdns-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 5220ad4df04d674085ac5d02271ca836f6988730 4560 libtoxencryptsave0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 499609433d90c5134cb3ca915e783d334bcb16fa 7458 libtoxencryptsave-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 90e1d6fd5fd73ab314251c7880f62e7335902cc5 4536 libtoxencryptsave-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Checksums-Sha256:
+ 27a57890bbf5bfe8350be20122db1d15ee934de480e3f7128935d8fb79beed89 1841 toxcore_0.0.0+20150630.r3444-1~deb8u+1.dsc
+ 7e839cc4702d603ef371ded5b2414c0026fe997702b0f0be91f8f2053742713f 257584 toxcore_0.0.0+20150630.r3444-1~deb8u+1.debian.tar.xz
+ f0b7f329f14f7b5d5210082bed0357d1b431f01b431bc6ebb2dfdb18aed08fa4 8901388 libtox-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 7723dc7143ba9040818aa301866a09da968b5fc1c789d013b16f55d03c28feee 28302 tox-bootstrapd_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 74f013d58ee85c615908a8827fbc83d917f894401efac74b93e33e8fc085a59f 111128 libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ f4904defb78bf27a2a4c9854844f2210e862488932724eb2270ca113bc5e77e3 289164 libtoxcore-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 5237331856720f9d9bcf1afe5fa22ea35b06704a1e73d84edb088d5115a9d2c6 392416 libtoxcore-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 633cba7df7b2917b9dfbca8ab3731d56a5e8bd9b74260cc13587a0e61b84dea7 18552 libtoxav0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ e921dc75038133fb1b60e5351628695de8a3487cc133896ce55f258e9d8ee80c 72066 libtoxav-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 590374bb37f9a15356e0cdd0b7d8e3c9966848e1388498e9ab83be067d504245 5074 libtoxav-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 40afe154f4bd024311b76c2d704e8731ea9a743d0f6d6d531db9888c792ea120 4260 libtoxdns0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 83e0355f8fc795aff78fb74d64a71da028e9fa721ae49cb00209ccb05775589f 6790 libtoxdns-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 275ee99343475d658d7476c8c44c7707ce6b33e4d16f32e0bbfe0433779a5d35 9058 libtoxdns-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 27a69f4f5ce4dc16822bd2014ae745ea54c2e4f9e3a7bf9f91d42d03b8ba4960 4560 libtoxencryptsave0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ f476e3283c80fca4b662279b28a6c40de4299ae51f8fb405981c8c1cdf758bc8 7458 libtoxencryptsave-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ ae263b03754cb3af2297906be9f91966a5b091b3690ac1a607f7350a8132bdd1 4536 libtoxencryptsave-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Files:
+ 781c86d1ac7af105591bcb3c350e66b7 1841 net extra toxcore_0.0.0+20150630.r3444-1~deb8u+1.dsc
+ 64c0e121e86ba0fd22f0ff0aa1d1e8e9 257584 net extra toxcore_0.0.0+20150630.r3444-1~deb8u+1.debian.tar.xz
+ a8d1ccdb35582271c86a8a1790244dda 8901388 libdevel extra libtox-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 149ca3ae16ae13d264697ab2622fe55d 28302 net extra tox-bootstrapd_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ b0bcdc9ec5493c63e008b2b8b0009e36 111128 net extra libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ d4b318b920936e648a7bea2787cc125b 289164 debug extra libtoxcore-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 53e28f9858a4d373b771ef2faf66f777 392416 libdevel extra libtoxcore-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ e2dedb31a4330cf94fd4ea906d020fbc 18552 net extra libtoxav0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 84e8e885bcfa9b014cbaa68766926bab 72066 debug extra libtoxav-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 18a836c0dd7c895a3db679ddc1ceabf2 5074 libdevel extra libtoxav-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ f54d51f1bf4fea6679ed94f6a6b5877b 4260 net extra libtoxdns0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ c1dec55b881a67dd23ee3ba862943e6d 6790 debug extra libtoxdns-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ dd6c006ac20c9f84c5e92925bc982afb 9058 libdevel extra libtoxdns-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ bb9163915b050895adf7b0abbeefd6e3 4560 net extra libtoxencryptsave0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 920f85804c7ad5f337b497831338d2ec 7458 debug extra libtoxencryptsave-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+ 6e632b0a7ca8f0dcb1cf8963b2c95c13 4536 libdevel extra libtoxencryptsave-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb

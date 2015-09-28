@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 28 Sep 2015 17:16:47 -0400
+Source: toxbot
+Binary: toxbot
+Architecture: source all
+Version: 20150928-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ toxbot     - <insert up to 60 chars description>
+Changes:
+ toxbot (20150928-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 0b2be403f884b2eac40723a0eb23402746eb9a2e 834 toxbot_20150928-1.dsc
+ a73d5bc4ee234316125527e7ecf9aff7b69fbfcc 72220148 toxbot_20150928.orig.tar.xz
+ 181e4a0b2ba63ee1748105ff102a96b761b9a8fb 2448 toxbot_20150928-1.debian.tar.xz
+ 27d91adf39acbec08342e112640be522c5ba3074 24574 toxbot_20150928-1_all.deb
+Checksums-Sha256:
+ a83e1c6833856b35f4e859a1d271a16e9cbd5f5d18c5af8a881df162d91c9c68 834 toxbot_20150928-1.dsc
+ 5d02474ce141f1fc3f9575ff1f3c25da065e0aaec67c78f30ca547d03e0fcbe3 72220148 toxbot_20150928.orig.tar.xz
+ 6104e7693a0d7bb9b1feb7db7c8e9751af2601db875b898ecab1b8b24bd9fe7e 2448 toxbot_20150928-1.debian.tar.xz
+ 9f4f51465821554282e8a07af886fb493c741f271aec37e6e9396a65f213ba6e 24574 toxbot_20150928-1_all.deb
+Files:
+ 026abd7a6a3ea482ca367f9b984382ff 834 unknown optional toxbot_20150928-1.dsc
+ 9b554285d70cdf85868e5c1b184229f1 72220148 unknown optional toxbot_20150928.orig.tar.xz
+ df9b9d38e70c5def07217a4feb3d9899 2448 unknown optional toxbot_20150928-1.debian.tar.xz
+ a91fbebe3b29cedaeeb0a7129b0af233 24574 unknown optional toxbot_20150928-1_all.deb

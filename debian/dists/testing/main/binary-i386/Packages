@@ -1,38 +1,38 @@
 Package: apt-git
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: dyngar <dyngar@dyngar.local>
 Installed-Size: 35
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/a/apt-git/apt-git_20150926-1_all.deb
-Size: 4054
-SHA256: bd4fdd9157e16100c981058e48c8aef5dc2b7bd22108c92ab6a23f48f3d13ec7
-SHA1: bb68594c58ee67b5a5fb962014b1980385055886
-MD5sum: 075547d5daa282106d680d0627072b27
+Filename: pool/main/a/apt-git/apt-git_20150928-1_all.deb
+Size: 4056
+SHA256: cec69774d6e8219c52929bc49fcbd47546d85b6fd283761bbbcee7d461e9c1f7
+SHA1: 95808034503a49191cf41750e4c57532c387531a
+MD5sum: 3174a34c417649e0bfb7cdbc2a959818
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: awesome-calladuran
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: cmotc <cmotc@openmailbox.org>
-Installed-Size: 56
+Installed-Size: 76
 Depends: awesome (>= 3.5)
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/a/awesome-calladuran/awesome-calladuran_20150926-1_all.deb
-Size: 7834
-SHA256: bde11501e3cc940886686e9ef09899db97fa058496a7d3f62f6dba451c82d9ea
-SHA1: f5da04e4c11e5d4d4c97be30f9c6a2c7313aeee9
-MD5sum: 96d60c86669c0f222fdc049d42a17e3f
+Filename: pool/main/a/awesome-calladuran/awesome-calladuran_20150928-1_all.deb
+Size: 7952
+SHA256: 28cc65819fc0c06d74e7031ecfb7dfc5f36e05401f42d39d3ad0044d2e6e9dfe
+SHA1: 5ad71746adf38e6aabd4d459abe73c3dfdb97484
+MD5sum: 0cbe0e2d5d96050cadca6790d507ce06
 Description: Show all clients all screens in Awesome window manager
  Displays all clients on all screens at once in Awesome Window Manager.
 
 Package: awesome-lightdm-session
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: dyngar-m <dyngar-m@dyngar.local>
 Installed-Size: 43
@@ -40,32 +40,32 @@ Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4)
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/a/awesome-lightdm-session/awesome-lightdm-session_20150926-1_all.deb
-Size: 2800
-SHA256: 0060e42d70468976f5a6a9b6f653c87cf6c3110e19939e641d31c58fe1b43a5e
-SHA1: c7c9864c68e260fa000764117ead33dd7286d773
-MD5sum: 488c288be84a729c56a6bfd118ba6287
+Filename: pool/main/a/awesome-lightdm-session/awesome-lightdm-session_20150928-1_all.deb
+Size: 2796
+SHA256: f389549373f8a58b8aa6d6d12301d58f1e89e02f294d09706fc2e629dae6600b
+SHA1: 6f0ae2c0a79e59f87d4346d4bd7ec62c9b73f184
+MD5sum: 6fb594cc0071d3eda59366006767445c
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: conky-switcher
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: dyngar <dyngar@dyngar.local>
 Installed-Size: 34
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/c/conky-switcher/conky-switcher_20150926-1_all.deb
-Size: 3294
-SHA256: 4ad7475d2d316365c67605a3d55ce8f6c3dcb79267537d6c465e1dd18759811f
-SHA1: fb9da31cf863077acc48946617f07c8d56ce9e9a
-MD5sum: 094870317005af0773aa3c9b92e25a18
+Filename: pool/main/c/conky-switcher/conky-switcher_20150928-1_all.deb
+Size: 3302
+SHA256: bd12fddfe2393677d8c755bb9f19729fbc252a62f23683a8b04f34379ff6f181
+SHA1: a1892a391cf24343e53e3da707591f8381d113ec
+MD5sum: 2373b599ac5694be1c56723430a14f72
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: gnome-awesome-session
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: dyngar-m <dyngar-m@dyngar.local>
 Installed-Size: 47
@@ -73,60 +73,60 @@ Depends: gnome-session (>= 3.0), awesome (>= 3.4)
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/g/gnome-awesome-session/gnome-awesome-session_20150926-1_all.deb
-Size: 3144
-SHA256: 93afcbe305bb93f7e44726fc1115cc18ae3dc2deb4363f1614e6c017b70e6a1a
-SHA1: 0f1a450ecaa171c635411cc038830be696ebfb7e
-MD5sum: 4bb932d74038dd16c49e003761cda230
+Filename: pool/main/g/gnome-awesome-session/gnome-awesome-session_20150928-1_all.deb
+Size: 3122
+SHA256: 4bb1c6dec76f03d8cd27a7baa82bcb543ca809fa5cb13c373ae718304d11d7b7
+SHA1: 690a14727a3022efa640cee09f7b7fc01cc68910
+MD5sum: 6e5718d20a6efd83af7b0d4fe682c22b
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: hidblock
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: dyngar <dyngar@dyngar.local>
 Installed-Size: 34
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/h/hidblock/hidblock_20150926-1_all.deb
-Size: 3512
-SHA256: 7d64bb4cb9e430e0d266f519c517b4d5532ec95e721b7a3e7bde9749d2616b21
-SHA1: db4c0eb130805db14003008e323c6bb0d6f94af1
-MD5sum: cdf8bd28b6df7bcf3be933b6f785c44e
+Filename: pool/main/h/hidblock/hidblock_20150928-1_all.deb
+Size: 3516
+SHA256: 76306ba93cb49cb4002c44ad8d359a3695a5ebbf9483b70b33eec82e8994e69b
+SHA1: 174a25f37c100f396e7c97eb223c24da75750b03
+MD5sum: 9a9f5fe6bfe1591550ef1fa4b387db1e
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: mousepad-tab
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: dyngar <dyngar@dyngar.local>
 Installed-Size: 31
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/m/mousepad-tab/mousepad-tab_20150926-1_all.deb
-Size: 2604
-SHA256: 2ae333c95ac6730599aa345e2944c08a05334bfae15718ff170a343863b2768e
-SHA1: da61b037ddd1fe2ad4546b8b6542f932e2199f7a
-MD5sum: e38bc3f3d520f5974b2ddbb159784e9f
+Filename: pool/main/m/mousepad-tab/mousepad-tab_20150928-1_all.deb
+Size: 2618
+SHA256: 37a606e7f4a1fe4a1892b2901517e8855038e0a909d48bfcfc569b616ef45350
+SHA1: f69779fc7feb6a2960b8303e554d1f88abf41a51
+MD5sum: 8c1fcb53557957010062982f50c6dbde
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: svirfneblin-panel
-Version: 20150926-1
+Version: 20150928-1
 Architecture: all
 Maintainer: cmotc <cmotc@openmailbox.org>
-Installed-Size: 84
-Depends: lightdm (>= 1.0), lighdm-gtk-greeter, awesome (>= 3.4), compton
+Installed-Size: 87
+Depends: lightdm, lighdm-gtk-greeter, awesome (>= 3.4)
 Homepage: https://www.github.com/svirfneblin-panel
 Priority: optional
 Section: unknown
-Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150926-1_all.deb
-Size: 7120
-SHA256: 34929017fe4638161213d5b348c1a84cb0783dcb1423dc2fb10541d1ef4ceb64
-SHA1: 98b15855d83a73de7e84e519ae17c136e23a5360
-MD5sum: de7795ac3e37fa54116b60b1d2d60d42
+Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150928-1_all.deb
+Size: 7636
+SHA256: aa6f1ed53901274167bfb7dae52c4964f7cce6ffb8e47662796c375ba67ce119
+SHA1: b8d7632e46a9192994dc3736d6c289dd3ee4d59a
+MD5sum: 810871dae7dade1480072449ed1e800d
 Description: A Gnome3-Like configuration for Awesome WM
  I like Gnome3's appearance, but I want tiling and I hate ShellShape,
  and I don't think I really need  all these graphical configuration
@@ -140,7 +140,7 @@ Description: A Gnome3-Like configuration for Awesome WM
  which checks for the correct config without touching the default
  Awesome WM config for Debian, which is treated as a fallback.
 
-Package: tox-vapi-20150926
+Package: tox-vapi-20150928
 Version: 0.2.8-1
 Architecture: all
 Maintainer: dyngar <dyngar@dyngar.local>
@@ -148,27 +148,27 @@ Installed-Size: 119
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/t/tox-vapi-20150926/tox-vapi-20150926_0.2.8-1_all.deb
-Size: 17866
-SHA256: 9eaa1ac263cc37d0d484e6958c3ac00512b7744268a3ccb2bac14ca7cc763597
-SHA1: 091871b93ba939dcb43c38794c41833e86f9d49d
-MD5sum: 72055b6e3a083a83f86534c0e642e370
+Filename: pool/main/t/tox-vapi-20150928/tox-vapi-20150928_0.2.8-1_all.deb
+Size: 17868
+SHA256: 7d3f75a6a945a0f3b11db5134a25adbab735dc712db676dab1c4c2c92ab5a357
+SHA1: a09165e5f4e9d022803f09801f6c74d4f7bb1edc
+MD5sum: dede6011d3f35d001448b61f3e0a1a60
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: toxbot
-Version: 0.1-1
+Version: 20150928-1
 Architecture: all
 Maintainer: dyngar <dyngar@dyngar.local>
 Installed-Size: 99
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/t/toxbot/toxbot_0.1-1_all.deb
-Size: 24560
-SHA256: 68ef8596dae1b002b3eda8ad2c53a4da233afd82b5134fea5ac19c12b9915eda
-SHA1: b31273014dbcca998e8bee003284787ef65e8601
-MD5sum: 65bac5dc62c84c8c752ccba05740807a
+Filename: pool/main/t/toxbot/toxbot_20150928-1_all.deb
+Size: 24574
+SHA256: 9f4f51465821554282e8a07af886fb493c741f271aec37e6e9396a65f213ba6e
+SHA1: 27d91adf39acbec08342e112640be522c5ba3074
+MD5sum: a91fbebe3b29cedaeeb0a7129b0af233
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
