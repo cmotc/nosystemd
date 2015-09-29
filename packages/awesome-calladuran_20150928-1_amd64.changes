@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 28 Sep 2015 16:06:39 -0400
+Date: Mon, 28 Sep 2015 20:35:43 -0400
 Source: awesome-calladuran
 Binary: awesome-calladuran
 Architecture: source all
@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 23453e3b1639952f1647f7c648f0320fa387b5b7 940 awesome-calladuran_20150928-1.dsc
- aa41e7b3135d36987d7ec54806e3d589fbc810d0 1060128 awesome-calladuran_20150928.orig.tar.xz
- 65bfa39ee7295315cc020d18df81d5b650e3927b 2340 awesome-calladuran_20150928-1.debian.tar.xz
- 5ad71746adf38e6aabd4d459abe73c3dfdb97484 7952 awesome-calladuran_20150928-1_all.deb
+ 8efb0bd9e7755762df33f224e1df5b90af24d4d4 940 awesome-calladuran_20150928-1.dsc
+ 3603595b39900ac974ded9894e63220902fc22ad 1060136 awesome-calladuran_20150928.orig.tar.xz
+ 1f5e428a3c5df247d8115941d1c01b20ab7392c2 2344 awesome-calladuran_20150928-1.debian.tar.xz
+ 11e59ac0779185227f6b459bca46cc18b6d3777c 7948 awesome-calladuran_20150928-1_all.deb
 Checksums-Sha256:
- 67e555d7caf547d2ac8f612ca4d0a29c822fcd2a1d94a7b4e007b103dbf39217 940 awesome-calladuran_20150928-1.dsc
- a89c34bf49fea4bfe9d49ba0399f2cc377bd754e359140a282124068b8001411 1060128 awesome-calladuran_20150928.orig.tar.xz
- 97754004158d5ae6418799bcb11e1ec278316cd246408ab723da11babfa0aede 2340 awesome-calladuran_20150928-1.debian.tar.xz
- 28cc65819fc0c06d74e7031ecfb7dfc5f36e05401f42d39d3ad0044d2e6e9dfe 7952 awesome-calladuran_20150928-1_all.deb
+ dba5d29cb5179dbaf2a6a4fde67c65f1f371340799a285825a26a63600343654 940 awesome-calladuran_20150928-1.dsc
+ dbf9f85f629fdc3937a7a3ee542ad7873718a87da87d7ca466cb8db08eb47938 1060136 awesome-calladuran_20150928.orig.tar.xz
+ a8c25fafa49156b45e5c8ddab85e953a9e212902b628dc13f41f8ca3994f0928 2344 awesome-calladuran_20150928-1.debian.tar.xz
+ d0ae09590b65f0c3ab2cc95d25403f9dc6f0c33013c543c7e43fcf29ea4332d0 7948 awesome-calladuran_20150928-1_all.deb
 Files:
- d72ffa65d8e17c32aa1bb440bfba3e72 940 unknown optional awesome-calladuran_20150928-1.dsc
- 3b0484b0be7d9a4bd21193e8e15bbdb4 1060128 unknown optional awesome-calladuran_20150928.orig.tar.xz
- d2890cd83010b06923a04baa2d01af4d 2340 unknown optional awesome-calladuran_20150928-1.debian.tar.xz
- 0cbe0e2d5d96050cadca6790d507ce06 7952 unknown optional awesome-calladuran_20150928-1_all.deb
+ 9b6bd6e6f8b0115347e7c785dfad86b8 940 unknown optional awesome-calladuran_20150928-1.dsc
+ 0286e361cb28c1b747939c972012a74c 1060136 unknown optional awesome-calladuran_20150928.orig.tar.xz
+ 231b954d277a201e868085af41728acf 2344 unknown optional awesome-calladuran_20150928-1.debian.tar.xz
+ ccb5ba5ff0dab36bcd79c649eeb6e275 7948 unknown optional awesome-calladuran_20150928-1_all.deb

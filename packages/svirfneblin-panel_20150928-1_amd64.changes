@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 28 Sep 2015 17:14:07 -0400
+Date: Mon, 28 Sep 2015 20:39:44 -0400
 Source: svirfneblin-panel
 Binary: svirfneblin-panel
 Architecture: source all
@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 975e2668f7c47100b0d7c4c7d9c2a3b82badb419 927 svirfneblin-panel_20150928-1.dsc
- d41280ea5fc0b599ea67817d39b0df7815d3e150 34500 svirfneblin-panel_20150928.orig.tar.xz
- 71a2d3227a065b1c82fe13800109f37d468d499f 2672 svirfneblin-panel_20150928-1.debian.tar.xz
- b8d7632e46a9192994dc3736d6c289dd3ee4d59a 7636 svirfneblin-panel_20150928-1_all.deb
+ ddd46a9e2fc10a4fbd4f8ba63fe1a0f2f835f86b 927 svirfneblin-panel_20150928-1.dsc
+ d76562f1eebe7f17f8cb72c11399d471039a8fc9 43144 svirfneblin-panel_20150928.orig.tar.xz
+ 3e35a5207842ac4918487b299b847bdbfaca9006 2672 svirfneblin-panel_20150928-1.debian.tar.xz
+ 37e6adc39dc3f2012a327678cae695de89111e2e 7632 svirfneblin-panel_20150928-1_all.deb
 Checksums-Sha256:
- 7cdc06e71ec3ff58943086bb0adeaf2e0aea0ee2f639b6ced904fa7763262ee2 927 svirfneblin-panel_20150928-1.dsc
- b6ae64131f9e22f60b69c4ab5ff0be6510c3c7d158770c7905204fdb263b482c 34500 svirfneblin-panel_20150928.orig.tar.xz
- 9635775bd6ad0c3b38f3c36d74dd9526c38a0df4967bbb653c347a439f2c115f 2672 svirfneblin-panel_20150928-1.debian.tar.xz
- aa6f1ed53901274167bfb7dae52c4964f7cce6ffb8e47662796c375ba67ce119 7636 svirfneblin-panel_20150928-1_all.deb
+ e4e43027bb4d5f1a2a744dd1e287fea15c37795bbc9191c9805263104eb1cea3 927 svirfneblin-panel_20150928-1.dsc
+ 8b4812c4a27216c04ca4e4d65e72a6a5f8cfaf3a70a8a9813ffc843f9231d2fc 43144 svirfneblin-panel_20150928.orig.tar.xz
+ 6882eac802d9b21d06a1c4b9eaabe695fe56015e8c47091c75c676b6d98228e9 2672 svirfneblin-panel_20150928-1.debian.tar.xz
+ 48b421d6d7574ebc64e78e321ba6d26122eee24b248b0accf9b1617d2b6ed5c2 7632 svirfneblin-panel_20150928-1_all.deb
 Files:
- eb256f2983792d300760fffbca19a290 927 unknown optional svirfneblin-panel_20150928-1.dsc
- ad5c9587251aa4c3df0a281e34a5cccb 34500 unknown optional svirfneblin-panel_20150928.orig.tar.xz
- e3d3f0c03290669ae113d98842f8c840 2672 unknown optional svirfneblin-panel_20150928-1.debian.tar.xz
- 810871dae7dade1480072449ed1e800d 7636 unknown optional svirfneblin-panel_20150928-1_all.deb
+ d742709bfd6b135eaeb6de58dcc36dbf 927 unknown optional svirfneblin-panel_20150928-1.dsc
+ 37a2e6b2e99d1d136eb8595b9cf34595 43144 unknown optional svirfneblin-panel_20150928.orig.tar.xz
+ d03772312ac6f623252b13cff00762dc 2672 unknown optional svirfneblin-panel_20150928-1.debian.tar.xz
+ ed6e66666661b80b91587c9bcafa25be 7632 unknown optional svirfneblin-panel_20150928-1_all.deb

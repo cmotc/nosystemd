@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  awesome-lightdm-session deb unknown optional arch=all
 Checksums-Sha1:
- 405ffb8e9fdefc8dccbb66b7ee5f94af810c4c71 15324 awesome-lightdm-session_20150928.orig.tar.xz
- 59a6f99e3e57779914f70368f16260459db1d271 2356 awesome-lightdm-session_20150928-1.debian.tar.xz
+ 486d7ca8754a6bab6f329a1cdaa4c38d42d7b943 15324 awesome-lightdm-session_20150928.orig.tar.xz
+ b46c8907200256c9b2b997fcb02814e95b721807 2356 awesome-lightdm-session_20150928-1.debian.tar.xz
 Checksums-Sha256:
- d1ec5fe5cb2cab277b62e71cc84d3e0b5889977e950f3525091783bcbb6e3ce7 15324 awesome-lightdm-session_20150928.orig.tar.xz
- 0ce97ae97a61d2e2880f0182af5d6f6dc486c2df1175a3322e14565e11799a2c 2356 awesome-lightdm-session_20150928-1.debian.tar.xz
+ 0a1d6ad5002ea6c37bddf3b4347fba4c8d75c9a6273be2faa801c0dceef642f9 15324 awesome-lightdm-session_20150928.orig.tar.xz
+ 2898de23aa9f0c56ccf7f5691eea0ec60e83c6717043c6d295e625c27dc13f00 2356 awesome-lightdm-session_20150928-1.debian.tar.xz
 Files:
- f1a7b833a7a0c2e684ed99cb647793d8 15324 awesome-lightdm-session_20150928.orig.tar.xz
- 143169af236fe8814bd97c9fe1434e4a 2356 awesome-lightdm-session_20150928-1.debian.tar.xz
+ 57eb5a5ddc5681b7a3fb758057ebb852 15324 awesome-lightdm-session_20150928.orig.tar.xz
+ ac7d1cd4a311a1f9cca02184e9d60570 2356 awesome-lightdm-session_20150928-1.debian.tar.xz
