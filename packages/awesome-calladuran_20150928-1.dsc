@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  awesome-calladuran deb unknown optional arch=all
 Checksums-Sha1:
- 3603595b39900ac974ded9894e63220902fc22ad 1060136 awesome-calladuran_20150928.orig.tar.xz
- 1f5e428a3c5df247d8115941d1c01b20ab7392c2 2344 awesome-calladuran_20150928-1.debian.tar.xz
+ 74906460a71f0c0886bea14651841a7ef8226498 1060132 awesome-calladuran_20150928.orig.tar.xz
+ 7810c944bf150fd448b087d5c4f00b75988a58f1 2348 awesome-calladuran_20150928-1.debian.tar.xz
 Checksums-Sha256:
- dbf9f85f629fdc3937a7a3ee542ad7873718a87da87d7ca466cb8db08eb47938 1060136 awesome-calladuran_20150928.orig.tar.xz
- a8c25fafa49156b45e5c8ddab85e953a9e212902b628dc13f41f8ca3994f0928 2344 awesome-calladuran_20150928-1.debian.tar.xz
+ 128b1c354dce8b394d347f5f6a44804ea48c4e10e615835baede8b8753350959 1060132 awesome-calladuran_20150928.orig.tar.xz
+ bc6bb3f4ae0a697d8c3f1bcb9d149656bf4a8edbaeb64c62d4f97baa1332494d 2348 awesome-calladuran_20150928-1.debian.tar.xz
 Files:
- 0286e361cb28c1b747939c972012a74c 1060136 awesome-calladuran_20150928.orig.tar.xz
- 231b954d277a201e868085af41728acf 2344 awesome-calladuran_20150928-1.debian.tar.xz
+ 1ccbb5eaf3d2d4f2944bb164795d8e80 1060132 awesome-calladuran_20150928.orig.tar.xz
+ def0f939d60cab806b20c5565ca3568b 2348 awesome-calladuran_20150928-1.debian.tar.xz

@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  gnome-awesome-session deb unknown optional arch=all
 Checksums-Sha1:
- f3c879f11f617175da40ccdf58c4717f63dd6659 17660 gnome-awesome-session_20150928.orig.tar.xz
- 1bd15908f443749e0019955d5714b6f02192a62b 2672 gnome-awesome-session_20150928-1.debian.tar.xz
+ 7f7498073fd5177f461442df9b2144b40dcada70 17656 gnome-awesome-session_20150928.orig.tar.xz
+ 99ac51689d132ccb0d1225a985af14d0245d735c 2672 gnome-awesome-session_20150928-1.debian.tar.xz
 Checksums-Sha256:
- e863ecd3fc0e03ba6033c352cea7b68a5c36b5da3096798580b6e830f696dd82 17660 gnome-awesome-session_20150928.orig.tar.xz
- 13a580a96f6a4abd4cba196b2b7ded32eb7242809eafc27f826d69c9760ea6e7 2672 gnome-awesome-session_20150928-1.debian.tar.xz
+ 9787ce427b81aaa497717101119a41ea49756003df97eb90a3467fb6fe1ddb55 17656 gnome-awesome-session_20150928.orig.tar.xz
+ 39fabca160071655fd19e77b7eea2f19196238cd4f088cef3336b035d14273b1 2672 gnome-awesome-session_20150928-1.debian.tar.xz
 Files:
- 5573bc5d88a27bf52691886fc8c16e4a 17660 gnome-awesome-session_20150928.orig.tar.xz
- 98c20eab3425d24b1a3e414215089bd7 2672 gnome-awesome-session_20150928-1.debian.tar.xz
+ 5221e0a01d1196b13982cf4ce72bf0be 17656 gnome-awesome-session_20150928.orig.tar.xz
+ 724aca2b67ab4bc7736e654846dc102b 2672 gnome-awesome-session_20150928-1.debian.tar.xz

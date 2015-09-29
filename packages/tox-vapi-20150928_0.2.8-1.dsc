@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  tox-vapi-20150928 deb unknown optional arch=all
 Checksums-Sha1:
- d4cbb94eb54122ad3cb24dfa2d8737bcf79f6bc4 98716 tox-vapi-20150928_0.2.8.orig.tar.xz
- 526d6d804b381ddf446ff16440fd10762b65f944 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
+ 26b51cffb35354e28cac813c3d52a107d91bfcb0 98720 tox-vapi-20150928_0.2.8.orig.tar.xz
+ 1da1010bb4813baae7f90e8d77a4819e99dc7bd7 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
 Checksums-Sha256:
- 6e29b69b7be24b077fa0ee43c81af8a45fdc20252e75d7afb95bf821f69ca602 98716 tox-vapi-20150928_0.2.8.orig.tar.xz
- c8bab1fd074714a9d293addabbb93d91f8beaf159446210da353321fa378c85d 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
+ 9dee5b9854f435802ea670a92f5c0c950cf6d9cd9605afe9a8865bd00ac1b29e 98720 tox-vapi-20150928_0.2.8.orig.tar.xz
+ d6dbf063e1a0aa70b3d873829afe451a673782429f15a024e613ff0990b96930 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
 Files:
- dfbe99a2730baf306422ffdf91983e19 98716 tox-vapi-20150928_0.2.8.orig.tar.xz
- 613382e220299490686db4bdf37ec1cd 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
+ 31d70a12e90eb7cc54ed8a46781c5135 98720 tox-vapi-20150928_0.2.8.orig.tar.xz
+ d0c693be52bdd5f6de34d212642faed4 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz

@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 28 Sep 2015 20:38:33 -0400
+Date: Mon, 28 Sep 2015 23:03:50 -0400
 Source: hidblock
 Binary: hidblock
 Architecture: source all
@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- dfe3ee350c8a8c7c5e8d7405bd2c982a4384a9d7 840 hidblock_20150928-1.dsc
- 6b30feaf0ab92c07ab2b3a4318f55fcfe7f8fcb2 1452 hidblock_20150928.orig.tar.xz
- 70ad56e5aac35f7090c22cc969514ffb730e37f3 2448 hidblock_20150928-1.debian.tar.xz
- f196c96056e2475ab2ed1c8c4f7b78e7a3c6d0a2 3506 hidblock_20150928-1_all.deb
+ 2f4f7813c4806456525e95f5d2cc24d0c02b0907 840 hidblock_20150928-1.dsc
+ 5823d4208ee7ed7d2e1193ce780f98c16c2999ec 1452 hidblock_20150928.orig.tar.xz
+ 858359548120e371bf09c81ec0520923721fa114 2444 hidblock_20150928-1.debian.tar.xz
+ 343974140db73e03a151bac84f834e2a63675318 3512 hidblock_20150928-1_all.deb
 Checksums-Sha256:
- 815ed68854d1e48be8bc547d3b4172f2f2294a9dfa5e738a8c5650fb17987875 840 hidblock_20150928-1.dsc
- af2577e1558a492edf451138ba9418ff52f7f0888e8037e743e80db6b1c2018b 1452 hidblock_20150928.orig.tar.xz
- c5cff85ba71a0b870cbc5bcf0d3d4149a98886e905fdeeb7e4c3c0e1a00fc23c 2448 hidblock_20150928-1.debian.tar.xz
- 09c462a28cd5585c6b7797a4588e3997aa3d3c03fd314266aac3c72c3085abc5 3506 hidblock_20150928-1_all.deb
+ 60bb027467341abc6100c4851b36da17b3aff4550d54d07067f4e747953f5e55 840 hidblock_20150928-1.dsc
+ 0b92b1007a25c41b5b017a197048f19c054833c28189b9f3199400c5f9aedfd1 1452 hidblock_20150928.orig.tar.xz
+ 56efe574cdb392c92cc43bd0fd1c838a43b96360a2222f3c18f9ebb97182c470 2444 hidblock_20150928-1.debian.tar.xz
+ feb716af9e568cab016a03cb21e2c9b3a1c4de36c35e183745df2c3ae1387c9d 3512 hidblock_20150928-1_all.deb
 Files:
- a067e97d75d740170cc5906fa49feb52 840 unknown optional hidblock_20150928-1.dsc
- 6cd4ee5806050017a5bd224730dd0d22 1452 unknown optional hidblock_20150928.orig.tar.xz
- 3658ea6f53ae6f65c63c0a2a11eeae11 2448 unknown optional hidblock_20150928-1.debian.tar.xz
- 8d874ead1785bfaf134303ba78e7c45b 3506 unknown optional hidblock_20150928-1_all.deb
+ ba4212874ffac2d6dd057689bf54a5b6 840 unknown optional hidblock_20150928-1.dsc
+ d94808c87c56c1f4dced52751f3cd91d 1452 unknown optional hidblock_20150928.orig.tar.xz
+ 44e369efefd8805ea4bb2dd8ee5998a3 2444 unknown optional hidblock_20150928-1.debian.tar.xz
+ f50893b6bdf9a81010dc1d72cfaf11ba 3512 unknown optional hidblock_20150928-1_all.deb

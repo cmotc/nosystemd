@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  apt-git deb unknown optional arch=all
 Checksums-Sha1:
- 69e4915f35dda29fd3375104fd8ce733759ded35 2044 apt-git_20150928.orig.tar.xz
- bfe0ac456b452484628677bf9cd2e456c4796527 2436 apt-git_20150928-1.debian.tar.xz
+ c71ab15dccf96e1ffa3eef583b453c50284ffa00 2044 apt-git_20150928.orig.tar.xz
+ 9556366bd99fb3e2c2e0cffa9a233261dc95c548 2440 apt-git_20150928-1.debian.tar.xz
 Checksums-Sha256:
- 3454d4169a382a4a8b49024eac67515377f7c39ad96a0f1a80b55e262c6d1120 2044 apt-git_20150928.orig.tar.xz
- 8a528f03c8462c629c80954392f0d1353e87e40d84cc8a617733084710f3392c 2436 apt-git_20150928-1.debian.tar.xz
+ bc4880e23c6a58c6d64362c5098dcbffef291977e633b4dfb04609a6596ffc89 2044 apt-git_20150928.orig.tar.xz
+ 6cbf2c4c37886904fab9ece8adf6624719b1a6b004cee9c34a93246caafe6f83 2440 apt-git_20150928-1.debian.tar.xz
 Files:
- 4dada5c69e6843478b1079ee5756d386 2044 apt-git_20150928.orig.tar.xz
- ee8b154a49678e8daef66177c825f021 2436 apt-git_20150928-1.debian.tar.xz
+ 04ee4a0904d7be4644ac753344d605d7 2044 apt-git_20150928.orig.tar.xz
+ d3a8404efb1cffa5b5bc5bcaa9249a10 2440 apt-git_20150928-1.debian.tar.xz

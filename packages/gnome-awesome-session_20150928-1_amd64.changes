@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 28 Sep 2015 20:37:58 -0400
+Date: Mon, 28 Sep 2015 23:03:16 -0400
 Source: gnome-awesome-session
 Binary: gnome-awesome-session
 Architecture: source all
@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 7aae8cbf01af2079ffc4821627a3701cfbd1004f 964 gnome-awesome-session_20150928-1.dsc
- f3c879f11f617175da40ccdf58c4717f63dd6659 17660 gnome-awesome-session_20150928.orig.tar.xz
- 1bd15908f443749e0019955d5714b6f02192a62b 2672 gnome-awesome-session_20150928-1.debian.tar.xz
- 62c99e1850ca226e18cca0ab3241e0fc219f3d2e 3132 gnome-awesome-session_20150928-1_all.deb
+ afbb884b5b99ef9f06c49370fe7bb0d62d3a0553 964 gnome-awesome-session_20150928-1.dsc
+ 7f7498073fd5177f461442df9b2144b40dcada70 17656 gnome-awesome-session_20150928.orig.tar.xz
+ 99ac51689d132ccb0d1225a985af14d0245d735c 2672 gnome-awesome-session_20150928-1.debian.tar.xz
+ 0c6ab4c4f28ed2502b45298427f44b85f1d44693 3140 gnome-awesome-session_20150928-1_all.deb
 Checksums-Sha256:
- 6c44b28a28f18b91eda36af280d1d50992804c76b3ae3467da3ae5f6dce20386 964 gnome-awesome-session_20150928-1.dsc
- e863ecd3fc0e03ba6033c352cea7b68a5c36b5da3096798580b6e830f696dd82 17660 gnome-awesome-session_20150928.orig.tar.xz
- 13a580a96f6a4abd4cba196b2b7ded32eb7242809eafc27f826d69c9760ea6e7 2672 gnome-awesome-session_20150928-1.debian.tar.xz
- b6e0d994b78376ef52c7fea265ee68be6f7b63e3bf83c1336f8cbe0e547a22ce 3132 gnome-awesome-session_20150928-1_all.deb
+ 376bcfa3b2df03724fe96dae9cafb4d55377f2c1b260241fd085ad1e6dc258cb 964 gnome-awesome-session_20150928-1.dsc
+ 9787ce427b81aaa497717101119a41ea49756003df97eb90a3467fb6fe1ddb55 17656 gnome-awesome-session_20150928.orig.tar.xz
+ 39fabca160071655fd19e77b7eea2f19196238cd4f088cef3336b035d14273b1 2672 gnome-awesome-session_20150928-1.debian.tar.xz
+ a03635d5834a4b5848f09eb5c6d3b134a04e26d1d010d097651b2fe0b3429e00 3140 gnome-awesome-session_20150928-1_all.deb
 Files:
- 1f1e6cf91ebea4af842e4b792aff3500 964 unknown optional gnome-awesome-session_20150928-1.dsc
- 5573bc5d88a27bf52691886fc8c16e4a 17660 unknown optional gnome-awesome-session_20150928.orig.tar.xz
- 98c20eab3425d24b1a3e414215089bd7 2672 unknown optional gnome-awesome-session_20150928-1.debian.tar.xz
- 3275a467c973f98e0b581925d3344fec 3132 unknown optional gnome-awesome-session_20150928-1_all.deb
+ 189e6d7f194094fc9cf3caff52184d5c 964 unknown optional gnome-awesome-session_20150928-1.dsc
+ 5221e0a01d1196b13982cf4ce72bf0be 17656 unknown optional gnome-awesome-session_20150928.orig.tar.xz
+ 724aca2b67ab4bc7736e654846dc102b 2672 unknown optional gnome-awesome-session_20150928-1.debian.tar.xz
+ 411127ca3b5ea1d11cb69b9cc0e4b827 3140 unknown optional gnome-awesome-session_20150928-1_all.deb

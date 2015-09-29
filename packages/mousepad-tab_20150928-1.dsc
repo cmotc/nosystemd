@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  mousepad-tab deb unknown optional arch=all
 Checksums-Sha1:
- 193e7b0cd33e70a4b65e2e1ce5372eb0746b5217 8664 mousepad-tab_20150928.orig.tar.xz
- 3cb5ab2c0de045c0e19f35b594ac395adce2d046 2276 mousepad-tab_20150928-1.debian.tar.xz
+ e0d3893cf29ff679bc3fce75a41cc99d67984c79 8652 mousepad-tab_20150928.orig.tar.xz
+ e3e67f6c71367376569b0d4c67d66eb66bb65a1e 2276 mousepad-tab_20150928-1.debian.tar.xz
 Checksums-Sha256:
- f2d93abfaa62bb0af4229dfbac932dd15ab69c0ae07afb30a1e38deda8a64e39 8664 mousepad-tab_20150928.orig.tar.xz
- aa8c11089ced91cdfadb3035515d8b5747691a0b8ffd0a71370fe129b8fed680 2276 mousepad-tab_20150928-1.debian.tar.xz
+ d79832f986abf4bfe8a3c05ac8b0e9c3e1dd632d31f6e21c0e3355ac860d9eaf 8652 mousepad-tab_20150928.orig.tar.xz
+ 36369a0a93a15c20905dd11c2b9237313facb933ef18dec2070f4222a36981a4 2276 mousepad-tab_20150928-1.debian.tar.xz
 Files:
- 7028b293fa63ffa486327722544123bd 8664 mousepad-tab_20150928.orig.tar.xz
- 62f26edee1be1307626fb6b35ea174e6 2276 mousepad-tab_20150928-1.debian.tar.xz
+ 4e7f1b863fe0aa7996401a748e4d5f2c 8652 mousepad-tab_20150928.orig.tar.xz
+ 2de616deb745b58e7fb28f5b2a01b23e 2276 mousepad-tab_20150928-1.debian.tar.xz

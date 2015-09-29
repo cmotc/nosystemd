@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  svirfneblin-panel deb unknown optional arch=all
 Checksums-Sha1:
- d76562f1eebe7f17f8cb72c11399d471039a8fc9 43144 svirfneblin-panel_20150928.orig.tar.xz
- 3e35a5207842ac4918487b299b847bdbfaca9006 2672 svirfneblin-panel_20150928-1.debian.tar.xz
+ fcbbc5888b0cc041d8ac94a0f732659d5c2bba62 44920 svirfneblin-panel_20150928.orig.tar.xz
+ e8f8a66602cf2d63a3f6798c34b193283cdba939 2668 svirfneblin-panel_20150928-1.debian.tar.xz
 Checksums-Sha256:
- 8b4812c4a27216c04ca4e4d65e72a6a5f8cfaf3a70a8a9813ffc843f9231d2fc 43144 svirfneblin-panel_20150928.orig.tar.xz
- 6882eac802d9b21d06a1c4b9eaabe695fe56015e8c47091c75c676b6d98228e9 2672 svirfneblin-panel_20150928-1.debian.tar.xz
+ a01bce2fa50141a21217fef45039dc2a12a548e466263650a328f82d0a2b59b0 44920 svirfneblin-panel_20150928.orig.tar.xz
+ acce58dfb1d62a6aa1a4d39e8ca3b0aead5939a96e2d850c96875f0d13139757 2668 svirfneblin-panel_20150928-1.debian.tar.xz
 Files:
- 37a2e6b2e99d1d136eb8595b9cf34595 43144 svirfneblin-panel_20150928.orig.tar.xz
- d03772312ac6f623252b13cff00762dc 2672 svirfneblin-panel_20150928-1.debian.tar.xz
+ ef7e96411b4cee3a19bcef4866dfc801 44920 svirfneblin-panel_20150928.orig.tar.xz
+ e534d3e37bdefcd7574488aaa29dad3a 2668 svirfneblin-panel_20150928-1.debian.tar.xz

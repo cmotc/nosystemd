@@ -8,9 +8,9 @@ Priority: optional
 Section: unknown
 Filename: pool/main/a/apt-git/apt-git_20150928-1_all.deb
 Size: 4054
-SHA256: b264174595b61e37c1551b0571f52df7f7e9a9cce76c6f5281e3d157e99dcd03
-SHA1: 53b57c54d63990bc0c912f4938847de00f366a7a
-MD5sum: 0b69bd830a9a19b0ed85b99acfba7711
+SHA256: 53528960bca2c3778a276efc1840416bbc45a0a3d7dbb299d4475662dd2a65c8
+SHA1: 70081b5e75772367cd269a12c8a8895afbc88e9f
+MD5sum: c9fce7e161b3cfbe5660d21e553de60e
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -24,10 +24,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/a/awesome-calladuran/awesome-calladuran_20150928-1_all.deb
-Size: 7948
-SHA256: d0ae09590b65f0c3ab2cc95d25403f9dc6f0c33013c543c7e43fcf29ea4332d0
-SHA1: 11e59ac0779185227f6b459bca46cc18b6d3777c
-MD5sum: ccb5ba5ff0dab36bcd79c649eeb6e275
+Size: 7940
+SHA256: 0bc88a798c95e62a49a4417f233a587b6063fbeb22c84c58941233c05c73ff90
+SHA1: 8bd5f509fe0c69ea42930c59a3f820ad476cdfe1
+MD5sum: ca9a0844c616a3c2a1db2318af84e198
 Description: Show all clients all screens in Awesome window manager
  Displays all clients on all screens at once in Awesome Window Manager.
 
@@ -41,10 +41,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/a/awesome-lightdm-session/awesome-lightdm-session_20150928-1_all.deb
-Size: 2798
-SHA256: 7b7106efe215fd262df158274a8a02c7d7815feb3e0d322b8ba0500e2e4c7a8b
-SHA1: 0945fca82a5cbc98432d13544c8566998934db3e
-MD5sum: 161ffe345eefc984e9c2aa872a843dc2
+Size: 2784
+SHA256: 7059f0cc5af22b6ec84a0816ee82eeed056752770d15ca3c4c644412377cecde
+SHA1: 9d79caa12b8ef66a298e837124cd5fdd9f6ea51e
+MD5sum: 593b601b4b4597a0257aaa25e93e08ab
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -57,10 +57,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/c/conky-switcher/conky-switcher_20150928-1_all.deb
-Size: 3298
-SHA256: c2eef2325b56e4e57cb034ddd7a6780fe681d5e619cc6882ce78d1fa2d52207d
-SHA1: 89ba8da51e02bd343289374688d9955c5ff2bebc
-MD5sum: 92564e45eee203eee37717c762babc6c
+Size: 3310
+SHA256: 5732a3fe4d287d360dcf0b53986ae8d4b564b365340ca5f57917fea0e77b9ab5
+SHA1: 7b42b1644740078d1ef18b61386b8a2293d8b814
+MD5sum: 47737dc678ebfc567f8bae54f78e0986
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -74,10 +74,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/g/gnome-awesome-session/gnome-awesome-session_20150928-1_all.deb
-Size: 3132
-SHA256: b6e0d994b78376ef52c7fea265ee68be6f7b63e3bf83c1336f8cbe0e547a22ce
-SHA1: 62c99e1850ca226e18cca0ab3241e0fc219f3d2e
-MD5sum: 3275a467c973f98e0b581925d3344fec
+Size: 3140
+SHA256: a03635d5834a4b5848f09eb5c6d3b134a04e26d1d010d097651b2fe0b3429e00
+SHA1: 0c6ab4c4f28ed2502b45298427f44b85f1d44693
+MD5sum: 411127ca3b5ea1d11cb69b9cc0e4b827
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -90,12 +90,310 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/h/hidblock/hidblock_20150928-1_all.deb
-Size: 3506
-SHA256: 09c462a28cd5585c6b7797a4588e3997aa3d3c03fd314266aac3c72c3085abc5
-SHA1: f196c96056e2475ab2ed1c8c4f7b78e7a3c6d0a2
-MD5sum: 8d874ead1785bfaf134303ba78e7c45b
+Size: 3512
+SHA256: feb716af9e568cab016a03cb21e2c9b3a1c4de36c35e183745df2c3ae1387c9d
+SHA1: 343974140db73e03a151bac84f834e2a63675318
+MD5sum: f50893b6bdf9a81010dc1d72cfaf11ba
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
+
+Package: libtox-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 18033
+Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxav-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxencryptsave-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxdns-dev (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtox-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 8901538
+SHA256: 6227eab87bbc61201f2b4ae2c1c035c85996233690bcb4d81f26894638ae083b
+SHA1: d36c2bd36111fbc15037dbafdc34c193e6226c88
+MD5sum: f5ab0205520abe9004b617a911eeff70
+Description: distributed, secure messenger with a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+
+Package: libtoxav-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 116
+Depends: libtoxav0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxav-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 72058
+SHA256: 8e6be99870d90c54442315d5ecbd048727ec1ad1d59d7124445e85dc86222ad7
+SHA1: 2b563b11abc55f5c1b4e3d2615a62463a6107056
+MD5sum: 76d5be43aa6c83235dfe4ccfb5c960c7
+Description: distributed, secure messenger w/ a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxav-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 52
+Depends: libtoxav0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libvpx-dev, libopus-dev
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxav-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 5068
+SHA256: 9cd6aa9236b8a5f907b3e27c9cadfab9ef8177d58aa0a7df739637f4b2abe383
+SHA1: 92ff41f1a2cccb12d922e48cfa1b3b7ae891e25d
+MD5sum: 62c234e6557d71b0f9bdcbbbe3d34f48
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxav0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 75
+Depends: libc6 (>= 2.14), libopus0 (>= 1.1), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libvpx1 (>= 1.0.0)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxav0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 18586
+SHA256: 5275f41ba1fc394ffc7f036182ee3820679fbdc10864aeac32a6011f86e298e3
+SHA1: 2cf4ccf5029f6a24a6538b977d8ab3d83d20379d
+MD5sum: 297785ec1bcbc3b9f17a3d93b2fd753a
+Description: distributed, secure messenger w/ a/v support - runtime files
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
+
+Package: libtoxcore-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 345
+Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libsodium-dbg
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxcore-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 289160
+SHA256: 6696c06366c765c045613f9ee18d25369897be22f8c87bda03ad4055a309a30e
+SHA1: 8dee742d1697387778c7a044ed0e3d796a1d20b5
+MD5sum: 46040e975c254b4b357b9f0d61454919
+Description: distributed, secure messenger with a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxcore-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 1847
+Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libsodium-dev
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxcore-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 392452
+SHA256: 1c4dcab1841e9f3235d51fc3834ac3ef44a4c4fb2e5d4900253cefd2a688d0c9
+SHA1: 20ba9d8b68793b0832d53e498ca91a0f0948775a
+MD5sum: e542a1088ae28ac771c455140e6f6385
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxcore0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 290
+Depends: libc6 (>= 2.14), libsodium13 (>= 0.6.0)
+Breaks: pidgin-tox (<< 0.4.2+git20150324), qtox (<< 0.0.0+git20150324), qttox (<< 0.0.0+20150324), ratox (<= 0.2.1-1), tox-weechat (<< 0.1+20150324), toxic (<< 0.5.2+20150324), utox (<< 0.2.o+20150324.r1395), venom (<< 0.2.0+20150324)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 110782
+SHA256: 830164cf2fd9b48d739abbde53eee70699477c73b957b0727cefb4ba3e289614
+SHA1: 06935cbf2a960b0a023f6d903d27f54a594aedf9
+MD5sum: 8bb3f7eca4459b3e6b6ca76934f6fd30
+Description: distributed, secure messenger with a/v support - runtime library
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
+
+Package: libtoxdns-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 46
+Depends: libtoxdns0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxdns-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 6786
+SHA256: 8351e09607710055cb0e4f85c2b6bab584975ca240807f4d9e7faa3c91c78b98
+SHA1: 188ec23f731440d9e858664365b8feace8018bee
+MD5sum: 56ff92b1c53e640d1a55be3de43f360c
+Description: distributed, secure messenger w/ a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxdns-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 61
+Depends: libtoxdns0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxdns-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 9050
+SHA256: 4a07191ef50d87ec9a5ddf891fc3e5ebf610a7132cead4d53173a28aa827452b
+SHA1: 2bef5fd575624f526aeed04687cc2b28f91902ee
+MD5sum: a85a27755387ec9297433d832e7ea55b
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxdns0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 39
+Depends: libc6 (>= 2.4), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxdns0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 4254
+SHA256: ea6bf79c06d8ab0f0a8bcee2cce9dd1640d6aad1c372cc82236b0d08f40b01da
+SHA1: 32edddca8bb9d77611fd7d28bb6b48af58c530ed
+MD5sum: 69086467bb8ee74a786997ad24a9683c
+Description: distributed, secure messenger w/ a/v support - runtime files
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
+
+Package: libtoxencryptsave-dbg
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 47
+Depends: libtoxencryptsave0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: debug
+Filename: pool/main/t/toxcore/libtoxencryptsave-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 7452
+SHA256: 7cb0132598f698c1caf5a8249f5b81af1bfcd5dca19a26cda519cd8206a93b49
+SHA1: f9a812cfaa2f36cfd6013b34d57e73c32fdff21e
+MD5sum: 6bcb17c7b92419db1382534959d36870
+Description: distributed, secure messenger w/ a/v support - debugging symbols
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the debugging symbols.
+
+Package: libtoxencryptsave-dev
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 46
+Depends: libtoxencryptsave0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: libdevel
+Filename: pool/main/t/toxcore/libtoxencryptsave-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 4532
+SHA256: f378179b1dd074f4143cce588fdf46ec580ae4216d1558c398c1ec0288d98eb0
+SHA1: d20acd848d137ec9d9825fd0f34e23a098d79622
+MD5sum: 96339ea597681e476caf5fcaae2c1d12
+Description: distributed, secure messenger w/ a/v support - development headers
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the development headers.
+
+Package: libtoxencryptsave0
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 39
+Depends: libc6 (>= 2.4), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1)
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/libtoxencryptsave0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 4548
+SHA256: a27cad76909ad98974a40f9a9759f3c0effaeb54ad34b9eeeefe7f87616fab5a
+SHA1: a182d6809c45a19c459c16d842a2b149e5dd6f92
+MD5sum: 7bc9cc24645e78042b8b6b4dcf46bd90
+Description: distributed, secure messenger w/ a/v support - runtime files
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the runtime library.
 
 Package: mousepad-tab
 Version: 20150928-1
@@ -106,10 +404,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/m/mousepad-tab/mousepad-tab_20150928-1_all.deb
-Size: 2618
-SHA256: 445c2e04f43243fa09dbed84cf48dd381fd77e86333e018fde1a7fba63cc46f2
-SHA1: 0db5f5d7bc81a9d22f716a30f8e77b93c0f9a96d
-MD5sum: f9c8920735cb890d247c1f01cec5e45c
+Size: 2612
+SHA256: 7e11f568906c6aec86a84916a336e11b6f5f8fbc240fe10ab2d7a397ee716006
+SHA1: 161aeb3e408bf5162bfa105af47e8c39d2adb48e
+MD5sum: ad6c5175772fab5186f8d1fb1d5f7f52
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -117,16 +415,16 @@ Package: svirfneblin-panel
 Version: 20150928-1
 Architecture: all
 Maintainer: cmotc <cmotc@openmailbox.org>
-Installed-Size: 87
+Installed-Size: 79
 Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4)
 Homepage: https://www.github.com/svirfneblin-panel
 Priority: optional
 Section: unknown
 Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150928-1_all.deb
-Size: 7632
-SHA256: 48b421d6d7574ebc64e78e321ba6d26122eee24b248b0accf9b1617d2b6ed5c2
-SHA1: 37e6adc39dc3f2012a327678cae695de89111e2e
-MD5sum: ed6e66666661b80b91587c9bcafa25be
+Size: 7608
+SHA256: 15655366a536324220ded88e5f17c3db9360737c3f5eb249cc189364f4e16ceb
+SHA1: fc8a2e392edc4e10b5b400525aaf04511a33c2b2
+MD5sum: e23259427bb8911f7f776f5ea90fc7d3
 Description: A Gnome3-Like configuration for Awesome WM
  I like Gnome3's appearance, but I want tiling and I hate ShellShape,
  and I don't think I really need  all these graphical configuration
@@ -139,4 +437,62 @@ Description: A Gnome3-Like configuration for Awesome WM
  This package contains the custom configuration, session, and a laucher
  which checks for the correct config without touching the default
  Awesome WM config for Debian, which is treated as a fallback.
+
+Package: tox-bootstrapd
+Source: toxcore
+Version: 0.0.0+20150630.r3444-1~deb8u+1
+Architecture: amd64
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Installed-Size: 112
+Pre-Depends: adduser, libcap2-bin
+Depends: libc6 (>= 2.7), libconfig9, libsodium13 (>= 0.6.0), libtoxcore0 (>= 0.0.0+20140922.1), init-system-helpers (>= 1.18~)
+Conflicts: tox-daemon
+Replaces: tox-daemon
+Homepage: http://tox.im
+Priority: extra
+Section: net
+Filename: pool/main/t/toxcore/tox-bootstrapd_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
+Size: 28290
+SHA256: 734a974e8c84aa330db2a3c3ca1e5748d2d78e690d7ac9f0acc3788b4ed99c7f
+SHA1: d0ea26168330a05170d1e8167adc8be81ab92bef
+MD5sum: b17aa8ede7efc25b23aa0d7688498e7a
+Description: distributed, secure messenger with a/v support - daemon
+ Tox provides an encrypted, distributed, and extensible peer-to-peer platform
+ that can be used for various forms of communication. Tox is intended to be used
+ as a multimedia messenger, but many people have shown us that Tox can be used
+ for a lot more than just instant messaging.
+ .
+ This package contains the bootstrap daemon.
+
+Package: tox-vapi-20150928
+Version: 0.2.8-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 119
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tox-vapi-20150928/tox-vapi-20150928_0.2.8-1_all.deb
+Size: 17874
+SHA256: 1c1bc70a2e099c2ce061adfae6c3473fac5816a2dc0b104804f1bbc337ab1be4
+SHA1: 705529e773ea155ad5869fa9aa977ed8fe99e423
+MD5sum: a5b106fa96cbb650c3df8dd8c620262f
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: toxbot
+Version: 20150928-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 99
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/t/toxbot/toxbot_20150928-1_all.deb
+Size: 24586
+SHA256: e71d6ecaec09b2300ebccfe4ab0baae9862eb68660aad47ea4fa35e029f32410
+SHA1: 797147dc9a2b434ec39dfa316edd6a5b52fa93fa
+MD5sum: abead7677f713c0aafba8616b00cd8d2
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
 

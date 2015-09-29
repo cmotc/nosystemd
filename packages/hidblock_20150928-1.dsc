@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  hidblock deb unknown optional arch=all
 Checksums-Sha1:
- 6b30feaf0ab92c07ab2b3a4318f55fcfe7f8fcb2 1452 hidblock_20150928.orig.tar.xz
- 70ad56e5aac35f7090c22cc969514ffb730e37f3 2448 hidblock_20150928-1.debian.tar.xz
+ 5823d4208ee7ed7d2e1193ce780f98c16c2999ec 1452 hidblock_20150928.orig.tar.xz
+ 858359548120e371bf09c81ec0520923721fa114 2444 hidblock_20150928-1.debian.tar.xz
 Checksums-Sha256:
- af2577e1558a492edf451138ba9418ff52f7f0888e8037e743e80db6b1c2018b 1452 hidblock_20150928.orig.tar.xz
- c5cff85ba71a0b870cbc5bcf0d3d4149a98886e905fdeeb7e4c3c0e1a00fc23c 2448 hidblock_20150928-1.debian.tar.xz
+ 0b92b1007a25c41b5b017a197048f19c054833c28189b9f3199400c5f9aedfd1 1452 hidblock_20150928.orig.tar.xz
+ 56efe574cdb392c92cc43bd0fd1c838a43b96360a2222f3c18f9ebb97182c470 2444 hidblock_20150928-1.debian.tar.xz
 Files:
- 6cd4ee5806050017a5bd224730dd0d22 1452 hidblock_20150928.orig.tar.xz
- 3658ea6f53ae6f65c63c0a2a11eeae11 2448 hidblock_20150928-1.debian.tar.xz
+ d94808c87c56c1f4dced52751f3cd91d 1452 hidblock_20150928.orig.tar.xz
+ 44e369efefd8805ea4bb2dd8ee5998a3 2444 hidblock_20150928-1.debian.tar.xz

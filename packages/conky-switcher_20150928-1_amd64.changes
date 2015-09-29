@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 28 Sep 2015 20:37:19 -0400
+Date: Mon, 28 Sep 2015 23:01:45 -0400
 Source: conky-switcher
 Binary: conky-switcher
 Architecture: source all
@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 9bc0079c26a2f59f338f8398250cf298dd0f59c5 897 conky-switcher_20150928-1.dsc
- 3b366cf0fb9ab38e25a752b92a79f14388a7595a 13308 conky-switcher_20150928.orig.tar.xz
- a69ffd8425cc9e1595b4cf15caa741126938acf6 2528 conky-switcher_20150928-1.debian.tar.xz
- 89ba8da51e02bd343289374688d9955c5ff2bebc 3298 conky-switcher_20150928-1_all.deb
+ 7cfa63e651fbdd377a75f1af1c79a2ee960df5b7 897 conky-switcher_20150928-1.dsc
+ c3129e92ed9368b1686113b701b39618cf60a186 13308 conky-switcher_20150928.orig.tar.xz
+ a4c5d82ba49faa5edea74fba521e5cd579dfadee 2524 conky-switcher_20150928-1.debian.tar.xz
+ 7b42b1644740078d1ef18b61386b8a2293d8b814 3310 conky-switcher_20150928-1_all.deb
 Checksums-Sha256:
- 3cfa9b6dee435f4a80ed101506b80a98bc1356f6c9a8839c9053db7dd0bce05e 897 conky-switcher_20150928-1.dsc
- a13be69aa75b2a22295876997d33c05c1360d6e211550c98bdd7179dd1e34eb9 13308 conky-switcher_20150928.orig.tar.xz
- 9140daee3cb1cd516e5834bbd378e0329f82fe91d47a383380eb91dcf809284f 2528 conky-switcher_20150928-1.debian.tar.xz
- c2eef2325b56e4e57cb034ddd7a6780fe681d5e619cc6882ce78d1fa2d52207d 3298 conky-switcher_20150928-1_all.deb
+ 3cc265218f98687cafe4f8be34c19dba10e6446b729df008e77c8c3816e22872 897 conky-switcher_20150928-1.dsc
+ 21af790816df6f5bcbf1eb2232113a0d845933de1618b1f04c2f4bd127982369 13308 conky-switcher_20150928.orig.tar.xz
+ 3f6e6ac1e7264fefeff4840002ca6b82febc3ab08522202fb9b0b64bf829a418 2524 conky-switcher_20150928-1.debian.tar.xz
+ 5732a3fe4d287d360dcf0b53986ae8d4b564b365340ca5f57917fea0e77b9ab5 3310 conky-switcher_20150928-1_all.deb
 Files:
- eab415e8f23192081dac98d13f13836c 897 unknown optional conky-switcher_20150928-1.dsc
- facd3cda8c4ac172324f706eb70e2acf 13308 unknown optional conky-switcher_20150928.orig.tar.xz
- f388a43e38bfffd4ff5bc237b16cd01d 2528 unknown optional conky-switcher_20150928-1.debian.tar.xz
- 92564e45eee203eee37717c762babc6c 3298 unknown optional conky-switcher_20150928-1_all.deb
+ e486e38445ec51c031c61abcbdcce2fb 897 unknown optional conky-switcher_20150928-1.dsc
+ 33902aae47cb1c12b8174c7ac77a4a9a 13308 unknown optional conky-switcher_20150928.orig.tar.xz
+ b5d0643a860f376e74a7be24a968a288 2524 unknown optional conky-switcher_20150928-1.debian.tar.xz
+ 47737dc678ebfc567f8bae54f78e0986 3310 unknown optional conky-switcher_20150928-1_all.deb

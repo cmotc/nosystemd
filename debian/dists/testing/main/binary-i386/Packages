@@ -8,9 +8,9 @@ Priority: optional
 Section: unknown
 Filename: pool/main/a/apt-git/apt-git_20150928-1_all.deb
 Size: 4054
-SHA256: b264174595b61e37c1551b0571f52df7f7e9a9cce76c6f5281e3d157e99dcd03
-SHA1: 53b57c54d63990bc0c912f4938847de00f366a7a
-MD5sum: 0b69bd830a9a19b0ed85b99acfba7711
+SHA256: 53528960bca2c3778a276efc1840416bbc45a0a3d7dbb299d4475662dd2a65c8
+SHA1: 70081b5e75772367cd269a12c8a8895afbc88e9f
+MD5sum: c9fce7e161b3cfbe5660d21e553de60e
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -24,10 +24,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/a/awesome-calladuran/awesome-calladuran_20150928-1_all.deb
-Size: 7948
-SHA256: d0ae09590b65f0c3ab2cc95d25403f9dc6f0c33013c543c7e43fcf29ea4332d0
-SHA1: 11e59ac0779185227f6b459bca46cc18b6d3777c
-MD5sum: ccb5ba5ff0dab36bcd79c649eeb6e275
+Size: 7940
+SHA256: 0bc88a798c95e62a49a4417f233a587b6063fbeb22c84c58941233c05c73ff90
+SHA1: 8bd5f509fe0c69ea42930c59a3f820ad476cdfe1
+MD5sum: ca9a0844c616a3c2a1db2318af84e198
 Description: Show all clients all screens in Awesome window manager
  Displays all clients on all screens at once in Awesome Window Manager.
 
@@ -41,10 +41,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/a/awesome-lightdm-session/awesome-lightdm-session_20150928-1_all.deb
-Size: 2798
-SHA256: 7b7106efe215fd262df158274a8a02c7d7815feb3e0d322b8ba0500e2e4c7a8b
-SHA1: 0945fca82a5cbc98432d13544c8566998934db3e
-MD5sum: 161ffe345eefc984e9c2aa872a843dc2
+Size: 2784
+SHA256: 7059f0cc5af22b6ec84a0816ee82eeed056752770d15ca3c4c644412377cecde
+SHA1: 9d79caa12b8ef66a298e837124cd5fdd9f6ea51e
+MD5sum: 593b601b4b4597a0257aaa25e93e08ab
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -57,10 +57,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/c/conky-switcher/conky-switcher_20150928-1_all.deb
-Size: 3298
-SHA256: c2eef2325b56e4e57cb034ddd7a6780fe681d5e619cc6882ce78d1fa2d52207d
-SHA1: 89ba8da51e02bd343289374688d9955c5ff2bebc
-MD5sum: 92564e45eee203eee37717c762babc6c
+Size: 3310
+SHA256: 5732a3fe4d287d360dcf0b53986ae8d4b564b365340ca5f57917fea0e77b9ab5
+SHA1: 7b42b1644740078d1ef18b61386b8a2293d8b814
+MD5sum: 47737dc678ebfc567f8bae54f78e0986
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -74,10 +74,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/g/gnome-awesome-session/gnome-awesome-session_20150928-1_all.deb
-Size: 3132
-SHA256: b6e0d994b78376ef52c7fea265ee68be6f7b63e3bf83c1336f8cbe0e547a22ce
-SHA1: 62c99e1850ca226e18cca0ab3241e0fc219f3d2e
-MD5sum: 3275a467c973f98e0b581925d3344fec
+Size: 3140
+SHA256: a03635d5834a4b5848f09eb5c6d3b134a04e26d1d010d097651b2fe0b3429e00
+SHA1: 0c6ab4c4f28ed2502b45298427f44b85f1d44693
+MD5sum: 411127ca3b5ea1d11cb69b9cc0e4b827
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -90,10 +90,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/h/hidblock/hidblock_20150928-1_all.deb
-Size: 3506
-SHA256: 09c462a28cd5585c6b7797a4588e3997aa3d3c03fd314266aac3c72c3085abc5
-SHA1: f196c96056e2475ab2ed1c8c4f7b78e7a3c6d0a2
-MD5sum: 8d874ead1785bfaf134303ba78e7c45b
+Size: 3512
+SHA256: feb716af9e568cab016a03cb21e2c9b3a1c4de36c35e183745df2c3ae1387c9d
+SHA1: 343974140db73e03a151bac84f834e2a63675318
+MD5sum: f50893b6bdf9a81010dc1d72cfaf11ba
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -106,10 +106,10 @@ Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
 Filename: pool/main/m/mousepad-tab/mousepad-tab_20150928-1_all.deb
-Size: 2618
-SHA256: 445c2e04f43243fa09dbed84cf48dd381fd77e86333e018fde1a7fba63cc46f2
-SHA1: 0db5f5d7bc81a9d22f716a30f8e77b93c0f9a96d
-MD5sum: f9c8920735cb890d247c1f01cec5e45c
+Size: 2612
+SHA256: 7e11f568906c6aec86a84916a336e11b6f5f8fbc240fe10ab2d7a397ee716006
+SHA1: 161aeb3e408bf5162bfa105af47e8c39d2adb48e
+MD5sum: ad6c5175772fab5186f8d1fb1d5f7f52
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -117,16 +117,16 @@ Package: svirfneblin-panel
 Version: 20150928-1
 Architecture: all
 Maintainer: cmotc <cmotc@openmailbox.org>
-Installed-Size: 87
+Installed-Size: 79
 Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4)
 Homepage: https://www.github.com/svirfneblin-panel
 Priority: optional
 Section: unknown
 Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150928-1_all.deb
-Size: 7632
-SHA256: 48b421d6d7574ebc64e78e321ba6d26122eee24b248b0accf9b1617d2b6ed5c2
-SHA1: 37e6adc39dc3f2012a327678cae695de89111e2e
-MD5sum: ed6e66666661b80b91587c9bcafa25be
+Size: 7608
+SHA256: 15655366a536324220ded88e5f17c3db9360737c3f5eb249cc189364f4e16ceb
+SHA1: fc8a2e392edc4e10b5b400525aaf04511a33c2b2
+MD5sum: e23259427bb8911f7f776f5ea90fc7d3
 Description: A Gnome3-Like configuration for Awesome WM
  I like Gnome3's appearance, but I want tiling and I hate ShellShape,
  and I don't think I really need  all these graphical configuration
@@ -139,4 +139,36 @@ Description: A Gnome3-Like configuration for Awesome WM
  This package contains the custom configuration, session, and a laucher
  which checks for the correct config without touching the default
  Awesome WM config for Debian, which is treated as a fallback.
+
+Package: tox-vapi-20150928
+Version: 0.2.8-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 119
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tox-vapi-20150928/tox-vapi-20150928_0.2.8-1_all.deb
+Size: 17874
+SHA256: 1c1bc70a2e099c2ce061adfae6c3473fac5816a2dc0b104804f1bbc337ab1be4
+SHA1: 705529e773ea155ad5869fa9aa977ed8fe99e423
+MD5sum: a5b106fa96cbb650c3df8dd8c620262f
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: toxbot
+Version: 20150928-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 99
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/t/toxbot/toxbot_20150928-1_all.deb
+Size: 24586
+SHA256: e71d6ecaec09b2300ebccfe4ab0baae9862eb68660aad47ea4fa35e029f32410
+SHA1: 797147dc9a2b434ec39dfa316edd6a5b52fa93fa
+MD5sum: abead7677f713c0aafba8616b00cd8d2
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
 

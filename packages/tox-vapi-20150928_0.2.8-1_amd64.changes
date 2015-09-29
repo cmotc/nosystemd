@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 3d466ecded458bf8338250e2e6f5da74ed03a009 903 tox-vapi-20150928_0.2.8-1.dsc
- d4cbb94eb54122ad3cb24dfa2d8737bcf79f6bc4 98716 tox-vapi-20150928_0.2.8.orig.tar.xz
- 526d6d804b381ddf446ff16440fd10762b65f944 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
- ef26f66206bec66116fc58191e0aaafce8d6410f 17876 tox-vapi-20150928_0.2.8-1_all.deb
+ 57fab5b61f2a736c6ef1336af6b48a31e10d9302 903 tox-vapi-20150928_0.2.8-1.dsc
+ 26b51cffb35354e28cac813c3d52a107d91bfcb0 98720 tox-vapi-20150928_0.2.8.orig.tar.xz
+ 1da1010bb4813baae7f90e8d77a4819e99dc7bd7 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
+ 705529e773ea155ad5869fa9aa977ed8fe99e423 17874 tox-vapi-20150928_0.2.8-1_all.deb
 Checksums-Sha256:
- 610991b4b87139df6eba3c13ea8f8bd1301175ad42bbd31b4eb03b6fa0bbfa25 903 tox-vapi-20150928_0.2.8-1.dsc
- 6e29b69b7be24b077fa0ee43c81af8a45fdc20252e75d7afb95bf821f69ca602 98716 tox-vapi-20150928_0.2.8.orig.tar.xz
- c8bab1fd074714a9d293addabbb93d91f8beaf159446210da353321fa378c85d 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
- f879829ed3b9f528401b958cd8392646a1e931f75198d8ded9461c58621ae93b 17876 tox-vapi-20150928_0.2.8-1_all.deb
+ 66e836445bb9ee8c636e906961222a7b4591300bf62350e2f2efb15b5f802b36 903 tox-vapi-20150928_0.2.8-1.dsc
+ 9dee5b9854f435802ea670a92f5c0c950cf6d9cd9605afe9a8865bd00ac1b29e 98720 tox-vapi-20150928_0.2.8.orig.tar.xz
+ d6dbf063e1a0aa70b3d873829afe451a673782429f15a024e613ff0990b96930 2468 tox-vapi-20150928_0.2.8-1.debian.tar.xz
+ 1c1bc70a2e099c2ce061adfae6c3473fac5816a2dc0b104804f1bbc337ab1be4 17874 tox-vapi-20150928_0.2.8-1_all.deb
 Files:
- ef0da274611e9579c6f7ef672f9f471a 903 unknown optional tox-vapi-20150928_0.2.8-1.dsc
- dfbe99a2730baf306422ffdf91983e19 98716 unknown optional tox-vapi-20150928_0.2.8.orig.tar.xz
- 613382e220299490686db4bdf37ec1cd 2468 unknown optional tox-vapi-20150928_0.2.8-1.debian.tar.xz
- 851469afd54a42257bb0a2d0d9340767 17876 unknown optional tox-vapi-20150928_0.2.8-1_all.deb
+ 3bfbe679993f8898e0dd12558db41584 903 unknown optional tox-vapi-20150928_0.2.8-1.dsc
+ 31d70a12e90eb7cc54ed8a46781c5135 98720 unknown optional tox-vapi-20150928_0.2.8.orig.tar.xz
+ d0c693be52bdd5f6de34d212642faed4 2468 unknown optional tox-vapi-20150928_0.2.8-1.debian.tar.xz
+ a5b106fa96cbb650c3df8dd8c620262f 17874 unknown optional tox-vapi-20150928_0.2.8-1_all.deb
