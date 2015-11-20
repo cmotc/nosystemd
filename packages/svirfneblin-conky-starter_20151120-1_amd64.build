@@ -1,0 +1,33 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package svirfneblin-conky-starter
+dpkg-buildpackage: source version 20151120-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by helper <helper@unknown>
+ dpkg-source --before-build svirfneblin-conky-starter-20151120
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b svirfneblin-conky-starter-20151120
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building svirfneblin-conky-starter using existing ./svirfneblin-conky-starter_20151120.orig.tar.xz
+dpkg-source: info: building svirfneblin-conky-starter in svirfneblin-conky-starter_20151120-1.debian.tar.gz
+dpkg-source: info: building svirfneblin-conky-starter in svirfneblin-conky-starter_20151120-1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+cp: cannot stat ‘debian/tmp/etc/conkyrc’: No such file or directory
+dh_install: cp -a debian/tmp/etc/conkyrc debian/svirfneblin-conky-starter/etc/conkyrc/ returned exit code 1
+make: *** [binary] Error 2
+dpkg-buildpackage: error: fakeroot debian/rules binary gave error exit status 2

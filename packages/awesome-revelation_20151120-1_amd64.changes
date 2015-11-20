@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 20 Nov 2015 09:10:00 -0500
+Source: awesome-revelation
+Binary: awesome-revelation
+Architecture: source all
+Version: 20151120-1
+Distribution: unstable
+Urgency: low
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: helper <helper@unknown>
+Description: 
+ awesome-revelation - Show all clients all screens in Awesome window manager
+Changes: 
+ awesome-revelation (20151120-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ fc2076e6b0b69a85785aec0f0a0847c30cac620e 935 awesome-revelation_20151120-1.dsc
+ 5e824e2520cf6d80c2e2ef8dad8fd77d983febe3 1060284 awesome-revelation_20151120.orig.tar.xz
+ 3d42632c20c1bff579bca256115409cd5902bf70 1935 awesome-revelation_20151120-1.debian.tar.gz
+ 6260ca129aff9622b98a1d4c259ee5ca6c47ab40 7772 awesome-revelation_20151120-1_all.deb
+Checksums-Sha256: 
+ 2787fcc5dca12be2a1c7b64e0195260fa36118066843df9382807ef008740e6f 935 awesome-revelation_20151120-1.dsc
+ 79c83ce5bc2ea6e21419f821af2e1682aa3b000ac474f69e7c21f2558efd8504 1060284 awesome-revelation_20151120.orig.tar.xz
+ f4fb8702bb0a729ee19e8ffcce9342aeb39770e7cc34b63f84d1460eb8625c1c 1935 awesome-revelation_20151120-1.debian.tar.gz
+ 886a98c77379d76b1fc38b01356356261bc4341723c923dd08b67ba7bdbc3ea0 7772 awesome-revelation_20151120-1_all.deb
+Files: 
+ b26c900a79af6bac0e316baecc323fc4 935 unknown optional awesome-revelation_20151120-1.dsc
+ d5682dbada999ea2e2c3d870f192d147 1060284 unknown optional awesome-revelation_20151120.orig.tar.xz
+ c0718128d852b0989eae52fadca1cedc 1935 unknown optional awesome-revelation_20151120-1.debian.tar.gz
+ 49a08030485fd3c435f5edaef52e73c4 7772 unknown optional awesome-revelation_20151120-1_all.deb

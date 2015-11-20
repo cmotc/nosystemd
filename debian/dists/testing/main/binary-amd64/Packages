@@ -1,430 +1,150 @@
 Package: apt-git
-Version: 20150928-1
+Version: 20151120-1
 Architecture: all
-Maintainer: dyngar <dyngar@dyngar.local>
+Maintainer: helper <helper@unknown>
 Installed-Size: 35
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/a/apt-git/apt-git_20150928-1_all.deb
-Size: 4054
-SHA256: 53528960bca2c3778a276efc1840416bbc45a0a3d7dbb299d4475662dd2a65c8
-SHA1: 70081b5e75772367cd269a12c8a8895afbc88e9f
-MD5sum: c9fce7e161b3cfbe5660d21e553de60e
+Filename: pool/main/a/apt-git/apt-git_20151120-1_all.deb
+Size: 3974
+SHA256: 4f0118c7d0e3106af1e263a90930cf52686087aa01d68e003ae05e504ddb246e
+SHA1: 448f0fb24bd63cc9e426f2d056d3962578f0353a
+MD5sum: 40ca403a373ff90ec68794ccfed53e57
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
-Package: awesome-calladuran
-Version: 20150928-1
+Package: awesome-conky-hud
+Version: 20151120-1
 Architecture: all
 Maintainer: cmotc <cmotc@openmailbox.org>
-Installed-Size: 76
+Installed-Size: 78
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), conky, awesome-conky-starter
+Homepage: https://www.github.com/awesome-conky-hud
+Priority: optional
+Section: unknown
+Filename: pool/main/a/awesome-conky-hud/awesome-conky-hud_20151120-1_all.deb
+Size: 7952
+SHA256: 6eda39af18dbfddb54eb75e0d08ba8527bdfa081c0728d1867647b4f73131d6d
+SHA1: 105f4f3c8dbb1fd2c275bdc021c75a689138ef05
+MD5sum: febf5fb37be46039252343e3c9d859e6
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure awesomewm only starts it once.
+
+Package: awesome-conky-starter
+Version: 20151120-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 61
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), conky
+Homepage: https://www.github.com/awesome-conky-starter
+Priority: optional
+Section: unknown
+Filename: pool/main/a/awesome-conky-starter/awesome-conky-starter_20151120-1_all.deb
+Size: 6626
+SHA256: 19afc379c9ec0ca94b8110e84b0231c0070637b49a2fdf818a528f2274ab3f9e
+SHA1: 488a75abd9ff8fa899413015f326ba37e8ae9ab0
+MD5sum: 5283479b6e03b6770afd809c637cb75c
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure awesomewm only starts it once.
+
+Package: awesome-revelation
+Version: 20151120-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 56
 Depends: awesome (>= 3.5)
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/a/awesome-calladuran/awesome-calladuran_20150928-1_all.deb
-Size: 7940
-SHA256: 0bc88a798c95e62a49a4417f233a587b6063fbeb22c84c58941233c05c73ff90
-SHA1: 8bd5f509fe0c69ea42930c59a3f820ad476cdfe1
-MD5sum: ca9a0844c616a3c2a1db2318af84e198
+Filename: pool/main/a/awesome-revelation/awesome-revelation_20151120-1_all.deb
+Size: 7772
+SHA256: 886a98c77379d76b1fc38b01356356261bc4341723c923dd08b67ba7bdbc3ea0
+SHA1: 6260ca129aff9622b98a1d4c259ee5ca6c47ab40
+MD5sum: 49a08030485fd3c435f5edaef52e73c4
 Description: Show all clients all screens in Awesome window manager
  Displays all clients on all screens at once in Awesome Window Manager.
 
-Package: awesome-lightdm-session
-Version: 20150928-1
-Architecture: all
-Maintainer: dyngar-m <dyngar-m@dyngar.local>
-Installed-Size: 43
-Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4)
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/a/awesome-lightdm-session/awesome-lightdm-session_20150928-1_all.deb
-Size: 2784
-SHA256: 7059f0cc5af22b6ec84a0816ee82eeed056752770d15ca3c4c644412377cecde
-SHA1: 9d79caa12b8ef66a298e837124cd5fdd9f6ea51e
-MD5sum: 593b601b4b4597a0257aaa25e93e08ab
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: conky-switcher
-Version: 20150928-1
-Architecture: all
-Maintainer: dyngar <dyngar@dyngar.local>
-Installed-Size: 34
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/c/conky-switcher/conky-switcher_20150928-1_all.deb
-Size: 3310
-SHA256: 5732a3fe4d287d360dcf0b53986ae8d4b564b365340ca5f57917fea0e77b9ab5
-SHA1: 7b42b1644740078d1ef18b61386b8a2293d8b814
-MD5sum: 47737dc678ebfc567f8bae54f78e0986
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: gnome-awesome-session
-Version: 20150928-1
-Architecture: all
-Maintainer: dyngar-m <dyngar-m@dyngar.local>
-Installed-Size: 47
-Depends: gnome-session (>= 3.0), awesome (>= 3.4)
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/g/gnome-awesome-session/gnome-awesome-session_20150928-1_all.deb
-Size: 3140
-SHA256: a03635d5834a4b5848f09eb5c6d3b134a04e26d1d010d097651b2fe0b3429e00
-SHA1: 0c6ab4c4f28ed2502b45298427f44b85f1d44693
-MD5sum: 411127ca3b5ea1d11cb69b9cc0e4b827
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
 Package: hidblock
-Version: 20150928-1
+Version: 0.1-1
 Architecture: all
-Maintainer: dyngar <dyngar@dyngar.local>
+Maintainer: helper <helper@unknown>
 Installed-Size: 34
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/main/h/hidblock/hidblock_20150928-1_all.deb
-Size: 3512
-SHA256: feb716af9e568cab016a03cb21e2c9b3a1c4de36c35e183745df2c3ae1387c9d
-SHA1: 343974140db73e03a151bac84f834e2a63675318
-MD5sum: f50893b6bdf9a81010dc1d72cfaf11ba
+Filename: pool/main/h/hidblock/hidblock_0.1-1_all.deb
+Size: 3428
+SHA256: 9bd3861610660daf79d296516f4f538fa8d81763ed85a656cdc1ba571c89b874
+SHA1: 0b6ce8d5d555006091326303652afb852d4b93e1
+MD5sum: 2e03188f316af19a0fbb98078182e338
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
-Package: libtox-dev
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 18033
-Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxav-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxencryptsave-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxdns-dev (= 0.0.0+20150630.r3444-1~deb8u+1)
-Homepage: http://tox.im
-Priority: extra
-Section: libdevel
-Filename: pool/main/t/toxcore/libtox-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 8901538
-SHA256: 6227eab87bbc61201f2b4ae2c1c035c85996233690bcb4d81f26894638ae083b
-SHA1: d36c2bd36111fbc15037dbafdc34c193e6226c88
-MD5sum: f5ab0205520abe9004b617a911eeff70
-Description: distributed, secure messenger with a/v support - development headers
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
-
-Package: libtoxav-dbg
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 116
-Depends: libtoxav0 (= 0.0.0+20150630.r3444-1~deb8u+1)
-Homepage: http://tox.im
-Priority: extra
-Section: debug
-Filename: pool/main/t/toxcore/libtoxav-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 72058
-SHA256: 8e6be99870d90c54442315d5ecbd048727ec1ad1d59d7124445e85dc86222ad7
-SHA1: 2b563b11abc55f5c1b4e3d2615a62463a6107056
-MD5sum: 76d5be43aa6c83235dfe4ccfb5c960c7
-Description: distributed, secure messenger w/ a/v support - debugging symbols
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the debugging symbols.
-
-Package: libtoxav-dev
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 52
-Depends: libtoxav0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1), libvpx-dev, libopus-dev
-Homepage: http://tox.im
-Priority: extra
-Section: libdevel
-Filename: pool/main/t/toxcore/libtoxav-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 5068
-SHA256: 9cd6aa9236b8a5f907b3e27c9cadfab9ef8177d58aa0a7df739637f4b2abe383
-SHA1: 92ff41f1a2cccb12d922e48cfa1b3b7ae891e25d
-MD5sum: 62c234e6557d71b0f9bdcbbbe3d34f48
-Description: distributed, secure messenger w/ a/v support - development headers
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the development headers.
-
-Package: libtoxav0
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 75
-Depends: libc6 (>= 2.14), libopus0 (>= 1.1), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libvpx1 (>= 1.0.0)
-Homepage: http://tox.im
-Priority: extra
-Section: net
-Filename: pool/main/t/toxcore/libtoxav0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 18586
-SHA256: 5275f41ba1fc394ffc7f036182ee3820679fbdc10864aeac32a6011f86e298e3
-SHA1: 2cf4ccf5029f6a24a6538b977d8ab3d83d20379d
-MD5sum: 297785ec1bcbc3b9f17a3d93b2fd753a
-Description: distributed, secure messenger w/ a/v support - runtime files
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the runtime library.
-
-Package: libtoxcore-dbg
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 345
-Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libsodium-dbg
-Homepage: http://tox.im
-Priority: extra
-Section: debug
-Filename: pool/main/t/toxcore/libtoxcore-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 289160
-SHA256: 6696c06366c765c045613f9ee18d25369897be22f8c87bda03ad4055a309a30e
-SHA1: 8dee742d1697387778c7a044ed0e3d796a1d20b5
-MD5sum: 46040e975c254b4b357b9f0d61454919
-Description: distributed, secure messenger with a/v support - debugging symbols
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the debugging symbols.
-
-Package: libtoxcore-dev
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 1847
-Depends: libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1), libsodium-dev
-Homepage: http://tox.im
-Priority: extra
-Section: libdevel
-Filename: pool/main/t/toxcore/libtoxcore-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 392452
-SHA256: 1c4dcab1841e9f3235d51fc3834ac3ef44a4c4fb2e5d4900253cefd2a688d0c9
-SHA1: 20ba9d8b68793b0832d53e498ca91a0f0948775a
-MD5sum: e542a1088ae28ac771c455140e6f6385
-Description: distributed, secure messenger w/ a/v support - development headers
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the development headers.
-
-Package: libtoxcore0
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 290
-Depends: libc6 (>= 2.14), libsodium13 (>= 0.6.0)
-Breaks: pidgin-tox (<< 0.4.2+git20150324), qtox (<< 0.0.0+git20150324), qttox (<< 0.0.0+20150324), ratox (<= 0.2.1-1), tox-weechat (<< 0.1+20150324), toxic (<< 0.5.2+20150324), utox (<< 0.2.o+20150324.r1395), venom (<< 0.2.0+20150324)
-Homepage: http://tox.im
-Priority: extra
-Section: net
-Filename: pool/main/t/toxcore/libtoxcore0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 110782
-SHA256: 830164cf2fd9b48d739abbde53eee70699477c73b957b0727cefb4ba3e289614
-SHA1: 06935cbf2a960b0a023f6d903d27f54a594aedf9
-MD5sum: 8bb3f7eca4459b3e6b6ca76934f6fd30
-Description: distributed, secure messenger with a/v support - runtime library
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the runtime library.
-
-Package: libtoxdns-dbg
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 46
-Depends: libtoxdns0 (= 0.0.0+20150630.r3444-1~deb8u+1)
-Homepage: http://tox.im
-Priority: extra
-Section: debug
-Filename: pool/main/t/toxcore/libtoxdns-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 6786
-SHA256: 8351e09607710055cb0e4f85c2b6bab584975ca240807f4d9e7faa3c91c78b98
-SHA1: 188ec23f731440d9e858664365b8feace8018bee
-MD5sum: 56ff92b1c53e640d1a55be3de43f360c
-Description: distributed, secure messenger w/ a/v support - debugging symbols
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the debugging symbols.
-
-Package: libtoxdns-dev
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 61
-Depends: libtoxdns0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev
-Homepage: http://tox.im
-Priority: extra
-Section: libdevel
-Filename: pool/main/t/toxcore/libtoxdns-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 9050
-SHA256: 4a07191ef50d87ec9a5ddf891fc3e5ebf610a7132cead4d53173a28aa827452b
-SHA1: 2bef5fd575624f526aeed04687cc2b28f91902ee
-MD5sum: a85a27755387ec9297433d832e7ea55b
-Description: distributed, secure messenger w/ a/v support - development headers
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the development headers.
-
-Package: libtoxdns0
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 39
-Depends: libc6 (>= 2.4), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1)
-Homepage: http://tox.im
-Priority: extra
-Section: net
-Filename: pool/main/t/toxcore/libtoxdns0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 4254
-SHA256: ea6bf79c06d8ab0f0a8bcee2cce9dd1640d6aad1c372cc82236b0d08f40b01da
-SHA1: 32edddca8bb9d77611fd7d28bb6b48af58c530ed
-MD5sum: 69086467bb8ee74a786997ad24a9683c
-Description: distributed, secure messenger w/ a/v support - runtime files
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the runtime library.
-
-Package: libtoxencryptsave-dbg
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 47
-Depends: libtoxencryptsave0 (= 0.0.0+20150630.r3444-1~deb8u+1)
-Homepage: http://tox.im
-Priority: extra
-Section: debug
-Filename: pool/main/t/toxcore/libtoxencryptsave-dbg_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 7452
-SHA256: 7cb0132598f698c1caf5a8249f5b81af1bfcd5dca19a26cda519cd8206a93b49
-SHA1: f9a812cfaa2f36cfd6013b34d57e73c32fdff21e
-MD5sum: 6bcb17c7b92419db1382534959d36870
-Description: distributed, secure messenger w/ a/v support - debugging symbols
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the debugging symbols.
-
-Package: libtoxencryptsave-dev
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 46
-Depends: libtoxencryptsave0 (= 0.0.0+20150630.r3444-1~deb8u+1), libtoxcore-dev (= 0.0.0+20150630.r3444-1~deb8u+1)
-Homepage: http://tox.im
-Priority: extra
-Section: libdevel
-Filename: pool/main/t/toxcore/libtoxencryptsave-dev_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 4532
-SHA256: f378179b1dd074f4143cce588fdf46ec580ae4216d1558c398c1ec0288d98eb0
-SHA1: d20acd848d137ec9d9825fd0f34e23a098d79622
-MD5sum: 96339ea597681e476caf5fcaae2c1d12
-Description: distributed, secure messenger w/ a/v support - development headers
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the development headers.
-
-Package: libtoxencryptsave0
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 39
-Depends: libc6 (>= 2.4), libsodium13 (>= 0.6.0), libtoxcore0 (= 0.0.0+20150630.r3444-1~deb8u+1)
-Homepage: http://tox.im
-Priority: extra
-Section: net
-Filename: pool/main/t/toxcore/libtoxencryptsave0_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 4548
-SHA256: a27cad76909ad98974a40f9a9759f3c0effaeb54ad34b9eeeefe7f87616fab5a
-SHA1: a182d6809c45a19c459c16d842a2b149e5dd6f92
-MD5sum: 7bc9cc24645e78042b8b6b4dcf46bd90
-Description: distributed, secure messenger w/ a/v support - runtime files
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the runtime library.
-
-Package: mousepad-tab
-Version: 20150928-1
-Architecture: all
-Maintainer: dyngar <dyngar@dyngar.local>
-Installed-Size: 31
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/m/mousepad-tab/mousepad-tab_20150928-1_all.deb
-Size: 2612
-SHA256: 7e11f568906c6aec86a84916a336e11b6f5f8fbc240fe10ab2d7a397ee716006
-SHA1: 161aeb3e408bf5162bfa105af47e8c39d2adb48e
-MD5sum: ad6c5175772fab5186f8d1fb1d5f7f52
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: svirfneblin-panel
-Version: 20150928-1
+Package: svirfneblin-battery-widget
+Version: 20151120-1
 Architecture: all
 Maintainer: cmotc <cmotc@openmailbox.org>
-Installed-Size: 79
-Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4)
+Installed-Size: 63
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel
+Homepage: https://www.github.com/cmotc/svirfneblin-battery-widget
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-battery-widget/svirfneblin-battery-widget_20151120-1_all.deb
+Size: 7244
+SHA256: 788e4d18ad7678aff8c6463d25efab0e1ebeb2c1349729d7f85e463cccce43d1
+SHA1: 0e244220e44133939b327b5e1548ab1538511e9e
+MD5sum: 4470e6e4ae3b6b7c316bc5e3eecd4519
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure awesomewm only starts it once.
+
+Package: svirfneblin-conky-hud
+Version: 20151120-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 78
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), conky, svirfneblin-panel, svirfneblin-session, svirfneblin-conky-starter
+Homepage: https://www.github.com/svirfneblin-conky-hud
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-conky-hud/svirfneblin-conky-hud_20151120-1_all.deb
+Size: 8022
+SHA256: 675b1a2684fdacdb5d776c58dc12383519562c420d2891c5ed2b816ffa1a3635
+SHA1: e70c3d74c2010f13ccc588d3a5a0b2978b5a477f
+MD5sum: 0332b302dfaefd0700e8b2b7c4139bb3
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure svirfneblinwm only starts it once.
+
+Package: svirfneblin-network-manager
+Version: 20151120-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 74
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel
+Homepage: https://www.github.com/cmotc/svirfneblin-network-manager
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-network-manager/svirfneblin-network-manager_20151120-1_all.deb
+Size: 9340
+SHA256: f38eac0c174e187a397aa9bcfea5c7bcc077cd7b68dbefb7481a9dddc8938fde
+SHA1: e4947d322abac021e2a0350c49eb41b6e14423b1
+MD5sum: 551de066c711e2e57e8e6b77c834e9c8
+Description: A networkmanager widget for awesomewm
+
+Package: svirfneblin-panel
+Version: 20151120-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 75
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), svirfneblin-battery-widget, svirfneblin-network-manager
 Homepage: https://www.github.com/svirfneblin-panel
 Priority: optional
 Section: unknown
-Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20150928-1_all.deb
-Size: 7608
-SHA256: 15655366a536324220ded88e5f17c3db9360737c3f5eb249cc189364f4e16ceb
-SHA1: fc8a2e392edc4e10b5b400525aaf04511a33c2b2
-MD5sum: e23259427bb8911f7f776f5ea90fc7d3
+Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20151120-1_all.deb
+Size: 9104
+SHA256: 8788a3a977aada259d6d3c0f1c902ef4fc2ceffa740e2ed51210ea3eb75bf08a
+SHA1: 35321f55b1ded1d51c641ef16e0b611f372d5425
+MD5sum: da545747dc9512159c6c7799822f4fcc
 Description: A Gnome3-Like configuration for Awesome WM
  I like Gnome3's appearance, but I want tiling and I hate ShellShape,
  and I don't think I really need  all these graphical configuration
@@ -438,61 +158,21 @@ Description: A Gnome3-Like configuration for Awesome WM
  which checks for the correct config without touching the default
  Awesome WM config for Debian, which is treated as a fallback.
 
-Package: tox-bootstrapd
-Source: toxcore
-Version: 0.0.0+20150630.r3444-1~deb8u+1
-Architecture: amd64
-Maintainer: Kill Your TV <killyourtv@i2pmail.org>
-Installed-Size: 112
-Pre-Depends: adduser, libcap2-bin
-Depends: libc6 (>= 2.7), libconfig9, libsodium13 (>= 0.6.0), libtoxcore0 (>= 0.0.0+20140922.1), init-system-helpers (>= 1.18~)
-Conflicts: tox-daemon
-Replaces: tox-daemon
-Homepage: http://tox.im
-Priority: extra
-Section: net
-Filename: pool/main/t/toxcore/tox-bootstrapd_0.0.0+20150630.r3444-1~deb8u+1_amd64.deb
-Size: 28290
-SHA256: 734a974e8c84aa330db2a3c3ca1e5748d2d78e690d7ac9f0acc3788b4ed99c7f
-SHA1: d0ea26168330a05170d1e8167adc8be81ab92bef
-MD5sum: b17aa8ede7efc25b23aa0d7688498e7a
-Description: distributed, secure messenger with a/v support - daemon
- Tox provides an encrypted, distributed, and extensible peer-to-peer platform
- that can be used for various forms of communication. Tox is intended to be used
- as a multimedia messenger, but many people have shown us that Tox can be used
- for a lot more than just instant messaging.
- .
- This package contains the bootstrap daemon.
-
-Package: tox-vapi-20150928
-Version: 0.2.8-1
+Package: svirfneblin-session
+Version: 20151120-1
 Architecture: all
-Maintainer: dyngar <dyngar@dyngar.local>
-Installed-Size: 119
-Homepage: <insert the upstream URL, if relevant>
+Maintainer: dyngar-m <dyngar-m@dyngar.local>
+Installed-Size: 39
+Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel, svirfneblin-battery-widget, svirfneblin-network-manager
+Homepage: https://www.github.com/cmotc/svirfneblin-session
 Priority: optional
 Section: unknown
-Filename: pool/main/t/tox-vapi-20150928/tox-vapi-20150928_0.2.8-1_all.deb
-Size: 17874
-SHA256: 1c1bc70a2e099c2ce061adfae6c3473fac5816a2dc0b104804f1bbc337ab1be4
-SHA1: 705529e773ea155ad5869fa9aa977ed8fe99e423
-MD5sum: a5b106fa96cbb650c3df8dd8c620262f
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: toxbot
-Version: 20150928-1
-Architecture: all
-Maintainer: dyngar <dyngar@dyngar.local>
-Installed-Size: 99
-Homepage: <insert the upstream URL, if relevant>
-Priority: optional
-Section: unknown
-Filename: pool/main/t/toxbot/toxbot_20150928-1_all.deb
-Size: 24586
-SHA256: e71d6ecaec09b2300ebccfe4ab0baae9862eb68660aad47ea4fa35e029f32410
-SHA1: 797147dc9a2b434ec39dfa316edd6a5b52fa93fa
-MD5sum: abead7677f713c0aafba8616b00cd8d2
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Filename: pool/main/s/svirfneblin-session/svirfneblin-session_20151120-1_all.deb
+Size: 2664
+SHA256: d2c8017e10e5d8127aa6ff07572eeae08dc6a0ec49b4aac87bb173ac9cd84ef7
+SHA1: f881a985fb9f1745b3762850b6919914bfb4a9cf
+MD5sum: cb6b0f1b53a90cb8ee67c8d80ed7259c
+Description: A custom AwesomeWM session designed to give much of the convenience
+ of a heavier desktop environment like Gnome3 in a way which gives the user
+ deeper control.
 

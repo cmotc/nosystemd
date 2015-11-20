@@ -1,28 +1,28 @@
 Origin: cmotc.github.io
 Label: cmotc.github.io
 Codename: testing
-Date: Tue, 29 Sep 2015 03:43:33 UTC
+Date: Fri, 20 Nov 2015 14:12:46 UTC
 Architectures: amd64 i386
 Components: main
 Description: cmotc.github.io
 MD5Sum:
- f182e297dc6b51cf4978256ec8a31b6a 20564 main/binary-amd64/Packages
- 08b2ae73d6abe89b42009cb9d1b281e8 4485 main/binary-amd64/Packages.gz
+ 13f290d215a7574c38acf0cf69ae388c 7242 main/binary-amd64/Packages
+ f933a6ae95ffce86d517486d51f59fd1 2325 main/binary-amd64/Packages.gz
  c05e63f06c96c715e0eb97afb63b6028 112 main/binary-amd64/Release
- a346aff70cb881c74fdf765aba6fa95a 6392 main/binary-i386/Packages
- b0a99a7bcbf6f04235e46200ab4272ab 2091 main/binary-i386/Packages.gz
+ 13f290d215a7574c38acf0cf69ae388c 7242 main/binary-i386/Packages
+ f933a6ae95ffce86d517486d51f59fd1 2325 main/binary-i386/Packages.gz
  a6f99d9dd9cebcf5a4b5a9fa3b1ce651 111 main/binary-i386/Release
 SHA1:
- 4317f3149532e72d6851f1877001b1b2ec1bd49c 20564 main/binary-amd64/Packages
- c0e3dccdf05c77ba6eccedd657370df816a8951c 4485 main/binary-amd64/Packages.gz
+ 5453c5b4d3323b26d4e90924bdea968f4ae1308e 7242 main/binary-amd64/Packages
+ 95168e50fc7087a714127f88624e2adb32b32a14 2325 main/binary-amd64/Packages.gz
  59820c00e1bb50bad22f80a5cf5d4e50413191a1 112 main/binary-amd64/Release
- 179ca4aa56fe96acd96332e43b61cc38d99a8a56 6392 main/binary-i386/Packages
- 37d28530fe1a9f14712bd700572ee272b6d1c3fe 2091 main/binary-i386/Packages.gz
+ 5453c5b4d3323b26d4e90924bdea968f4ae1308e 7242 main/binary-i386/Packages
+ 95168e50fc7087a714127f88624e2adb32b32a14 2325 main/binary-i386/Packages.gz
  a6b611c1331f03dfde0434daf8db7257735f83a4 111 main/binary-i386/Release
 SHA256:
- b4d10f7c6a803a369c87bab7ad3c4b780977ea8174410d9fd4bf0933cd27ae30 20564 main/binary-amd64/Packages
- b2851e758578c881b2f02c5dfce06ffc617f46ea153b333ecf8701547ad56027 4485 main/binary-amd64/Packages.gz
+ 815937aa2e7e7521bbec829fe20c56793382561bb764cfa5eaf4fdc79bd8487b 7242 main/binary-amd64/Packages
+ 8de12fc9ba41538ce18f5a331f64d28c3270e62ccc7041744bd52442cea90f92 2325 main/binary-amd64/Packages.gz
  78eb7ceeb6e957b3e4b6da4e22cea381716ea5188853c0fd86ba03a6fff87cf8 112 main/binary-amd64/Release
- c35172a1513446edb6055da86d0348ee0678bda1e2f0062d74b3b7bc7749ca2f 6392 main/binary-i386/Packages
- 4676f4f01d0b24237f7cc2d23edfd3fcd154a2c370b60cac57c25bf69eff5392 2091 main/binary-i386/Packages.gz
+ 815937aa2e7e7521bbec829fe20c56793382561bb764cfa5eaf4fdc79bd8487b 7242 main/binary-i386/Packages
+ 8de12fc9ba41538ce18f5a331f64d28c3270e62ccc7041744bd52442cea90f92 2325 main/binary-i386/Packages.gz
  89b19dfa49061af7b60de20f63ae4c6ff1c2a0d8dd081acaa58f22f9c4361a3c 111 main/binary-i386/Release

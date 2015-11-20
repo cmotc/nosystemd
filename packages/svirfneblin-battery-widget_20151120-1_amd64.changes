@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 20 Nov 2015 09:10:13 -0500
+Source: svirfneblin-battery-widget
+Binary: svirfneblin-battery-widget
+Architecture: source all
+Version: 20151120-1
+Distribution: unstable
+Urgency: low
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: helper <helper@unknown>
+Description: 
+ svirfneblin-battery-widget - A modified version of the debian rc.lua which starts conky, and
+Changes: 
+ svirfneblin-battery-widget (20151120-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ 6babc3bdeecde98f44ef49e60ce911c678f7159c 1018 svirfneblin-battery-widget_20151120-1.dsc
+ 89f8ed7cfca1a44a846488008dfac8eb635d6669 31592 svirfneblin-battery-widget_20151120.orig.tar.xz
+ e9f2a640e1372eee94e737a875bf6a37f642c787 1971 svirfneblin-battery-widget_20151120-1.debian.tar.gz
+ 0e244220e44133939b327b5e1548ab1538511e9e 7244 svirfneblin-battery-widget_20151120-1_all.deb
+Checksums-Sha256: 
+ 83a09dbcea6ae95c09104359fec6d2ec40d0b843474629b04161a3a8b912ead7 1018 svirfneblin-battery-widget_20151120-1.dsc
+ fef1fea4c6211fb032863e0038865c731339100f3dd41b81aba633c7a10cd577 31592 svirfneblin-battery-widget_20151120.orig.tar.xz
+ f0dd29f578d506f39f881b3f30deb30a5ce62c99f782df997b95819d00a7caef 1971 svirfneblin-battery-widget_20151120-1.debian.tar.gz
+ 788e4d18ad7678aff8c6463d25efab0e1ebeb2c1349729d7f85e463cccce43d1 7244 svirfneblin-battery-widget_20151120-1_all.deb
+Files: 
+ 11026b275c51e68b6b7ae7bdbe5ec6a6 1018 unknown optional svirfneblin-battery-widget_20151120-1.dsc
+ e06fd07b919bd5a1c2ceabc0d386ad92 31592 unknown optional svirfneblin-battery-widget_20151120.orig.tar.xz
+ a77bb4a14f7988565a14cbb50c147c33 1971 unknown optional svirfneblin-battery-widget_20151120-1.debian.tar.gz
+ 4470e6e4ae3b6b7c316bc5e3eecd4519 7244 unknown optional svirfneblin-battery-widget_20151120-1_all.deb

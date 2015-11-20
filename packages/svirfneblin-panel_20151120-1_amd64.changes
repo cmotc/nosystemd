@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 20 Nov 2015 09:10:23 -0500
+Source: svirfneblin-panel
+Binary: svirfneblin-panel
+Architecture: source all
+Version: 20151120-1
+Distribution: unstable
+Urgency: low
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: helper <helper@unknown>
+Description: 
+ svirfneblin-panel - A Gnome3-Like configuration for Awesome WM
+Changes: 
+ svirfneblin-panel (20151120-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ db4216643fd3fd0ac9a8328c170923dea9cd80ec 922 svirfneblin-panel_20151120-1.dsc
+ 2f1d04d3403c34c0b2f1ceb6e2de5c1ebe292a53 52280 svirfneblin-panel_20151120.orig.tar.xz
+ c5190e48bddbe5994f12595f7186839e97c70b26 2305 svirfneblin-panel_20151120-1.debian.tar.gz
+ 35321f55b1ded1d51c641ef16e0b611f372d5425 9104 svirfneblin-panel_20151120-1_all.deb
+Checksums-Sha256: 
+ 98e622ac346552d38f7f301c6f8261c52b465d9fd6d12877239707ad4dffa278 922 svirfneblin-panel_20151120-1.dsc
+ 288cf4d6e0d15b12e0fd8c5f66c945720e065216bdc790e55c70dc780385af47 52280 svirfneblin-panel_20151120.orig.tar.xz
+ 6e0f4bbd299a986f87da861fb6c9ffb5d97df9e923316d5b7805eed059e4152b 2305 svirfneblin-panel_20151120-1.debian.tar.gz
+ 8788a3a977aada259d6d3c0f1c902ef4fc2ceffa740e2ed51210ea3eb75bf08a 9104 svirfneblin-panel_20151120-1_all.deb
+Files: 
+ 88091f121394c027056f38f62d835c4a 922 unknown optional svirfneblin-panel_20151120-1.dsc
+ 7223682b8793b06aa1999b725eadd046 52280 unknown optional svirfneblin-panel_20151120.orig.tar.xz
+ 49009676a191ecce58fcf31d5db0b229 2305 unknown optional svirfneblin-panel_20151120-1.debian.tar.gz
+ da545747dc9512159c6c7799822f4fcc 9104 unknown optional svirfneblin-panel_20151120-1_all.deb

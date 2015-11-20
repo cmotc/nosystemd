@@ -4,6 +4,6 @@ Codename: testing
 Architectures: amd64 i386
 Components: main
 Description: cmotc.github.io
-SignWith: 962D297E
+SignWith: DD4B1EE5
 DebOverride: override.testing
 DscOverride: override.testing

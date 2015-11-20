@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 20 Nov 2015 09:10:16 -0500
+Source: svirfneblin-conky-hud
+Binary: svirfneblin-conky-hud
+Architecture: source all
+Version: 20151120-1
+Distribution: unstable
+Urgency: low
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: helper <helper@unknown>
+Description: 
+ svirfneblin-conky-hud - A modified version of the debian rc.lua which starts conky, and
+Changes: 
+ svirfneblin-conky-hud (20151120-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ a58829df6760773a91029dd46590985230cfbbb3 962 svirfneblin-conky-hud_20151120-1.dsc
+ 3fc7080a245f0184f8d9c68889d0419f9b1ae575 29368 svirfneblin-conky-hud_20151120.orig.tar.xz
+ f4de368dd1555466a9210fc2ff73001c478d114e 2019 svirfneblin-conky-hud_20151120-1.debian.tar.gz
+ e70c3d74c2010f13ccc588d3a5a0b2978b5a477f 8022 svirfneblin-conky-hud_20151120-1_all.deb
+Checksums-Sha256: 
+ b47b6cc3acff514e86bbb601c3392488655333ea27d7e75b089d2f72cb4ce60f 962 svirfneblin-conky-hud_20151120-1.dsc
+ 48e5215e4ebaf470d1821f5325cde0beb05beaad37218aa8c96d8b1d1f8c610d 29368 svirfneblin-conky-hud_20151120.orig.tar.xz
+ 7e701ef9085132e5200e3a68be5c367d1f631ac4a34e33271b551e5d967f3d51 2019 svirfneblin-conky-hud_20151120-1.debian.tar.gz
+ 675b1a2684fdacdb5d776c58dc12383519562c420d2891c5ed2b816ffa1a3635 8022 svirfneblin-conky-hud_20151120-1_all.deb
+Files: 
+ b9e81539722f8e89ff6497ae93c29d56 962 unknown optional svirfneblin-conky-hud_20151120-1.dsc
+ 4fb387dc347de5a64a215876e1caa962 29368 unknown optional svirfneblin-conky-hud_20151120.orig.tar.xz
+ 2eaee3bf6376004a21418104a555b057 2019 unknown optional svirfneblin-conky-hud_20151120-1.debian.tar.gz
+ 0332b302dfaefd0700e8b2b7c4139bb3 8022 unknown optional svirfneblin-conky-hud_20151120-1_all.deb
