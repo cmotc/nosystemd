@@ -177,9 +177,15 @@ generaterkey(){
 
 includepackages(){
 	cd $SRCDIR
+<<<<<<< HEAD
 	for f in *.deb ; do reprepro --basedir $BASEDIR includedeb $CODENAME "$f"; done
 	for f in *.dsc ; do reprepro --basedir $BASEDIR includedsc $CODENAME "$f"; done
 	for f in *.changes ; do reprepro --basedir $BASEDIR include $CODENAME "$f"; done
+=======
+    for f in *.deb ; do reprepro --basedir $BASEDIR includedeb unstable "$f"; done
+	for f in *.dsc ; do reprepro --basedir $BASEDIR includedsc unstable "$f"; done
+	for f in *.changes ; do reprepro --basedir $BASEDIR include unstable "$f"; done
+>>>>>>> 2f18bbc7e26cc5d630cc2e25709cfb406c8290b7
 	cd ..
 #	reprepro include "$SRCDIR/*"
 }
