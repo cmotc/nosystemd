@@ -1,0 +1,23 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package tribler
+dpkg-buildpackage: source version 6.5.0-rc5-106-gd15d82f
+dpkg-buildpackage: source distribution UNRELEASED
+dpkg-buildpackage: source changed by dyngar <dyngar@dyngar.local>
+ dpkg-source --before-build tribler_20160209
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean --with python2
+   dh_testdir
+   dh_auto_clean
+pyversions: missing X(S)-Python-Version in control file, fall back to debian/pyversions
+pyversions: missing debian/pyversions file, fall back to supported versions
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'include_package_data'
+  warnings.warn(msg)
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+   dh_clean
+ dpkg-source -b tribler_20160209
+dpkg-source: error: can't build with source format '3.0 (quilt)': no upstream tarball found at ../tribler_6.5.0-rc5-106.orig.tar.{bz2,gz,lzma,xz}
+dpkg-buildpackage: error: dpkg-source -b tribler_20160209 gave error exit status 255

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 09 Feb 2016 04:59:56 -0500
+Source: apt-git
+Binary: apt-git
+Architecture: source all
+Version: 20160209-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ apt-git    - <insert up to 60 chars description>
+Changes:
+ apt-git (20160209-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ ad55d6c53a257ac0b61e90712a94db3314656274 831 apt-git_20160209-1.dsc
+ bc652e4de30e1e79d60b7d0200ad8a3965f00c14 2040 apt-git_20160209.orig.tar.xz
+ 1bddc8f06b13e91ce7b759685edd07b02e61966b 2440 apt-git_20160209-1.debian.tar.xz
+ 330f98169e0cb2fd796d113ba797e08ebc8cc084 4048 apt-git_20160209-1_all.deb
+Checksums-Sha256:
+ 25983222f68f2f35dbef259b1e4a5d73eaee4227d16cf994c025e3a3122afa52 831 apt-git_20160209-1.dsc
+ c7144a7499ffd17ee5bf3e4559d977f52a093099740ad02522bd22cbbdf366c5 2040 apt-git_20160209.orig.tar.xz
+ 0b65d227c9fa0436bd65602e1f50549ff6886f28c9823c2c5e4a8ee8bff5ab20 2440 apt-git_20160209-1.debian.tar.xz
+ f8d428bcb17f303f497cfc81b9efcd2b1058f1ac2d89e4c2885427b3ba239434 4048 apt-git_20160209-1_all.deb
+Files:
+ e4420e8e6cd014d207c3232e2ccacc04 831 unknown optional apt-git_20160209-1.dsc
+ 45f3a88c65afa6cbb6dee6e94a3f4b88 2040 unknown optional apt-git_20160209.orig.tar.xz
+ 98eb2fee330b708093f56ec784e09279 2440 unknown optional apt-git_20160209-1.debian.tar.xz
+ e529aee127864dac8b9ceffba5d41dac 4048 unknown optional apt-git_20160209-1_all.deb

@@ -1,0 +1,64 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package ratox
+dpkg-buildpackage: source version 20160209-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by dyngar <dyngar@dyngar.local>
+ dpkg-source --before-build ratox-20160209
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+cleaning
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+   dh_clean
+ dpkg-source -b ratox-20160209
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building ratox using existing ./ratox_20160209.orig.tar.xz
+dpkg-source: warning: ignoring deletion of file util.a, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ratox.o, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ratox, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file eprintf.o, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file readpassphrase.o, use --include-removal to override
+dpkg-source: info: building ratox in ratox_20160209-1.debian.tar.xz
+dpkg-source: info: building ratox in ratox_20160209-1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+CC eprintf.c
+CC readpassphrase.c
+AR util.a
+make bin
+make[2]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+CC ratox.c
+LD ratox
+make[2]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_auto_install
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+make bin
+make[2]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+make[2]: Nothing to be done for 'bin'.
+make[2]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+installing executable to /home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209/debian/ratox/usr/local/bin
+installing manual page to /home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209/debian/ratox/usr/local/share/man/man1
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/ratox-20160209'
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_usrlocal
+dh_usrlocal: debian/ratox/usr/local/share/man/man1/ratox.1 is not a directory
+rmdir: failed to remove ‘debian/ratox/usr/local/share/man/man1’: Directory not empty
+dh_usrlocal: rmdir debian/ratox/usr/local/share/man/man1 returned exit code 1
+debian/rules:22: recipe for target 'binary' failed
+make: *** [binary] Error 1
+dpkg-buildpackage: error: fakeroot debian/rules binary gave error exit status 2

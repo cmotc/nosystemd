@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 09 Feb 2016 05:18:42 -0500
+Source: svirfneblin-network-manager
+Binary: svirfneblin-network-manager
+Architecture: source all
+Version: 20160209-1
+Distribution: unstable
+Urgency: low
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ svirfneblin-network-manager - A networkmanager widget for awesomewm
+Changes:
+ svirfneblin-network-manager (20160209-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ c323d96b569ecff281b2c1d39e3031ac0ab5d7f8 1033 svirfneblin-network-manager_20160209-1.dsc
+ 5b362b7e0c877b883fbfe023a19ae313383852b8 82392 svirfneblin-network-manager_20160209.orig.tar.xz
+ 93a388ecf97ed024e9c264a36b8bb72e521fb5d3 2336 svirfneblin-network-manager_20160209-1.debian.tar.xz
+ df9d80639cf729284927c1626687f99bfd4fbbf1 9706 svirfneblin-network-manager_20160209-1_all.deb
+Checksums-Sha256:
+ bccf4be29687a4a1087349f90f3d0fd5708e0c5d5e6644366364b826bc7ee876 1033 svirfneblin-network-manager_20160209-1.dsc
+ ec10ce24e2f33125472aa6d0dcd4868c2671fa1df0ee012eba95f0894f0f984f 82392 svirfneblin-network-manager_20160209.orig.tar.xz
+ 3a87f60344697ca2ee3443ab643cafd938802839863a23634588ebbf69d1c5c6 2336 svirfneblin-network-manager_20160209-1.debian.tar.xz
+ 9e12fcb9836f4d2a086202176f70caf2f905afb4568f64f79c070d5b3bbc62d1 9706 svirfneblin-network-manager_20160209-1_all.deb
+Files:
+ 211056bfdb3ea5aa78fd7611f250baa4 1033 unknown optional svirfneblin-network-manager_20160209-1.dsc
+ 89333d11e0fcecef7d1d6b0bf85ddf36 82392 unknown optional svirfneblin-network-manager_20160209.orig.tar.xz
+ aa2228f9648a551e7bcde6b2adb2ee5b 2336 unknown optional svirfneblin-network-manager_20160209-1.debian.tar.xz
+ 20ac9f5123e393118c2ca6ff3315d414 9706 unknown optional svirfneblin-network-manager_20160209-1_all.deb

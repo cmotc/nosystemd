@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 09 Feb 2016 05:03:15 -0500
+Source: awesome-conky-hud
+Binary: awesome-conky-hud
+Architecture: source all
+Version: 20160209-1
+Distribution: unstable
+Urgency: low
+Maintainer: cmotc <cmotc@openmailbox.org>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ awesome-conky-hud - A modified version of the debian rc.lua which starts conky, and
+Changes:
+ awesome-conky-hud (20160209-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 20f72ca511ae90c47a6ba7b822954fa5134030a8 927 awesome-conky-hud_20160209-1.dsc
+ 12ed588304b3fb2c604819a926fd349324c96ef2 27768 awesome-conky-hud_20160209.orig.tar.xz
+ 4279e59aff5d523463d45342eb7682c3da6269cb 2364 awesome-conky-hud_20160209-1.debian.tar.xz
+ 2cbec77e867bb2b22cfaf3f81a111c50add99b53 8028 awesome-conky-hud_20160209-1_all.deb
+Checksums-Sha256:
+ 55bdc2f327f2dfbea060ee4bb0ab2b4f43b9bf7f5835e7e65c4fac35111a8998 927 awesome-conky-hud_20160209-1.dsc
+ 378c93b91b44564cf9f18563da57c17b59e17722617946e0ccbaa1774f0b625c 27768 awesome-conky-hud_20160209.orig.tar.xz
+ 945adac30c7aa25057b6e5b27038a04739535fc7277f95684001634be48e9514 2364 awesome-conky-hud_20160209-1.debian.tar.xz
+ e92b373f837ec2aa0d202dcf14d5c81c5c58d163f86259353a4312389bfefbe2 8028 awesome-conky-hud_20160209-1_all.deb
+Files:
+ de016360c6e48fe2230fce07935941b7 927 unknown optional awesome-conky-hud_20160209-1.dsc
+ 85035c9aeddc2dc2de4c840f0f05102e 27768 unknown optional awesome-conky-hud_20160209.orig.tar.xz
+ 2f1c377753525dfbd61dd4ba6cb45ab7 2364 unknown optional awesome-conky-hud_20160209-1.debian.tar.xz
+ 37529ddc7ab26f457548f87d27847ab7 8028 unknown optional awesome-conky-hud_20160209-1_all.deb

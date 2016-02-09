@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 09 Feb 2016 05:20:27 -0500
+Source: svirfneblin-session
+Binary: svirfneblin-session
+Architecture: source all
+Version: 20160209-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar-m <dyngar-m@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ svirfneblin-session - A custom AwesomeWM session designed to give much of the convenien
+Changes:
+ svirfneblin-session (20160209-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ d883920634a1e9b9d120103e641218b1d2f69799 956 svirfneblin-session_20160209-1.dsc
+ fe055c050006ec0035cd1e541fab9a8a6d4ca228 14680 svirfneblin-session_20160209.orig.tar.xz
+ aca536200988de29562a51d6a3cd116581c7236a 2408 svirfneblin-session_20160209-1.debian.tar.xz
+ 7ec477f1512a38f155cdaa79b42bc05f89bdb859 2768 svirfneblin-session_20160209-1_all.deb
+Checksums-Sha256:
+ 5f090976960e88fc851100c0f6c1d5444bb568fb5968a3a860820e48bce8f590 956 svirfneblin-session_20160209-1.dsc
+ f598b11d3bcbd5babe3034ff134a227211e6ce4483638eb5db5c5b0a633fcbfe 14680 svirfneblin-session_20160209.orig.tar.xz
+ acff5dcd05154400cd77cba02d7bc6227eb3e29709bea3a4142bd8ab4815c979 2408 svirfneblin-session_20160209-1.debian.tar.xz
+ 1f09d737d9d3845e5962caff24d36f3c58b79eab1d703a6d6087d51cd1aae986 2768 svirfneblin-session_20160209-1_all.deb
+Files:
+ d93564c36c24f36b6d122dfd7ece5f81 956 unknown optional svirfneblin-session_20160209-1.dsc
+ 20315296210b8c15805b920df40c064c 14680 unknown optional svirfneblin-session_20160209.orig.tar.xz
+ e075399eb7202dbd898f8c1e7265efda 2408 unknown optional svirfneblin-session_20160209-1.debian.tar.xz
+ 7a4bc17b3ace6eef20666352e7b5c93a 2768 unknown optional svirfneblin-session_20160209-1_all.deb

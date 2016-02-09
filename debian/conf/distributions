@@ -1,9 +1,9 @@
 Origin: cmotc.github.io
 Label: cmotc.github.io
-Codename: testing
-Architectures: amd64 i386
+Codename: nightly
+Architectures: amd64 i386 armhf
 Components: main
 Description: cmotc.github.io
-SignWith: DD4B1EE5
-DebOverride: override.testing
-DscOverride: override.testing
+SignWith: 962D297E
+DebOverride: override.nightly
+DscOverride: override.nightly

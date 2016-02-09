@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 09 Feb 2016 05:06:37 -0500
+Source: hidblock
+Binary: hidblock
+Architecture: source all
+Version: 20160209-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ hidblock   - <insert up to 60 chars description>
+Changes:
+ hidblock (20160209-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 662516df938407ac8a06f5013b476bd9152797d9 843 hidblock_20160209-1.dsc
+ 8add0d57c43b60591aec564d6c68581fa171d1cf 62436 hidblock_20160209.orig.tar.xz
+ d487ec64249d835bf636e383d863c1fa2756e556 2448 hidblock_20160209-1.debian.tar.xz
+ e93f16c2df95ed82f28454889fa171dbe978b821 4002 hidblock_20160209-1_all.deb
+Checksums-Sha256:
+ f25fed7bac385ac38af1847eed918e70a1845dea2bae4fac668ca69a4de6383d 843 hidblock_20160209-1.dsc
+ 0eb58fa8b5afce3703e48f9fe2a1f23c8e310d261a3362f0c07321e1880489cc 62436 hidblock_20160209.orig.tar.xz
+ cf89c8cc7b2a5908cfa0185c95db552a26df12cc43f2874f3c02fd6abf6d5dde 2448 hidblock_20160209-1.debian.tar.xz
+ fa3dd0d24e32704e354445b6fd559e8445e3221e744c978f7f063320c448a56d 4002 hidblock_20160209-1_all.deb
+Files:
+ d621581ac6bddbd4e99d1ad161a03978 843 unknown optional hidblock_20160209-1.dsc
+ d9f1e25bccf6be233e16216b39e24d3b 62436 unknown optional hidblock_20160209.orig.tar.xz
+ b5bce5bacb5adaed58bf00eb20c4c03e 2448 unknown optional hidblock_20160209-1.debian.tar.xz
+ 098ffa71408521ff84771d5f19b18bbc 4002 unknown optional hidblock_20160209-1_all.deb

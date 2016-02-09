@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Tue, 22 Oct 2013 17:31:32 +0200
+Source: libump
+Binary: libump libump-dbg libump-dev
+Architecture: source amd64
+Version: 3.0-0sunxi1
+Distribution: any
+Urgency: low
+Maintainer: Luc Verhaegen <libv@skynet.be>
+Changed-By: Luc Verhaegen <libv@skynet.be>
+Description:
+ libump     - ARM Unified Memory Provider library
+ libump-dbg - ARM Unified Memory Provider library (debugging symbols)
+ libump-dev - ARM Unified Memory Provider library (development files)
+Changes:
+ libump (3.0-0sunxi1) any; urgency=low
+ .
+   * add udev file.
+Checksums-Sha1:
+ 320022419cdee2e8c56df3352d44908a56eae5ad 766 libump_3.0-0sunxi1.dsc
+ 25bcd70bad85d6fd4c768debdb0fe31f59be73fd 98301 libump_3.0-0sunxi1.tar.gz
+ a93f6aa03303fb80784ef5dcedc67f6cdb44cd32 12496 libump_3.0-0sunxi1_amd64.deb
+ 444b639b24e7c4d2471f02daf8aeae6e1875478d 35066 libump-dbg_3.0-0sunxi1_amd64.deb
+ 558fc63bfcc2ee8599ebdcdd49fafc62056bc07b 14718 libump-dev_3.0-0sunxi1_amd64.deb
+Checksums-Sha256:
+ e1a0de9eb1ad97221a9052445a8b889254d567b41948a6e7789bbcca3594a3fe 766 libump_3.0-0sunxi1.dsc
+ 4a21489a0cc0c31d3dff0659dc349a5917e121fab4d90081c93fa4aa085416ec 98301 libump_3.0-0sunxi1.tar.gz
+ 74daf49aa1ba48cd4e023c373dc765156fa578d5f5332e847f3caac9d70257e2 12496 libump_3.0-0sunxi1_amd64.deb
+ 3f990c77b983fbaf7f9572d8e1bfc2137270212e68fa732915b57b4885b36ca5 35066 libump-dbg_3.0-0sunxi1_amd64.deb
+ b6f2a262e4b94af49d435bac075677a8419db8713a40c19294a951e50ec9d63c 14718 libump-dev_3.0-0sunxi1_amd64.deb
+Files:
+ 130a1d0b61f3c425e814cf68f97959f1 766 devel optional libump_3.0-0sunxi1.dsc
+ 8277d695ea36c4f37924a63696d69581 98301 devel optional libump_3.0-0sunxi1.tar.gz
+ 1c12ce1a52836e7db98b5d5f30e20b40 12496 libs optional libump_3.0-0sunxi1_amd64.deb
+ fa7f28aa42bf655fa64d46df15ecb9c2 35066 debug extra libump-dbg_3.0-0sunxi1_amd64.deb
+ 8f86f5b2cd4712f03a7a90c8395ef1dc 14718 libdevel optional libump-dev_3.0-0sunxi1_amd64.deb

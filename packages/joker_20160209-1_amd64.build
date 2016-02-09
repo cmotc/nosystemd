@@ -1,0 +1,54 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package joker
+dpkg-buildpackage: source version 20160209-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by dyngar <dyngar@dyngar.local>
+ dpkg-source --before-build joker-20160209
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209'
+rm -f joker.o packets.o node.o tests.o mac_storage.o
+rm -f joker
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209'
+   dh_clean
+ dpkg-source -b joker-20160209
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building joker using existing ./joker_20160209.orig.tar.xz
+dpkg-source: info: building joker in joker_20160209-1.debian.tar.xz
+dpkg-source: info: building joker in joker_20160209-1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209'
+cc -g -O3 -Wall -Wextra   -c joker.c -o joker.o
+cc -g -O3 -Wall -Wextra   -c packets.c -o packets.o
+cc -g -O3 -Wall -Wextra   -c node.c -o node.o
+cc -g -O3 -Wall -Wextra   -c tests.c -o tests.o
+tests.c: In function ‘sniff_reinject_bpackets’:
+tests.c:215:59: warning: unused parameter ‘ifmac’ [-Wunused-parameter]
+ void sniff_reinject_bpackets(pcap_t *pcap_handle, u_char *ifmac, int test) {
+                                                           ^
+cc -g -O3 -Wall -Wextra   -c mac_storage.c -o mac_storage.o
+cc   joker.o packets.o node.o tests.o mac_storage.o -lpcap -lpthread -o joker
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209'
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_auto_install
+make[1]: Entering directory '/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209'
+install -D -m 0755 joker /home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209/debian/joker/usr/local/sbin/
+install: target ‘/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209/debian/joker/usr/local/sbin/’ is not a directory: No such file or directory
+Makefile:24: recipe for target 'install' failed
+make[1]: *** [install] Error 1
+make[1]: Leaving directory '/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209'
+dh_auto_install: make -j1 install DESTDIR=/home/dyngar/Projects/Distro_OS_Projects/packages/joker-20160209/debian/joker AM_UPDATE_INFO_DIR=no returned exit code 2
+debian/rules:22: recipe for target 'binary' failed
+make: *** [binary] Error 2
+dpkg-buildpackage: error: fakeroot debian/rules binary gave error exit status 2

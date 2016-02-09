@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 09 Feb 2016 05:23:54 -0500
+Source: valair-data
+Binary: valair-data
+Architecture: source all
+Version: 20160209-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ valair-data - <insert up to 60 chars description>
+Changes:
+ valair-data (20160209-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 41fccae7e5898c28eff0d650736f97c934eb3367 876 valair-data_20160209-1.dsc
+ f1f164dbf30ce9c8c7a2d3678d7460c66f6229c9 2684496 valair-data_20160209.orig.tar.xz
+ ffa4260c201f477fa058e7bc310f7d35d06babae 3320 valair-data_20160209-1.debian.tar.xz
+ d99efa8046e0f843b55220658952c4e2a0a16f23 2078704 valair-data_20160209-1_all.deb
+Checksums-Sha256:
+ d50099085db070728543b20248caab193117551a48f5b6e71cf994c2c172eb2b 876 valair-data_20160209-1.dsc
+ f0645d5903c34eb483817720253e952bfeb9012885c6558dc729ee875932d206 2684496 valair-data_20160209.orig.tar.xz
+ 926daec83ba296929258a0b5ce899ec52b8339afc280805133af86d5c44df721 3320 valair-data_20160209-1.debian.tar.xz
+ ac7a4486b7770734e520e481b963aa30e0dabe0b3ca99c24aa3e98b52205c99a 2078704 valair-data_20160209-1_all.deb
+Files:
+ 42d5ac5c80b2d8d1fa2e8db8f268a6d9 876 unknown optional valair-data_20160209-1.dsc
+ b653b8e20562c01b1511ed195befe020 2684496 unknown optional valair-data_20160209.orig.tar.xz
+ 06fb9b7c0dbe97f99db1a42165c7f17d 3320 unknown optional valair-data_20160209-1.debian.tar.xz
+ 22e2aa4fe4bc6616ed4fb68f2bad6be7 2078704 unknown optional valair-data_20160209-1_all.deb

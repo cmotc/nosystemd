@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 09 Feb 2016 05:10:21 -0500
+Source: nightly-env
+Binary: nightly-env
+Architecture: source all
+Version: 20160209-1
+Distribution: unstable
+Urgency: low
+Maintainer: dyngar <dyngar@dyngar.local>
+Changed-By: dyngar <dyngar@dyngar.local>
+Description:
+ nightly-env - <insert up to 60 chars description>
+Changes:
+ nightly-env (20160209-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 21e1101ba119a2c310e63f4e100bfc66b2dca074 879 nightly-env_20160209-1.dsc
+ 78388b15f898458a88b98a148eab1695113afc39 11325768 nightly-env_20160209.orig.tar.xz
+ d11eb661de4c2dac3353a776a40d5181cb2d61b4 2468 nightly-env_20160209-1.debian.tar.xz
+ 41b6f1591b13e5b8b3a7662dc1f59d3220fdbbea 6314 nightly-env_20160209-1_all.deb
+Checksums-Sha256:
+ a0aa7c06bac0fd9d989f0609575928a4faa0633c41c7e2b308108b8874866293 879 nightly-env_20160209-1.dsc
+ 6abfdc2d9b6dd4ad050fba0fbde98272e5d7d227d58670b2898da6636eb31272 11325768 nightly-env_20160209.orig.tar.xz
+ 73e8ce25e2a08ec675c5452a07d7b49cbb69ac82662bca08f242f7a63b6f7893 2468 nightly-env_20160209-1.debian.tar.xz
+ 89c1a2276549ce3b5c457bd8fc61a950cd037bc7fb9bbceac1ba3b60eb3a3204 6314 nightly-env_20160209-1_all.deb
+Files:
+ 1d1f8791802067609e4932732c56f6df 879 unknown optional nightly-env_20160209-1.dsc
+ 5e94914a40a56a48fa2d44dcc3e44f90 11325768 unknown optional nightly-env_20160209.orig.tar.xz
+ d52a3b7f3cfd021163ae85ad29eac32a 2468 unknown optional nightly-env_20160209-1.debian.tar.xz
+ a7d28832c1ed5f169b0cd7436f99cd16 6314 unknown optional nightly-env_20160209-1_all.deb

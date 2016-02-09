@@ -1,0 +1,37 @@
+Origin: cmotc.github.io
+Label: cmotc.github.io
+Codename: nightly
+Date: Tue, 09 Feb 2016 10:50:40 UTC
+Architectures: amd64 i386 armhf
+Components: main
+Description: cmotc.github.io
+MD5Sum:
+ 00d4c13eac91b23b15b4ccb431d0d4c0 17325 main/binary-amd64/Packages
+ 179d5f881d4cc3b78033be6a7f3f3726 5141 main/binary-amd64/Packages.gz
+ c05e63f06c96c715e0eb97afb63b6028 112 main/binary-amd64/Release
+ f07693186b0d7a35d71916971b14b75e 10676 main/binary-i386/Packages
+ dd3e8879e7d840628310e34ab79a8895 3081 main/binary-i386/Packages.gz
+ a6f99d9dd9cebcf5a4b5a9fa3b1ce651 111 main/binary-i386/Release
+ f07693186b0d7a35d71916971b14b75e 10676 main/binary-armhf/Packages
+ dd3e8879e7d840628310e34ab79a8895 3081 main/binary-armhf/Packages.gz
+ 40d293c798402c3afdefdcdee3b8ed5f 112 main/binary-armhf/Release
+SHA1:
+ a351153862676cb27abb3eec68b7cc930b131b38 17325 main/binary-amd64/Packages
+ a25d72c6dd991b5ba9b95a1d0d1cd2988ea77285 5141 main/binary-amd64/Packages.gz
+ 59820c00e1bb50bad22f80a5cf5d4e50413191a1 112 main/binary-amd64/Release
+ 0d41e0d6bd8f2a3e31e290282122950dc5a87865 10676 main/binary-i386/Packages
+ e27e13f3c7d2ee68966d607543166aa4b82c3c21 3081 main/binary-i386/Packages.gz
+ a6b611c1331f03dfde0434daf8db7257735f83a4 111 main/binary-i386/Release
+ 0d41e0d6bd8f2a3e31e290282122950dc5a87865 10676 main/binary-armhf/Packages
+ e27e13f3c7d2ee68966d607543166aa4b82c3c21 3081 main/binary-armhf/Packages.gz
+ 8e1e597a5aa5400b3a3b2c60bde4cc8bbac76108 112 main/binary-armhf/Release
+SHA256:
+ 12feaf12749a8b84766a820ca962a209b354db679caa72dfdf1e1977bbb258d7 17325 main/binary-amd64/Packages
+ 99ea92748b1a2fa5e337dfea27d50db4015ed698e1a1c24de5c4d6e437c4e6da 5141 main/binary-amd64/Packages.gz
+ 78eb7ceeb6e957b3e4b6da4e22cea381716ea5188853c0fd86ba03a6fff87cf8 112 main/binary-amd64/Release
+ 1d08f13d992bb406963d9b38d98408da417ae562fcfbd239ac3152fe285f3d7f 10676 main/binary-i386/Packages
+ 38c8cb9f8be294d3d1af5d5d862cee6429c5b8ec71fd358af2c258bd89bbb208 3081 main/binary-i386/Packages.gz
+ 89b19dfa49061af7b60de20f63ae4c6ff1c2a0d8dd081acaa58f22f9c4361a3c 111 main/binary-i386/Release
+ 1d08f13d992bb406963d9b38d98408da417ae562fcfbd239ac3152fe285f3d7f 10676 main/binary-armhf/Packages
+ 38c8cb9f8be294d3d1af5d5d862cee6429c5b8ec71fd358af2c258bd89bbb208 3081 main/binary-armhf/Packages.gz
+ 59ffa829fdea0781abdc72581ac31c4fa3a598685f52d448ee81770c95b54cbb 112 main/binary-armhf/Release

@@ -1,0 +1,274 @@
+Package: apt-git
+Version: 20160209-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 35
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/a/apt-git/apt-git_20160209-1_all.deb
+Size: 4048
+SHA256: f8d428bcb17f303f497cfc81b9efcd2b1058f1ac2d89e4c2885427b3ba239434
+SHA1: 330f98169e0cb2fd796d113ba797e08ebc8cc084
+MD5sum: e529aee127864dac8b9ceffba5d41dac
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: awesome-conky-hud
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 78
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), conky, awesome-conky-starter
+Homepage: https://www.github.com/awesome-conky-hud
+Priority: optional
+Section: unknown
+Filename: pool/main/a/awesome-conky-hud/awesome-conky-hud_20160209-1_all.deb
+Size: 8028
+SHA256: e92b373f837ec2aa0d202dcf14d5c81c5c58d163f86259353a4312389bfefbe2
+SHA1: 2cbec77e867bb2b22cfaf3f81a111c50add99b53
+MD5sum: 37529ddc7ab26f457548f87d27847ab7
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure awesomewm only starts it once.
+
+Package: awesome-conky-starter
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 61
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), conky
+Homepage: https://www.github.com/awesome-conky-starter
+Priority: optional
+Section: unknown
+Filename: pool/main/a/awesome-conky-starter/awesome-conky-starter_20160209-1_all.deb
+Size: 6708
+SHA256: d7e58c7c9d1c8b391f7662e564977252ca02da8ca70b1eccb29f8849ee815e17
+SHA1: 3b7113432f85bfe70a116a33e3aacc7fd732c5a7
+MD5sum: dfe554976ed14e2d100306529944f74d
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure awesomewm only starts it once.
+
+Package: awesome-revelation
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 61
+Depends: awesome (>= 3.5)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/a/awesome-revelation/awesome-revelation_20160209-1_all.deb
+Size: 8564
+SHA256: 61f17c88486471fcd112eaeeb2b66570b22bf6b92de5004834a9aa6a9c6b2e6b
+SHA1: 9cb06b142e31d0a1a85f12b3ff1220090695f882
+MD5sum: 4771189b3933013e485b72ebf5cd98b0
+Description: Show all clients all screens in Awesome window manager
+ Displays all clients on all screens at once in Awesome Window Manager.
+
+Package: fireblock
+Version: 20160209-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 33
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/f/fireblock/fireblock_20160209-1_all.deb
+Size: 3376
+SHA256: d08e000eda3effc4aac8ff971f1fbf86c1dcad34b6b8e4b54718c8674cffc973
+SHA1: 87eb66242faf60b4d1f8204e3f393cc8e16d5144
+MD5sum: 554a683f39dfd85d62565fb3c262ad35
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: hidblock
+Version: 20160209-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 35
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/h/hidblock/hidblock_20160209-1_all.deb
+Size: 4002
+SHA256: fa3dd0d24e32704e354445b6fd559e8445e3221e744c978f7f063320c448a56d
+SHA1: e93f16c2df95ed82f28454889fa171dbe978b821
+MD5sum: 098ffa71408521ff84771d5f19b18bbc
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: nightly-env
+Version: 20160209-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 45
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/n/nightly-env/nightly-env_20160209-1_all.deb
+Size: 6314
+SHA256: 89c1a2276549ce3b5c457bd8fc61a950cd037bc7fb9bbceac1ba3b60eb3a3204
+SHA1: 41b6f1591b13e5b8b3a7662dc1f59d3220fdbbea
+MD5sum: a7d28832c1ed5f169b0cd7436f99cd16
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: svirfneblin-battery-widget
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 63
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel
+Homepage: https://www.github.com/cmotc/svirfneblin-battery-widget
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-battery-widget/svirfneblin-battery-widget_20160209-1_all.deb
+Size: 7316
+SHA256: 32eacac1e8125cd899457d3f44d56ce9cd0a94e1bb436ad1e5bcdbc562be560c
+SHA1: a05c389d92c883f06317a674f2df2e45361ad8b4
+MD5sum: c6799d679be7ec70e4595b02c90d4d7d
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure awesomewm only starts it once.
+
+Package: svirfneblin-conky-hud
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 78
+Depends: lightdm, lightdm-gtk-greeter, awesome, conky, svirfneblin-panel, svirfneblin-session, svirfneblin-conky-starter
+Homepage: https://www.github.com/svirfneblin-conky-hud
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-conky-hud/svirfneblin-conky-hud_20160209-1_all.deb
+Size: 8110
+SHA256: 0e287f327b86b2881670acf39d166064c053805953493247d6e1a2b573272c75
+SHA1: 87993cd42c0813c5ab9183d77a8e7e7020cf611c
+MD5sum: d52bdff9706c68035daeb94f775f5ff2
+Description: A modified version of the debian rc.lua which starts conky, and
+ a script which makes sure svirfneblinwm only starts it once.
+
+Package: svirfneblin-goblin
+Version: 20151120-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 69
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4)
+Homepage: https://www.github.com/cmotc/svirfneblin-goblin
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-goblin/svirfneblin-goblin_20151120-1_all.deb
+Size: 7604
+SHA256: 99bfa7576d2595ae56b14be926764a988de34f9e3ba3db818847344752fd05fd
+SHA1: a6fbed825e8c96d182723a2065370bfed6426301
+MD5sum: 0c2b852fa69ddb57ba52611a7c4c3b2a
+Description: An awesomewm hideable quick-lauch widget.
+
+Package: svirfneblin-netmonitor-widget
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 85
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel
+Homepage: https://www.github.com/cmotc/svirfneblin-netmonitor-widget
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-netmonitor-widget/svirfneblin-netmonitor-widget_20160209-1_all.deb
+Size: 12028
+SHA256: f1129e1c66e71ae7fa1c6d2886032de449d0bf7b4a41b66209526f4fc5525c37
+SHA1: d35eb483d42a623a0347281a86ddb29379405f66
+MD5sum: 594876c54106edf42528ff36f6b0370c
+Description: A network monitoring widget for awesomewm
+
+Package: svirfneblin-network-manager
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 76
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel
+Homepage: https://www.github.com/cmotc/svirfneblin-network-manager
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-network-manager/svirfneblin-network-manager_20160209-1_all.deb
+Size: 9706
+SHA256: 9e12fcb9836f4d2a086202176f70caf2f905afb4568f64f79c070d5b3bbc62d1
+SHA1: df9d80639cf729284927c1626687f99bfd4fbbf1
+MD5sum: 20ac9f5123e393118c2ca6ff3315d414
+Description: A networkmanager widget for awesomewm
+
+Package: svirfneblin-panel
+Version: 20160209-1
+Architecture: all
+Maintainer: cmotc <cmotc@openmailbox.org>
+Installed-Size: 103
+Depends: lightdm, lightdm-gtk-greeter, awesome (>= 3.4), svirfneblin-battery-widget, svirfneblin-network-manager
+Homepage: https://www.github.com/svirfneblin-panel
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-panel/svirfneblin-panel_20160209-1_all.deb
+Size: 13634
+SHA256: aa1fbb409cccee428cacbe78c53663d75afb2f095a5cbccde9dfce439dce2626
+SHA1: 6dabfd58d1c6e313b9c90a9197c5d041589dfbb6
+MD5sum: be6c084b61eed42cf67fbbb2ec39c533
+Description: A Gnome3-Like configuration for Awesome WM
+ I like Gnome3's appearance, but I want tiling and I hate ShellShape,
+ and I don't think I really need  all these graphical configuration
+ tools, and I really don't think I need any more javascript in my life
+ than absolutely necessary. Seriously guy's, this is getting out of
+ hand. Maybe it's not my place, but I'm just sayin'. Well technically
+ not just sayin'. I'm doin', as in re-implementing this stuff I like
+ about Gnome in a language that doesn't make me seasick to look at.
+ .
+ This package contains the custom configuration, session, and a laucher
+ which checks for the correct config without touching the default
+ Awesome WM config for Debian, which is treated as a fallback.
+
+Package: svirfneblin-session
+Version: 20160209-1
+Architecture: all
+Maintainer: dyngar-m <dyngar-m@dyngar.local>
+Installed-Size: 39
+Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel, svirfneblin-battery-widget, svirfneblin-network-manager, svirfneblin-goblin, svirfneblin-conky-hud
+Homepage: https://www.github.com/cmotc/svirfneblin-session
+Priority: optional
+Section: unknown
+Filename: pool/main/s/svirfneblin-session/svirfneblin-session_20160209-1_all.deb
+Size: 2768
+SHA256: 1f09d737d9d3845e5962caff24d36f3c58b79eab1d703a6d6087d51cd1aae986
+SHA1: 7ec477f1512a38f155cdaa79b42bc05f89bdb859
+MD5sum: 7a4bc17b3ace6eef20666352e7b5c93a
+Description: A custom AwesomeWM session designed to give much of the convenience
+ of a heavier desktop environment like Gnome3 in a way which gives the user
+ deeper control.
+
+Package: valair
+Version: 20160209-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 121
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/v/valair/valair_20160209-1_all.deb
+Size: 21258
+SHA256: a6d061a88738b08136d857dc9fd321cf03f1784df20ba0c9fe3a078189441d78
+SHA1: 1e995ee2659baa4e6dde1f20d9799f4a5bf00d6f
+MD5sum: 85dab8d3a506e26c72f91588fa488f41
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: valair-data
+Version: 20160209-1
+Architecture: all
+Maintainer: dyngar <dyngar@dyngar.local>
+Installed-Size: 4465
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/v/valair-data/valair-data_20160209-1_all.deb
+Size: 2078704
+SHA256: ac7a4486b7770734e520e481b963aa30e0dabe0b3ca99c24aa3e98b52205c99a
+SHA1: d99efa8046e0f843b55220658952c4e2a0a16f23
+MD5sum: 22e2aa4fe4bc6616ed4fb68f2bad6be7
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
